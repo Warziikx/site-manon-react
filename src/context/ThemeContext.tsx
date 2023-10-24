@@ -4,7 +4,7 @@ interface IThemeContext {
 	dark: boolean;
 	toggleDark: (value: boolean) => void;
 }
-let isDarkModeLocalStorage = localStorage.getItem('theme') === "dark" ? true : false;
+const isDarkModeLocalStorage = localStorage.getItem('theme') === "dark" ? true : false;
 const defaultState = { dark: isDarkModeLocalStorage, toggleDark: () => { } } as IThemeContext;
 
 const ThemeContext = createContext<IThemeContext>(defaultState);

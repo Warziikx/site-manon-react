@@ -8,14 +8,64 @@ import { Link } from "@tanstack/react-router";
 import { menuList, Menu } from "@/data/Menu";
 import useThemeContext from "@/context/ThemeContext";
 import { useState } from "react";
+import { motion } from "framer-motion";
+
+const menu = {
+	open: () => ({
+		clipPath: `circle(4000px at 90% 10%)`,
+		transition: {
+			type: "spring",
+			stiffness: 40,
+			restDelta: 2,
+		},
+	}),
+	closed: {
+		height: 0,
+		clipPath: "circle(30px at 90% 10%)",
+		transition: {
+			delay: 0.4,
+			type: "spring",
+			stiffness: 400,
+			damping: 40,
+		},
+	},
+};
+
+const ulVariants = {
+	open: { transition: { staggerChildren: 0.07, delayChildren: 0.2 } },
+	closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } },
+};
+const liVariants = {
+	open: {
+		y: 0,
+		opacity: 1,
+		transition: {
+			y: { stiffness: 1000, velocity: 100 },
+		},
+	},
+	closed: {
+		y: -50,
+		opacity: 0,
+		transition: {
+			y: { stiffness: 1000 },
+		},
+	},
+};
 
 export const Header: React.FC = () => {
 	const { dark } = useThemeContext();
 	const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+
+	const closeMenu = () => {
+		setMobileMenuOpen(false);
+	};
 	return (
-		<nav className="fixed left-0 top-0 z-20 w-full border-b border-gray-200 bg-link-water dark:border-gray-600 dark:bg-primary">
-			<div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-				<a href="https://manonbertho-studio.fr/" className="flex items-center">
+		<motion.nav
+			animate={mobileMenuOpen ? "open" : "closed"}
+			className="fixed left-0 top-0 z-20 w-full border-b border-gray-200 bg-link-water dark:border-gray-600 dark:bg-primary"
+		>
+			<div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
+				<a href="https://manonbertho-studio.fr/" className="flex items-center ml-4">
 					<img src={dark ? darkLogo : logo} className="mr-3 h-16" alt="Flowbite Logo" />
 					<span className="self-center whitespace-nowrap font-title text-2xl font-semibold dark:text-white">Manon Bertho</span>
 				</a>
@@ -31,7 +81,7 @@ export const Header: React.FC = () => {
 						onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
 						data-collapse-toggle="navbar-sticky"
 						type="button"
-						className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+						className="inline-flex h-10 w-10 mr-4 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
 						aria-controls="navbar-sticky"
 						aria-expanded="false"
 					>
@@ -47,31 +97,34 @@ export const Header: React.FC = () => {
 						</svg>
 					</button>
 				</div>
-				<div className="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto" id="navbar-sticky">
-					<ul
-						className="mt-4 flex flex-col rounded-lg border border-gray-100 p-4 font-medium 
-					dark:border-gray-700 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0"
+				<motion.div
+					variants={menu}
+					className={` w-full border md:border-0 items-center justify-between md:order-1 md:flex md:w-auto`}
+					id="navbar-sticky"
+				>
+					<motion.ul
+						variants={ulVariants}
+						className="flex flex-col p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0"
 					>
 						{menuList.map((menu: Menu) => {
 							return (
-								<li key={menu.name}>
+								<motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.name}>
 									<Link
+										onClick={closeMenu}
 										to={menu.path}
-										activeProps={{ className: "md:text-accent md:dark:text-ternary" }}
+										activeProps={{ className: "text-accent" }}
 										activeOptions={{ exact: true }}
-										className="block rounded py-2 pl-3 pr-4 text-gray-900
-												transition ease-in-out dark:border-gray-700 dark:text-white dark:hover:bg-gray-700
-												dark:hover:text-white md:p-0 md:hover:text-accent md:dark:hover:bg-transparent md:dark:hover:text-ternary"
+										className="block py-2 text-center text-gray-900 transition ease-in-out md:p-0 hover:text-accent"
 										aria-current="page"
 									>
 										{menu.name}
 									</Link>
-								</li>
+								</motion.li>
 							);
 						})}
-					</ul>
-				</div>
+					</motion.ul>
+				</motion.div>
 			</div>
-		</nav>
+		</motion.nav>
 	);
 };

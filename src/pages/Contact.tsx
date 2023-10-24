@@ -6,7 +6,6 @@ export const Contact: React.FC = () => {
 	useEffect(() => {
 		if (!isMounted) {
 			setIsMounted(true);
-			console.log("Hello");
 		}
 	}, [isMounted, setIsMounted]);
 	return <div></div>;

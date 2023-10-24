@@ -67,13 +67,13 @@ const col4: ColItem[] = [
 export const Mansonery: React.FC = () => {
     const mansoneryRef = useRef(null);
     const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start end", "end -20vh"] });
-    console.log(scrollYProgress)
+
     const y1 = useTransform(scrollYProgress, [0, 1], [-400, -1200]);
     const y2 = useTransform(scrollYProgress, [0, 1], [-300, -1300]);
     const y3 = useTransform(scrollYProgress, [0, 1], [-100, -1600]);
     const y4 = useTransform(scrollYProgress, [0, 1], [-300, -1400]);
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-8 lg:px-32 bg-ternary h-screen overflow-hidden" ref={mansoneryRef}>
+        <div className="grid h-screen grid-cols-2 gap-4 overflow-hidden bg-ternary p-8 md:grid-cols-4 lg:px-32" ref={mansoneryRef}>
             <motion.div className="grid gap-4" style={{ y: y1 }}>
                 {col1.map((item: ColItem) => {
                     return (
@@ -92,7 +92,7 @@ export const Mansonery: React.FC = () => {
                     );
                 })}
             </motion.div>
-            <motion.div className="hidden md:grid gap-4 " style={{ y: y3 }}>
+            <motion.div className="hidden gap-4 md:grid " style={{ y: y3 }}>
                 {col3.map((item: ColItem) => {
                     return (
                         <div key={item.url}>
@@ -101,7 +101,7 @@ export const Mansonery: React.FC = () => {
                     );
                 })}
             </motion.div>
-            <motion.div className="hidden md:grid gap-4" style={{ y: y4 }}>
+            <motion.div className="hidden gap-4 md:grid" style={{ y: y4 }}>
                 {col4.map((item: ColItem) => {
                     return (
                         <div key={item.url}>

@@ -1,10 +1,11 @@
 import { Hero } from "@/components/Hero";
+import { Mansonery } from "@/components/Image/Mansonery";
 
 export const Homepage: React.FC = () => {
 	return (
 		<div>
 			<Hero />
-			<p className="bg-link-water dark:bg-primary py-32 px-96">
+			<p className="bg-link-water px-32 lg:px-96 py-32 dark:bg-primary">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque finibus augue. Sed varius
 				lectus a nunc hendrerit varius. Phasellus ornare nunc non elit aliquam, non consequat dui pharetra.
 				Etiam ullamcorper sapien ipsum, vitae euismod arcu ornare ac. Nullam tincidunt pretium fringilla.
@@ -13,6 +14,7 @@ export const Homepage: React.FC = () => {
 				suscipit nibh at dolor suscipit, at tincidunt nisi blandit. Interdum et malesuada fames ac ante ipsum
 				primis in faucibus. Curabitur nec nisi efficitur, gravida ligula id, laoreet enim.
 			</p>
+			<Mansonery />
 		</div>
 	);
 };

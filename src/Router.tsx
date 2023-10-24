@@ -2,11 +2,11 @@ import { Router, Route, RootRoute } from "@tanstack/react-router";
 import { Contact } from "./pages/Contact";
 import { Homepage } from "./pages/Hompage";
 import { Layout } from "./components/Layout";
-
 // Create a root route
 const rootRoute = new RootRoute({
 	component: Layout,
 });
+
 
 const contactRoute = new Route({
 	getParentRoute: () => rootRoute,

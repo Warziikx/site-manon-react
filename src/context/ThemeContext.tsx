@@ -4,18 +4,18 @@ interface IThemeContext {
 	dark: boolean;
 	toggleDark: (value: boolean) => void;
 }
-const defaultState = { dark: false, toggleDark: () => {} } as IThemeContext;
+let isDarkModeLocalStorage = localStorage.getItem('theme') === "dark" ? true : false;
+const defaultState = { dark: isDarkModeLocalStorage, toggleDark: () => { } } as IThemeContext;
 
 const ThemeContext = createContext<IThemeContext>(defaultState);
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-	const [dark, setDark] = useState<boolean>(false);
+	const [dark, setDark] = useState<boolean>(isDarkModeLocalStorage);
 	const toggleDark = (value: boolean) => {
-		console.log("Hello");
 		setDark(value);
 		const root = window.document.documentElement;
-		const oldThemeAsText = !value ? "light" : "dark";
-		const themeAsText = value == true ? "light" : "dark";
+		const oldThemeAsText = value ? "light" : "dark";
+		const themeAsText = value == true ? "dark" : "light";
 		root.classList.remove(oldThemeAsText);
 		root.classList.add(themeAsText);
 		localStorage.setItem("theme", themeAsText);

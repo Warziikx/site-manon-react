@@ -1,7 +1,9 @@
+import hero from "@/assets/images/homepage/hero.jpg";
+
 export const Hero: React.FC = () => {
 	return (
 		<>
-			<img src="http://via.placeholder.com/1920x800" />
+			<img src={hero} />
 		</>
 	);
 };

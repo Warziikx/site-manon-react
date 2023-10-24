@@ -24,46 +24,54 @@ interface ColItem {
 }
 
 const col1: ColItem[] = [
-    { url: soldat, class: "block md:hidden" },
-    { url: oiseau, class: "block md:hidden" },
+    { url: soldat, class: "" },
+    { url: oiseau, class: "" },
+    { url: mouton, class: "" },
     { url: sirene, class: "" },
     { url: chaussure, class: "" },
     { url: citrouille, class: "" },
-    { url: mouton, class: "" },
-    { url: magie, class: "block md:hidden" },
-    { url: citron, class: "block md:hidden" },
+    { url: magie, class: "" },
+    { url: citron, class: "" },
 ];
 const col2: ColItem[] = [
-    { url: fiole, class: "block md:hidden" },
-    { url: phare, class: "block md:hidden" },
+    { url: fiole, class: "" },
+    { url: phare, class: "" },
     { url: cartePostal, class: "" },
     { url: lecture, class: "" },
     { url: mouton2, class: "" },
     { url: sirene2, class: "" },
-    { url: renard, class: "block md:hidden" },
-    { url: surf, class: "block md:hidden" },
+    { url: renard, class: "" },
+    { url: surf, class: "" },
 ];
 const col3: ColItem[] = [
+    { url: cartePostal, class: "" },
+    { url: lecture, class: "" },
     { url: soldat, class: "" },
     { url: oiseau, class: "" },
     { url: magie, class: "" },
     { url: citron, class: "" },
+    { url: mouton2, class: "" },
+    { url: sirene2, class: "" },
 ];
 const col4: ColItem[] = [
+    { url: sirene, class: "" },
+    { url: chaussure, class: "" },
     { url: fiole, class: "" },
     { url: phare, class: "" },
     { url: renard, class: "" },
     { url: surf, class: "" },
+    { url: citrouille, class: "" },
+    { url: mouton, class: "" },
 ];
 
 export const Mansonery: React.FC = () => {
     const mansoneryRef = useRef(null);
-    const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start 80vh", "end -40vh"] });
+    const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start end", "end -20vh"] });
     console.log(scrollYProgress)
-    const y1 = useTransform(scrollYProgress, [0, 2], [-400, -200]);
-    const y2 = useTransform(scrollYProgress, [0, 2], [-600, -100]);
-    const y3 = useTransform(scrollYProgress, [0, 2], [-300, -300]);
-    const y4 = useTransform(scrollYProgress, [0, 2], [-200, -400]);
+    const y1 = useTransform(scrollYProgress, [0, 1], [-400, -1200]);
+    const y2 = useTransform(scrollYProgress, [0, 1], [-300, -1300]);
+    const y3 = useTransform(scrollYProgress, [0, 1], [-100, -1600]);
+    const y4 = useTransform(scrollYProgress, [0, 1], [-300, -1400]);
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-8 lg:px-32 bg-ternary h-screen overflow-hidden" ref={mansoneryRef}>
             <motion.div className="grid gap-4" style={{ y: y1 }}>

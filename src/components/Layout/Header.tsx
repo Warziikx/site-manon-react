@@ -121,7 +121,7 @@ export const Header: React.FC = () => {
 								to={menu.path}
 								activeProps={{ className: "text-accent" }}
 								activeOptions={{ exact: true }}
-								className="block py-2 text-centertransition ease-in-out md:p-0 hover:text-accent"
+								className="block py-2 text-center transition ease-in-out md:p-0 hover:text-accent"
 								aria-current="page"
 							>
 								{menu.name}

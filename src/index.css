@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Guavast";
+	src: local("Guavast"), url("./assets/font/Guavast.otf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: local("Montserrat"), url("./assets/font/Montserrat.ttf") format("truetype");
+}
+

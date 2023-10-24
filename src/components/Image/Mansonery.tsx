@@ -18,52 +18,86 @@ import sirene2 from "@/assets/images/illustration/sirene-2.jpg";
 import soldat from "@/assets/images/illustration/soldat.jpg";
 import surf from "@/assets/images/illustration/surf.jpg";
 
-const col1 = [sirene, chaussure, citrouille, mouton];
-const col2 = [cartePostal, lecture, mouton2, sirene2];
-const col3 = [soldat, oiseau, magie, citron];
-const col4 = [fiole, phare, renard, surf];
+interface ColItem {
+    url: string;
+    class: string;
+}
+
+const col1: ColItem[] = [
+    { url: soldat, class: "block md:hidden" },
+    { url: oiseau, class: "block md:hidden" },
+    { url: sirene, class: "" },
+    { url: chaussure, class: "" },
+    { url: citrouille, class: "" },
+    { url: mouton, class: "" },
+    { url: magie, class: "block md:hidden" },
+    { url: citron, class: "block md:hidden" },
+];
+const col2: ColItem[] = [
+    { url: fiole, class: "block md:hidden" },
+    { url: phare, class: "block md:hidden" },
+    { url: cartePostal, class: "" },
+    { url: lecture, class: "" },
+    { url: mouton2, class: "" },
+    { url: sirene2, class: "" },
+    { url: renard, class: "block md:hidden" },
+    { url: surf, class: "block md:hidden" },
+];
+const col3: ColItem[] = [
+    { url: soldat, class: "" },
+    { url: oiseau, class: "" },
+    { url: magie, class: "" },
+    { url: citron, class: "" },
+];
+const col4: ColItem[] = [
+    { url: fiole, class: "" },
+    { url: phare, class: "" },
+    { url: renard, class: "" },
+    { url: surf, class: "" },
+];
 
 export const Mansonery: React.FC = () => {
     const mansoneryRef = useRef(null);
-    const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start end", "end end"] });
-    const y1 = useTransform(scrollYProgress, [0, 1], [-400, -200]);
-    const y2 = useTransform(scrollYProgress, [0, 1], [-600, -100]);
-    const y3 = useTransform(scrollYProgress, [0, 1], [-300, -300]);
-    const y4 = useTransform(scrollYProgress, [0, 1], [-200, -400]);
+    const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start 80vh", "end -40vh"] });
+    console.log(scrollYProgress)
+    const y1 = useTransform(scrollYProgress, [0, 2], [-400, -200]);
+    const y2 = useTransform(scrollYProgress, [0, 2], [-600, -100]);
+    const y3 = useTransform(scrollYProgress, [0, 2], [-300, -300]);
+    const y4 = useTransform(scrollYProgress, [0, 2], [-200, -400]);
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-8 bg-ternary h-screen overflow-hidden" ref={mansoneryRef}>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-8 lg:px-32 bg-ternary h-screen overflow-hidden" ref={mansoneryRef}>
             <motion.div className="grid gap-4" style={{ y: y1 }}>
-                {col1.map((item: string) => {
+                {col1.map((item: ColItem) => {
                     return (
-                        <div key={item}>
-                            <img className="h-auto max-w-full rounded-lg" src={item} alt="" />
+                        <div key={item.url}>
+                            <img className={`h-auto max-w-full rounded-lg ${item.class}`} src={item.url} alt="" />
                         </div>
                     );
                 })}
             </motion.div>
             <motion.div className="grid gap-4" style={{ y: y2 }}>
-                {col2.map((item: string) => {
+                {col2.map((item: ColItem) => {
                     return (
-                        <div key={item}>
-                            <img className="h-auto max-w-full rounded-lg" src={item} alt="" />
+                        <div key={item.url}>
+                            <img className={`h-auto max-w-full rounded-lg ${item.class}`} src={item.url} alt="" />
                         </div>
                     );
                 })}
             </motion.div>
-            <motion.div className="grid gap-4" style={{ y: y3 }}>
-                {col3.map((item: string) => {
+            <motion.div className="hidden md:grid gap-4 " style={{ y: y3 }}>
+                {col3.map((item: ColItem) => {
                     return (
-                        <div key={item}>
-                            <img className="h-auto max-w-full rounded-lg" src={item} alt="" />
+                        <div key={item.url}>
+                            <img className={`h-auto max-w-full rounded-lg ${item.class}`} src={item.url} alt="" />
                         </div>
                     );
                 })}
             </motion.div>
-            <motion.div className="grid gap-4" style={{ y: y4 }}>
-                {col4.map((item: string) => {
+            <motion.div className="hidden md:grid gap-4" style={{ y: y4 }}>
+                {col4.map((item: ColItem) => {
                     return (
-                        <div key={item}>
-                            <img className="h-auto max-w-full rounded-lg" src={item} alt="" />
+                        <div key={item.url}>
+                            <img className={`h-auto max-w-full rounded-lg ${item.class}`} src={item.url} alt="" />
                         </div>
                     );
                 })}

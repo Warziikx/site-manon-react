@@ -62,12 +62,12 @@ export const Header: React.FC = () => {
 	return (
 		<motion.nav initial={false} animate={mobileMenuOpen ? "open" : "closed"} className="fixed left-0 top-0 z-20 w-full">
 			<div className="border-b border-gray-200 bg-link-water">
-				<div className=" mx-auto flex flex-wrap max-w-screen-xl items-center justify-between">
-					<a href="https://manonbertho-studio.fr/" className="flex items-center ml-4">
+				<div className=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
+					<a href="https://manonbertho-studio.fr/" className="ml-4 flex items-center">
 						<img src={dark ? darkLogo : logo} className="mr-3 h-16" alt="Flowbite Logo" />
 						<span className="self-center whitespace-nowrap font-title text-2xl font-semibold">Manon Bertho</span>
 					</a>
-					<ul className="hidden md:flex flex-row space-x-8 ">
+					<ul className="hidden flex-row space-x-8 md:flex ">
 						{menuList.map((menu: Menu) => {
 							return (
 								<li key={menu.name}>
@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
 										to={menu.path}
 										activeProps={{ className: "text-accent" }}
 										activeOptions={{ exact: true }}
-										className="block py-2 text-center transition ease-in-out md:p-0 hover:text-accent"
+										className="block py-2 text-center transition ease-in-out hover:text-accent md:p-0"
 										aria-current="page"
 									>
 										{menu.name}
@@ -89,7 +89,7 @@ export const Header: React.FC = () => {
 						onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
 						data-collapse-toggle="navbar-sticky"
 						type="button"
-						className="inline-flex h-10 w-10 mr-4 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
+						className="mr-4 inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
 						aria-controls="navbar-sticky"
 						aria-expanded="false"
 					>
@@ -121,7 +121,7 @@ export const Header: React.FC = () => {
 								to={menu.path}
 								activeProps={{ className: "text-accent" }}
 								activeOptions={{ exact: true }}
-								className="block py-2 text-center transition ease-in-out md:p-0 hover:text-accent"
+								className="block py-2 text-center transition ease-in-out hover:text-accent md:p-0"
 								aria-current="page"
 							>
 								{menu.name}

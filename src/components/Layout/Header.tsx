@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 const ulVariants = {
   open: () => ({
-    clipPath: `circle(${1000 * 2 + 200}px at 90vw -30px)`,
+    clipPath: `circle(${1000 * 2 + 200}px at 86vw -95vh)`,
     transition: {
       type: "spring",
       stiffness: 20,
@@ -22,7 +22,7 @@ const ulVariants = {
     },
   }),
   closed: {
-    clipPath: "circle(30px at 90vw -30px)",
+    clipPath: "circle(30px at 86vw 95vh)",
     transition: {
       delay: 0.5,
       type: "spring",
@@ -43,8 +43,8 @@ const liVariants = {
     },
   },
   closed: {
-    y: -10,
-    x: 50,
+    y: 80,
+    x: 60,
     opacity: 0,
     transition: {
       y: { stiffness: 1000 },
@@ -60,8 +60,8 @@ export const Header: React.FC = () => {
     setMobileMenuOpen(false);
   };
   return (
-    <motion.nav initial={false} animate={mobileMenuOpen ? "open" : "closed"} className="fixed left-0 top-0 z-20 w-full">
-      <div className="border-b border-gray-200 bg-link-water">
+    <motion.nav initial={false} animate={mobileMenuOpen ? "open" : "closed"} className="fixed bottom-0 left-0 md:top-0 z-20 w-full h-16">
+      <div className="border-t md:border-b border-gray-300 bg-link-water">
         <div className=" mx-auto flex max-w-screen-xl px-4 md:px-8 xl:px-0 flex-wrap items-center justify-between">
           <a href="https://manonbertho-studio.fr/" className="ml-4 flex items-center">
             <img src={dark ? darkLogo : logo} className="mr-3 h-16" alt="Flowbite Logo" />
@@ -114,8 +114,10 @@ export const Header: React.FC = () => {
       </div>
       <motion.ul
         variants={ulVariants}
-        className="bg-link-water "
+        className="bg-link-water flex flex-col justify-evenly items-center"
         style={{
+          height: 'calc(100vh - 4rem)',
+          marginTop: '-100vh',
           pointerEvents: mobileMenuOpen ? "auto" : "none",
         }}
       >
@@ -127,7 +129,7 @@ export const Header: React.FC = () => {
                 to={menu.path}
                 activeProps={{ className: "text-accent" }}
                 activeOptions={{ exact: true }}
-                className="block py-2 text-center transition ease-in-out hover:text-accent md:p-0"
+                className="block text-center text-2xl transition ease-in-out hover:text-accent md:p-0"
                 aria-current="page"
               >
                 {menu.name}

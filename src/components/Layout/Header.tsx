@@ -1,3 +1,4 @@
+import smallLogo from "@/assets/images/small-logo.png";
 import darkLogo from "@/assets/images/logo-dark.png";
 import logo from "@/assets/images/logo.png";
 
@@ -54,6 +55,7 @@ const liVariants = {
 };
 
 export const Header: React.FC = () => {
+  const currentYear = new Date().getFullYear();
   const { dark } = useThemeContext();
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
@@ -61,7 +63,11 @@ export const Header: React.FC = () => {
     setMobileMenuOpen(false);
   };
   return (
-    <motion.nav initial={false} animate={mobileMenuOpen ? "open" : "closed"} className="fixed bottom-0 left-0 md:top-0 z-20 w-full h-16">
+    <motion.nav
+      initial={false}
+      animate={mobileMenuOpen ? "open" : "closed"}
+      className="fixed bottom-0 left-0 md:top-0 z-20 w-full h-16"
+    >
       <div className="border-t md:border-b border-gray-300 bg-link-water">
         <div className=" mx-auto flex max-w-screen-xl px-4 md:px-8 xl:px-0 flex-wrap items-center justify-between">
           <a href="https://manonbertho-studio.fr/" className="ml-4 flex items-center">
@@ -122,32 +128,47 @@ export const Header: React.FC = () => {
           </button> */}
         </div>
       </div>
-      <motion.ul
+      <motion.div
         variants={ulVariants}
         className="bg-link-water flex flex-col justify-evenly items-center"
         style={{
-          height: 'calc(100vh - 4rem)',
-          marginTop: '-100vh',
+          height: "calc(100vh - 4rem)",
+          marginTop: "-100vh",
           pointerEvents: mobileMenuOpen ? "auto" : "none",
         }}
       >
-        {menuList.map((menu: Menu) => {
-          return (
-            <motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.name}>
-              <Link
-                onClick={closeMenu}
-                to={menu.path}
-                activeProps={{ className: "text-accent" }}
-                activeOptions={{ exact: true }}
-                className="block text-center text-2xl transition ease-in-out hover:text-accent md:p-0"
-                aria-current="page"
-              >
-                {menu.name}
-              </Link>
-            </motion.li>
-          );
-        })}
-      </motion.ul>
+        <a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
+          <img src={smallLogo} className="mr-3 h-8" alt="Manon Logo" />
+          <span className="self-center whitespace-nowrap font-title text-2xl font-semibold dark:text-white">
+            Manon Bertho
+          </span>
+        </a>
+        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          © {currentYear}{" "}
+          <a href="https://manonbertho-studio.fr/" className="hover:underline">
+            Manon Bertho Studio
+          </a>
+          . Tous droits réservés.
+        </span>
+        <ul>
+          {menuList.map((menu: Menu) => {
+            return (
+              <motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.name}>
+                <Link
+                  onClick={closeMenu}
+                  to={menu.path}
+                  activeProps={{ className: "text-accent" }}
+                  activeOptions={{ exact: true }}
+                  className="block text-center text-2xl transition ease-in-out hover:text-accent md:p-0"
+                  aria-current="page"
+                >
+                  {menu.name}
+                </Link>
+              </motion.li>
+            );
+          })}
+        </ul>
+      </motion.div>
     </motion.nav>
   );
 };

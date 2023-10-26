@@ -1,6 +1,9 @@
+import projetPerso from "@/assets/images/homepage/service/photograhie/projet-perso.jpg";
 import maternite from "@/assets/images/homepage/service/photograhie/maternite.jpg";
-import mariage from "@/assets/images/homepage/service/photograhie/mariage.jpg";
-
+// import mariage from "@/assets/images/homepage/service/photograhie/mariage.jpg";
+// import corporate from "@/assets/images/homepage/service/photograhie/corporate.jpg";
+import evenement from "@/assets/images/homepage/service/photograhie/evenement.jpg";
+import commercial from "@/assets/images/homepage/service/photograhie/commercial.jpg";
 
 export interface Service {
   image: string;
@@ -10,27 +13,29 @@ export interface Service {
 
 export const photoServiceList: Service[] = [
   {
-    image: mariage,
-    title: "Mariage",
+    image: projetPerso,
+    title: "Projet Personel",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Les moments spéciaux et les projets personnels sont la toile de fond de nos vies. En tant que photographe, je suis là pour capturer la beauté et l'émotion de ces instants, pour donner vie à vos projets personnels en images.",
+  },
+  {
+    image: evenement,
+    title: "Evenementielle",
+    description:
+      "Capturer chaque moment du plus beau jour de votre vie. Des instants fugaces aux moments inoubliables, je vous accompagnerais pour immortaliser l'amour et l'émotion de votre mariage",
   },
   {
     image: maternite,
     title: "Maternite",
     description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "La maternité est une période spéciale, pleine de beauté et d'émotion. Laissez-moi vous accompagner dans cette aventure visuelle et créer des souvenirs inoubliables. ",
   },
   {
-    image: maternite,
-    title: "Maternite",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
-  {
-    image: maternite,
-    title: "Maternite",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image: commercial,
+    title: "Commerciale",
+    description: `Que ce soit pour mettre en lumière vos produits, documenter vos événements 
+    d'entreprise, ou concevoir des supports visuels sur mesure,je suis là pour répondre à
+    vos besoins. Mon approche professionnelle et créative s'adapte à votre secteur
+    d'activité et à vos objectifs`,
   },
 ];

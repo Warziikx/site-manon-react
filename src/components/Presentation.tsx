@@ -25,7 +25,7 @@ export const Presentation: React.FC = () => {
                         traduire en solutions visuelles inspirantes.{" "}
                     </p>
                     <p>
-                        Jai pour objectif de transformer votre vision en réalité. Que ce soit à travers des images qui racontent une histoire,
+                        J'ai pour objectif de transformer votre vision en réalité. Que ce soit à travers des images qui racontent une histoire,
                         des designs qui se démarquent, ou une combinaison des deux, je m'engage à vous offrir un service personnalisé qui
                         reflète votre identité.
                     </p>

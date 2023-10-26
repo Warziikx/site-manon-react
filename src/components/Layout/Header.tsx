@@ -9,6 +9,7 @@ import { menuList, Menu } from "@/data/Menu";
 import useThemeContext from "@/context/ThemeContext";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { MenuButton } from "./MenuButton";
 
 const ulVariants = {
   open: () => ({
@@ -85,7 +86,16 @@ export const Header: React.FC = () => {
               );
             })}
           </ul>
-          <button
+          <MenuButton
+            isOpen={mobileMenuOpen}
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="mr-4 inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
+            strokeWidth="2"
+            color="#6b7280"
+            height={6}
+            width={6}
+          />
+          {/* <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -109,7 +119,7 @@ export const Header: React.FC = () => {
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
-          </button>
+          </button> */}
         </div>
       </div>
       <motion.ul

@@ -3,13 +3,18 @@ import { ServiceCard } from "./ServiceCard";
 
 interface ServiceListProps {
   serviceList: Service[];
+  title: string;
 }
 
-export const ServiceList: React.FC<ServiceListProps> = ({ serviceList }) => {
+export const ServiceList: React.FC<ServiceListProps> = ({ serviceList, title }) => {
   return (
-    <div className="min-h-screen mt-16 mb-32 flex flex-col justify-center items-center space-y-8">
-      <h2 className="text-3xl font-semibold font-title mt-4">Univers Photographie</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-8 md:px-16">
+    <div className="mb-32 mt-16 flex min-h-screen flex-col items-center justify-center space-y-8">
+      <h2 className="mt-4 font-title text-3xl font-semibold">{title}</h2>
+      <div
+        className={`grid grid-cols-1 gap-8 px-8 md:px-16 ${
+          serviceList.length % 2 == 0 ? "md:grid-cols-2" : ""
+        } lg:grid-cols-${serviceList.length}`}
+      >
         {serviceList.map((service: Service, index: number) => (
           <ServiceCard key={`photo-service-${index}`} service={service} />
         ))}

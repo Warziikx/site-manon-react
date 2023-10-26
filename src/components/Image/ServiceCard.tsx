@@ -16,8 +16,8 @@ export const ServiceCard: React.FC<ServiceProps> = ({ service }) => {
       onMouseOver={() => setDisplayDesc(true)}
     >
       <img src={service.image} />
-      <div className="space-y-4 w-full">
-        <hr className="my-6 border-gray-500 w-full" />
+      <div className="w-full space-y-4">
+        <hr className="my-6 w-full border-gray-500" />
         <h4 className="text-2xl">{service.title}</h4>
         <AnimatePresence>
           {displayDesc && (
@@ -31,7 +31,7 @@ export const ServiceCard: React.FC<ServiceProps> = ({ service }) => {
               {service.description}
             </motion.p>
           )}
-          <motion.hr className="border-gray-500 w-full" />
+          <motion.hr className="w-full border-gray-500" />
         </AnimatePresence>
       </div>
     </div>

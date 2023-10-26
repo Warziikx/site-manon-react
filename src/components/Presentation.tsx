@@ -7,12 +7,12 @@ export const Presentation: React.FC = () => {
     const isInView = useInView(ref, { once: true, amount: 0.2 });
 
     return (
-        <div className="bg-link-water lg:px-32 py-16 grid grid-cols-12 gap-8 overflow-x-hidden">
-            <div className=" col-span-12 md:col-span-6 my-auto mx-8 md:mx-16">
-                <h6 className="text-ternary text-sm" style={{ fontVariant: "small-caps" }}>
+        <div className="grid grid-cols-12 gap-8 overflow-x-hidden bg-link-water py-16 lg:px-32">
+            <div className=" col-span-12 mx-8 my-auto md:col-span-6 md:mx-16">
+                <h6 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
                     Manon Bertho | Studio Creatif
                 </h6>
-                <h2 className="text-3xl font-semibold font-title mt-4">Manon - Graphiste et Photographe Freelance</h2>
+                <h2 className="mt-4 font-title text-3xl font-semibold">Manon - Graphiste et Photographe Freelance</h2>
                 <div className="space-y-8">
                     <p className="mt-4">
                         Passionnée d'art visuel, de photographie, et de design graphique, basée à Rennes, je mets tout mon cœur et mon talent
@@ -45,7 +45,7 @@ ressemblent. Bienvenue dans mon monde créatif. Bienvenue chez vous. */}
                     </p>
                 </div>
             </div>
-            <div className="col-span-12 md:col-span-6 mx-8 md:mx-16" ref={ref}>
+            <div className="col-span-12 mx-8 md:col-span-6 md:mx-16" ref={ref}>
                 <motion.img
                     src={manon}
                     style={{

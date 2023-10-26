@@ -2,6 +2,7 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	darkMode: "class",
+	safelist: ["lg:grid-cols-4", "lg:grid-cols-3"],
 	theme: {
 		extend: {
 			fontFamily: { title: ["Guavast", "Georgia"], body: "Montserrat" },

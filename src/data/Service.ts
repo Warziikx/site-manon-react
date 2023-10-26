@@ -1,7 +1,5 @@
 import projetPerso from "@/assets/images/homepage/service/photograhie/projet-perso.jpg";
 import maternite from "@/assets/images/homepage/service/photograhie/maternite.jpg";
-// import mariage from "@/assets/images/homepage/service/photograhie/mariage.jpg";
-// import corporate from "@/assets/images/homepage/service/photograhie/corporate.jpg";
 import evenement from "@/assets/images/homepage/service/photograhie/evenement.jpg";
 import commercial from "@/assets/images/homepage/service/photograhie/commercial.jpg";
 
@@ -39,3 +37,28 @@ export const photoServiceList: Service[] = [
     d'activité et à vos objectifs`,
   },
 ];
+
+import papeterie from "@/assets/images/homepage/service/graphisme/papeterie.jpg";
+import illustration from "@/assets/images/homepage/service/graphisme/illustration.jpg";
+import creationContenu from "@/assets/images/homepage/service/graphisme/creation-contenu.jpg";
+
+export const graphismeServiceList: Service[] = [
+  {
+    image: papeterie,
+    title: "Papeterie",
+    description:
+      "Bla Bla",
+  },
+  {
+    image: illustration,
+    title: "Illustration",
+    description:
+      "Bla Bla",
+  },
+  {
+    image: creationContenu,
+    title: "Création de contenu",
+    description:
+      "Bla Bla",
+  },
+]

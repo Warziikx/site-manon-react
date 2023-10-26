@@ -6,7 +6,7 @@ import { Link } from "@tanstack/react-router";
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="hidden md:flex bg-link-water dark:bg-primary">
+    <footer className="hidden bg-link-water dark:bg-primary md:flex">
       <div className="mx-auto w-full max-w-screen-xl p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">

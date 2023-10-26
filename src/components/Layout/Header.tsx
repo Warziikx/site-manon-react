@@ -66,12 +66,12 @@ export const Header: React.FC = () => {
     <motion.nav
       initial={false}
       animate={mobileMenuOpen ? "open" : "closed"}
-      className="fixed bottom-0 left-0 md:top-0 z-20 w-full h-16"
+      className="fixed bottom-0 left-0 z-20 h-16 w-full md:top-0"
     >
-      <div className="border-t md:border-b border-gray-300 bg-link-water">
-        <div className=" mx-auto flex max-w-screen-xl px-4 md:px-8 xl:px-0 flex-wrap items-center justify-between">
+      <div className="border-t border-gray-300 bg-link-water md:border-b">
+        <div className=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 md:px-8 xl:px-0">
           <a href="https://manonbertho-studio.fr/" className="ml-4 flex items-center">
-            <img src={dark ? darkLogo : logo} className="mr-3 h-16" alt="Flowbite Logo" />
+            <img src={dark ? darkLogo : logo} className="mr-3 h-16 py-2" alt="Logo Manon" />
             <span className="self-center whitespace-nowrap font-title text-2xl font-semibold">Manon Bertho</span>
           </a>
           <ul className="hidden flex-row space-x-8 md:flex ">
@@ -130,19 +130,13 @@ export const Header: React.FC = () => {
       </div>
       <motion.div
         variants={ulVariants}
-        className="bg-link-water flex flex-col justify-evenly items-center"
+        className="flex flex-col items-center justify-between bg-link-water py-8"
         style={{
           height: "calc(100vh - 4rem)",
           marginTop: "-100vh",
           pointerEvents: mobileMenuOpen ? "auto" : "none",
         }}
       >
-        <a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
-          <img src={smallLogo} className="mr-3 h-8" alt="Manon Logo" />
-          <span className="self-center whitespace-nowrap font-title text-2xl font-semibold dark:text-white">
-            Manon Bertho
-          </span>
-        </a>
         <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
           © {currentYear}{" "}
           <a href="https://manonbertho-studio.fr/" className="hover:underline">
@@ -150,7 +144,10 @@ export const Header: React.FC = () => {
           </a>
           . Tous droits réservés.
         </span>
-        <ul>
+        <a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
+          <img src={smallLogo} className="mr-3 h-24" alt="Manon Logo" />
+        </a>
+        <ul className="space-y-4">
           {menuList.map((menu: Menu) => {
             return (
               <motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.name}>

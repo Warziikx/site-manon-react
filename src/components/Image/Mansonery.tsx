@@ -74,7 +74,7 @@ export const Mansonery: React.FC = () => {
   const y4 = useTransform(scrollYProgress, [0, 1], [-300, -1400]);
   return (
     <div
-      className="grid h-screen grid-cols-2 gap-4 overflow-hidden bg-secondary-50 p-8 md:grid-cols-4 lg:px-32"
+      className="grid h-screen grid-cols-2 gap-4 overflow-hidden bg-ternary-200 p-8 md:grid-cols-4 lg:px-32"
       ref={mansoneryRef}
     >
       <motion.div className="grid gap-4" style={{ y: y1 }}>

@@ -14,6 +14,7 @@ import { MenuButton } from "./MenuButton";
 
 const ulVariants = {
   open: () => ({
+    opacity: 1,
     clipPath: `circle(${1000 * 2 + 200}px at 86vw -95vh)`,
     transition: {
       type: "spring",
@@ -24,6 +25,7 @@ const ulVariants = {
     },
   }),
   closed: {
+    opacity: 0,
     clipPath: "circle(30px at 86vw 95vh)",
     transition: {
       delay: 0.5,
@@ -95,49 +97,24 @@ export const Header: React.FC = () => {
           <MenuButton
             isOpen={mobileMenuOpen}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="mr-4 inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
+            className="mr-4 inline-flex z-50 h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
             strokeWidth="2"
             color="#6b7280"
             height={6}
             width={6}
           />
-          {/* <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            data-collapse-toggle="navbar-sticky"
-            type="button"
-            className="mr-4 inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
-            aria-controls="navbar-sticky"
-            aria-expanded="false"
-          >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="h-5 w-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button> */}
         </div>
       </div>
       <motion.div
         variants={ulVariants}
         className="flex flex-col items-center justify-between bg-link-water py-8"
         style={{
-          height: "calc(100vh - 4rem)",
+          height: "calc(100vh)",
           marginTop: "-100vh",
           pointerEvents: mobileMenuOpen ? "auto" : "none",
         }}
       >
-        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center px-8 text-center">
           © {currentYear}{" "}
           <a href="https://manonbertho-studio.fr/" className="hover:underline">
             Manon Bertho Studio

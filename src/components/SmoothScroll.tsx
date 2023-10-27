@@ -59,12 +59,13 @@ const SmoothScroll = () => {
         <>
             <div ref={ghostRef} style={{ height: scrollRange }}>
                 <div
-                    className="scroll-container will-change-transform overflow-hidden"
+                    className={`scroll-container will-change-transform overflow-hidden ${fixeElement ? 'mb-16 md:mb-0' : 'mb-0'} ${fixeElement ? 'mt-0 md:mt-16' : 'mt-0'}`}
                     ref={ref}
                     style={{
                         height: "calc(100vh - 4rem)",
                         position: fixeElement ? "fixed" : "relative",
-                        marginTop: fixeElement ? "4rem" : "0",
+                        // marginTop: fixeElement ? "4rem" : "0",
+                        // marginBottom: fixeElement ? "4rem" : "0",
                         top: fixeElement ? "0" : isAfter ? `calc(${scrollRange}px - (100vh - 4rem))` : "0",
                     }}
                 >
@@ -74,9 +75,9 @@ const SmoothScroll = () => {
                         className="relative w-max flex items-center bg-ternary px-64"
                     >
                         <div className="flex items-center space-x-12" ref={contentRef}>
-                            <img src="https://loremflickr.com/640/660" className="w-full h-fit" />
-                            <img src="https://placekitten.com/640/360" className="w-full h-fit" />
-                            <img src="https://placebeard.it/740x460" className="w-full h-fit" />
+                            <img src="https://loremflickr.com/640/660" className="w-96 h-fit" />
+                            <img src="https://placekitten.com/640/360" className="w-96 h-fit" />
+                            <img src="https://placebeard.it/740x460" className="w-96 h-fit" />
                         </div>
                     </motion.section>
                 </div>

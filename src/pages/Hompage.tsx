@@ -4,7 +4,9 @@ import { Mansonery } from "@/components/Image/Mansonery";
 import { ServiceList } from "@/components/Image/ServiceList";
 import { Presentation } from "@/components/Presentation";
 import SmoothScroll from "@/components/SmoothScroll";
+import { Contact } from "@/components/Layout/Contact";
 import { photoServiceList, graphismeServiceList } from "@/data/Service";
+
 
 export const Homepage: React.FC = () => {
 	return (
@@ -39,14 +41,7 @@ export const Homepage: React.FC = () => {
 				sollicitudin. Cras suscipit nibh at dolor suscipit, at tincidunt nisi blandit. Interdum et malesuada fames ac ante ipsum
 				primis in faucibus. Curabitur nec nisi efficitur, gravida ligula id, laoreet enim.
 			</p>
-			<div className="bg-link-water flex flex-col justify-center items-center py-24">
-				<div className="text-center">
-					<a href="mailto:contact@manonbertho-studio.fr" className="text-4xl font-title text-ternary-400">
-						contact@manonbertho-studio.fr
-					</a>
-					<p className="">Prêt à donner vie à votre projet ? Contactez-moi pour le concrétiser!</p>
-				</div>
-			</div>
+			<Contact />
 		</div>
 	);
 };

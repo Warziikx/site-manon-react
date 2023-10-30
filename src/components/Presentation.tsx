@@ -9,10 +9,10 @@ export const Presentation: React.FC = () => {
     return (
         <div className="grid grid-cols-12 gap-8 overflow-x-hidden bg-link-water py-16 lg:px-32">
             <div className=" col-span-12 mx-8 my-auto md:col-span-6 md:mx-16">
-                <h6 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
+                <h1 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
                     Manon Bertho | Studio Creatif
-                </h6>
-                <h2 className="mt-4 font-title text-3xl font-semibold">Manon - Graphiste et Photographe Freelance</h2>
+                </h1>
+                <h4 className="mt-4 font-title text-3xl font-semibold">Manon - Graphiste et Photographe Freelance</h4>
                 <div className="space-y-8">
                     <p className="mt-4">
                         Passionnée d'art visuel, de photographie, et de design graphique, basée à Rennes, je mets tout mon cœur et mon talent

@@ -12,7 +12,7 @@ export interface Service {
 export const photoServiceList: Service[] = [
   {
     image: projetPerso,
-    title: "Projet Personel",
+    title: "Portrait self-love",
     description:
       "Les moments spéciaux et les projets personnels sont la toile de fond de nos vies. En tant que photographe, je suis là pour capturer la beauté et l'émotion de ces instants, pour donner vie à vos projets personnels en images.",
   },

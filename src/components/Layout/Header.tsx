@@ -1,13 +1,8 @@
-import smallLogo from "@/assets/images/small-logo.png";
 import darkLogo from "@/assets/images/logo-dark.png";
-import logo from "@/assets/images/logo.png";
 
 import { Link } from "@tanstack/react-router";
-// import { motion } from "framer-motion";
-// import { HalfMoon, SunLight } from "iconoir-react";
 
 import { menuList, Menu } from "@/data/Menu";
-import useThemeContext from "@/context/ThemeContext";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { MenuButton } from "./MenuButton";
@@ -58,7 +53,6 @@ const liVariants = {
 
 export const Header: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  const { dark } = useThemeContext();
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   const closeMenu = () => {
@@ -70,10 +64,10 @@ export const Header: React.FC = () => {
       animate={mobileMenuOpen ? "open" : "closed"}
       className="fixed bottom-0 left-0 z-20 h-16 w-full md:top-0"
     >
-      <div className="border-t border-gray-300 bg-link-water md:border-b">
+      <div className="border-t border-gray-800 bg-primary text-white md:border-b">
         <div className=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 md:px-8 xl:px-0">
           <a href="https://manonbertho-studio.fr/" className="ml-4 flex items-center">
-            <img src={dark ? darkLogo : logo} className="mr-3 h-16 py-2" alt="Logo Manon" />
+            <img src={darkLogo} className="mr-3 h-16 py-2" alt="Logo Manon" />
             <span className="self-center whitespace-nowrap font-title text-2xl font-semibold">Manon Bertho</span>
           </a>
           <ul className="hidden flex-row space-x-8 md:flex ">
@@ -83,9 +77,9 @@ export const Header: React.FC = () => {
                   <Link
                     onClick={closeMenu}
                     to={menu.path}
-                    activeProps={{ className: "text-accent" }}
+                    activeProps={{ className: "text-secondary" }}
                     activeOptions={{ exact: true }}
-                    className="block py-2 text-center transition ease-in-out hover:text-accent md:p-0"
+                    className="block py-2 text-center transition ease-in-out hover:text-secondary md:p-0"
                     aria-current="page"
                   >
                     {menu.name}
@@ -97,9 +91,9 @@ export const Header: React.FC = () => {
           <MenuButton
             isOpen={mobileMenuOpen}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="mr-4 inline-flex z-50 h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100  md:hidden"
+            className="mr-4 inline-flex z-50 h-10 w-10 items-center justify-center rounded-lg p-2 text-sm md:hidden"
             strokeWidth="2"
-            color="#6b7280"
+            color="#ffffff"
             height={6}
             width={6}
           />
@@ -107,14 +101,14 @@ export const Header: React.FC = () => {
       </div>
       <motion.div
         variants={ulVariants}
-        className="flex flex-col items-center justify-between bg-link-water py-8"
+        className="flex flex-col items-center justify-between bg-primary text-white py-8"
         style={{
           height: "calc(100vh)",
           marginTop: "-100vh",
           pointerEvents: mobileMenuOpen ? "auto" : "none",
         }}
       >
-        <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center px-8 text-center">
+        <span className="block text-sm text-gray-2300 sm:text-center px-8 text-center">
           © {currentYear}{" "}
           <a href="https://manonbertho-studio.fr/" className="hover:underline">
             Manon Bertho Studio
@@ -122,7 +116,7 @@ export const Header: React.FC = () => {
           . Tous droits réservés.
         </span>
         <a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
-          <img src={smallLogo} className="mr-3 h-24" alt="Manon Logo" />
+          <img src={darkLogo} className="mr-3 h-48" alt="Manon Logo" />
         </a>
         <ul className="space-y-4">
           {menuList.map((menu: Menu) => {
@@ -131,9 +125,9 @@ export const Header: React.FC = () => {
                 <Link
                   onClick={closeMenu}
                   to={menu.path}
-                  activeProps={{ className: "text-accent" }}
+                  activeProps={{ className: "text-secondary" }}
                   activeOptions={{ exact: true }}
-                  className="block text-center text-2xl transition ease-in-out hover:text-accent md:p-0"
+                  className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
                   aria-current="page"
                 >
                   {menu.name}

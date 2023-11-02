@@ -1,4 +1,4 @@
-import { Button } from "@/components/Default/Button";
+
 import { useForm, ValidationError } from "@formspree/react";
 
 export const ContactPage: React.FC = () => {
@@ -56,7 +56,6 @@ export const ContactPage: React.FC = () => {
 						<ValidationError prefix="Message" field="message" errors={state.errors} />
 
 						{/* <div className="g-recaptcha" data-sitekey="your_site_key"></div> */}
-						<Button disabled={state.submitting} type="submit" title="Envoyer" />
 					</form>
 				)}
 			</div>

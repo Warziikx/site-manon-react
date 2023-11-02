@@ -5,9 +5,10 @@ import { useRef } from "react";
 export const Presentation: React.FC = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+
   return (
-    <div className="grid grid-cols-12 gap-8 overflow-x-hidden py-16 lg:px-32 min-h-spe-height">
-      <div className=" col-span-12 mx-8 my-auto md:col-span-8 md:mx-16">
+    <div className="grid grid-cols-12 gap-8 overflow-x-hidden py-16 lg:px-32">
+      <div className=" col-span-12 mx-8 my-auto md:col-span-6 md:mx-16">
         <h1 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
           Manon Bertho | Studio Creatif
         </h1>
@@ -17,12 +18,12 @@ export const Presentation: React.FC = () => {
             Passionnée d'art visuel, de photographie, et de design graphique, basée à Rennes, je mets tout mon cœur et
             mon talent dans chaque projet pour capturer des moments uniques et donner vie à des idées créatives.{" "}
           </p>
-          {/* <p>
-            
+          <p>
+            /* TODO: REWORK || REMOVE */
             <br /> Mon voyage a commencé avec une solide formation en design graphique (BAC + 3) et s'est enrichi d'une
             expertise en gestion de projet (BAC + 5). Ces compétences me permettent de comprendre les besoins de mes
             clients et de les traduire en solutions visuelles inspirantes.{" "}
-          </p> */}
+          </p>
           <p>
             J'ai pour objectif de transformer votre vision en réalité. Que ce soit à travers des images qui racontent
             une histoire, des designs qui se démarquent, ou une combinaison des deux, je m'engage à vous offrir un
@@ -44,12 +45,10 @@ ressemblent. Bienvenue dans mon monde créatif. Bienvenue chez vous. */}
           </p>
         </div>
       </div>
-      <div className="col-span-12 md:col-span-4" ref={ref}>
+      <div className="col-span-12 mx-8 md:col-span-6 md:mx-16" ref={ref}>
         <motion.img
           src={manon}
-          className="rounded-full"
           style={{
-            boxShadow: "#fff -20px 20px 0px -3px, #3B4F43 -20px 20px",
             transform: isInView ? "none" : "translateX(200px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s",

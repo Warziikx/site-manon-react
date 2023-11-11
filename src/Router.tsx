@@ -1,6 +1,6 @@
 import { Router, Route, RootRoute } from "@tanstack/react-router";
 import { ContactPage } from "./pages/ContactPage";
-import { Homepage } from "./pages/Hompage";
+import { Homepage } from "./pages/Homepage";
 import { Layout } from "./components/Layout";
 // Create a root route
 const rootRoute = new RootRoute({

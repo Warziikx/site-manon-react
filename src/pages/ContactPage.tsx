@@ -6,7 +6,7 @@ export const ContactPage: React.FC = () => {
 
 	return (
 		<div className="mt-16">
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-16 px-8 md:px-16 lg:px-32">
+			<div className="grid grid-cols-1 gap-8 px-8 py-16 md:grid-cols-2 md:px-16 lg:px-32">
 				<div>
 					<h1 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
 						Contact
@@ -40,17 +40,17 @@ export const ContactPage: React.FC = () => {
 						<input
 							type="email"
 							name="email"
-							className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 
-					focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-primary 
-					transition ease-in-out duration-150"
+							className="mb-4 rounded-md border-0 bg-gray-100 p-2 text-gray-800 
+					transition duration-150 ease-in-out focus:bg-gray-200 
+					focus:outline-none focus:ring-1 focus:ring-primary"
 							placeholder="Email"
 						/>
 						<ValidationError prefix="Email" field="email" errors={state.errors} />
 
 						<textarea
 							name="message"
-							className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 focus:bg-gray-200 
-						focus:outline-none focus:ring-1 focus:ring-primary transition ease-in-out duration-150"
+							className="mb-4 rounded-md border-0 bg-gray-100 p-2 text-gray-800 transition 
+						duration-150 ease-in-out focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-primary"
 							placeholder="Message"
 						/>
 						<ValidationError prefix="Message" field="message" errors={state.errors} />

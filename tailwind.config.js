@@ -1,16 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", "./node_modules/flowbite/**/*.js"],
   darkMode: "class",
-  safelist: ["lg:grid-cols-4", "lg:grid-cols-3", 'bg-secondary', 'bg-accent', 'bg-ternary'],
+  safelist: ["lg:grid-cols-4", "lg:grid-cols-3", "bg-secondary", "bg-accent", "bg-ternary"],
   theme: {
     extend: {
-      height: {
-        "spe-height": "calc(100vh - 4rem)",
-      },
-      minHeight: {
-        "spe-height": "calc(100vh - 4rem)",
-      },
+      height: { "spe-height": "calc(100vh - 4rem)" },
+      minHeight: { "spe-height": "calc(100vh - 4rem)" },
       fontFamily: { title: ["Guavast", "Georgia"], body: "Montserrat" },
       colors: {
         primary: {
@@ -86,5 +82,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

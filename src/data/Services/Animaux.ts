@@ -1,4 +1,4 @@
-import enora2 from "@/assets/images/photo/portrait/enora2.webp";
+import maelle2 from "@/assets/images/photo/portrait/maelle2.webp";
 
 import dotBleu from "@/assets/images/identite_visuelle/dot-bleu.svg";
 import dotRose from "@/assets/images/identite_visuelle/dot-rose.svg";
@@ -6,11 +6,11 @@ import dotRouge from "@/assets/images/identite_visuelle/dot-rouge.svg";
 
 import { PrestationData } from "@/data/Service";
 
-export const prestationSelfLove: PrestationData = {
+export const prestationAnimaux: PrestationData = {
 	type: "left",
-	slug: "portrait",
-	img: enora2,
-	title: "Portrait - Self Love",
+	slug: "animaux",
+	img: maelle2,
+	title: "Animaux",
 	surtitle: "Photographie",
 	description: `Envie de reprendre confiance en toi à travers un shooting photo ou bien tout simplement te faire plaisir ? 
 	En exterieur ou en studio, cette formule est faite pour toi`,
@@ -21,7 +21,7 @@ export const prestationSelfLove: PrestationData = {
 				description: "On discute de ton projet, defini la date et le lieu",
 				image : dotBleu
 			},
-			{ description: "Shooting", image :dotRose },
+			{ description: "Shooting", image : dotRose },
 			{ description: "Tu choisi le nombre de photo", image : dotRouge },
 		],
 	},
@@ -29,13 +29,8 @@ export const prestationSelfLove: PrestationData = {
 		title: "Les Tarifs",
 		pricingData: [
 			{
-				title: "En Studio",
-				priceList: ["5 photos - 100€", "10 photos - 150€", "20 photos - 200€"],
-				subtitle: "Ces tarifs comprennent la location du studio, la prise de vue et le post traitement",
-			},
-			{
 				title: "En exterieur",
-				priceList: ["5 photos - 60€", "10 photos - 100€", "20 photos - 150€"],
+				priceList: ["5 photos - 90€", "10 photos - 130€", "20 photos - 10€"],
 				subtitle:
 					"Ces tarifs comprennent les frais de déplacement en ile et vilaine, la prise de vie et le post traitement",
 			},

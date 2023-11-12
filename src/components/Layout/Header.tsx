@@ -101,6 +101,7 @@ export const Header: React.FC = () => {
 					/>
 				</div>
 			</div>
+			{/* Mobile */}
 			<motion.div
 				variants={ulVariants}
 				className="flex flex-col items-center justify-between bg-primary py-8 text-white"
@@ -129,16 +130,26 @@ export const Header: React.FC = () => {
 								whileTap={{ scale: 0.95 }}
 								key={menu.name}
 							>
-								<Link
-									onClick={closeMenu}
-									to={menu.path}
-									activeProps={{ className: "text-secondary" }}
-									activeOptions={{ exact: true }}
-									className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
-									aria-current="page"
-								>
-									{menu.name}
-								</Link>
+								{menu.path !== null && (
+									<Link
+										onClick={closeMenu}
+										to={menu.path}
+										activeProps={{ className: "text-secondary" }}
+										activeOptions={{ exact: true }}
+										className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
+										aria-current="page"
+									>
+										{menu.name}
+									</Link>
+								)}
+								{menu.external !== null && (
+									<a
+										href={menu.external}
+										className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
+									>
+										{menu.name}
+									</a>
+								)}
 							</motion.li>
 						);
 					})}

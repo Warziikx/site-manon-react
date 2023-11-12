@@ -1,10 +1,10 @@
 import { Hero } from "@/components/Hero";
-import { NumberFeatures } from "@/components/Features/NumberFeatures";
+import { NumberFeatures } from "@/components/Widget/Features/NumberFeatures";
 import { Presentation } from "@/components/Presentation";
 
 import { WhyMeFeatures, PrestationFeatures } from "@/data/Homepage";
-import { IllustrationFeatures } from "@/components/Features/IllustrationFeatures";
-import { Testimonial1 } from "@/components/Testimonial/Testimonial1";
+import { IllustrationFeatures } from "@/components/Widget/Features/IllustrationFeatures";
+import { Testimonial1 } from "@/components/Widget/Testimonial/Testimonial1";
 
 export const Homepage: React.FC = () => {
 	return (

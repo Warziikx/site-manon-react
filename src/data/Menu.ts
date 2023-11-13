@@ -14,12 +14,12 @@ export const menuList: Menu[] = [
     children: [
       {
         name: "Photographie",
-		path: "/services",
+        path: "/services",
         children: mesPrestationPhoto.map((p: PrestationData) => {
-          return { name: p.title };
+          return { name: p.title, path : `/services/${p.slug}` };
         }),
       },
-      { name: "Graphisme", path : "/" },
+      { name: "Graphisme", path: "/graphisme" },
     ],
   },
   { name: "Portfolio", path: "/portfolio" },

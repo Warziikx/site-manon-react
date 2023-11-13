@@ -125,7 +125,7 @@ export const Header: React.FC = () => {
           {menuList.map((menu: Menu) => {
             return (
               <motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.name}>
-                {menu.path !== null && (
+                {menu.path !== undefined && (
                   <Link
                     onClick={closeMenu}
                     to={menu.path}
@@ -137,7 +137,7 @@ export const Header: React.FC = () => {
                     {menu.name}
                   </Link>
                 )}
-                {menu.external !== null && (
+                {menu.external !== undefined && (
                   <a
                     href={menu.external}
                     className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"

@@ -29,7 +29,7 @@ import {
   prestationEvenement,
   prestationPackshot,
   prestationAnimaux,
-} from "@/data/Services";
+} from "@/data/Services/Photographie";
 
 export const mesPrestationPhoto: PrestationData[] = [
   prestationSelfLove,

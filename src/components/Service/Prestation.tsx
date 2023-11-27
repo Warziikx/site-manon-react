@@ -12,12 +12,12 @@ export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   return (
-    <div className="grid grid-cols-12 gap-8 overflow-x-hidden py-16 lg:px-32">
+    <div className="my-16 grid grid-cols-12 gap-8 overflow-x-hidden py-16 md:gap-4 xl:gap-8 xl:px-32">
       {type === "left" && (
-        <div className="col-span-12 mx-16 md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
+        <div className="col-span-12 mx-16 flex items-center md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
           <motion.img
             src={img}
-            className="rounded-full max-w-xs mx-auto"
+            className="mx-auto max-w-xs rounded-full"
             style={{
               boxShadow: "#fff -20px 20px 0px -3px, #3B4F43 -20px 20px",
               transform: isInView ? "none" : "translateX(-200px)",
@@ -27,13 +27,13 @@ export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
           />
         </div>
       )}
-      <div className="col-span-12 mx-16 my-auto md:col-span-6 xl:col-span-8 order-last sm:order-none">
+      <div className="order-last col-span-12 mx-16 my-auto sm:order-none md:col-span-6 md:mx-8 xl:col-span-8">
         <h4 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
           {surtitle}
         </h4>
         <div className="space-y-4">
           <h1 className="mt-2 font-title text-3xl font-semibold">{title}</h1>
-          <p>{description}</p>
+          <p dangerouslySetInnerHTML={{ __html: description }}></p>
           <div>
             <Link
               to={"/services/$serviceSlug"}
@@ -53,7 +53,7 @@ export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
         <div className="col-span-12 mx-16 md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
           <motion.img
             src={img}
-            className="rounded-full max-w-xs mx-auto"
+            className="mx-auto max-w-xs rounded-full"
             style={{
               boxShadow: "#fff -20px 20px 0px -3px, #3B4F43 -20px 20px",
               transform: isInView ? "none" : "translateX(200px)",

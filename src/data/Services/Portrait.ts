@@ -13,16 +13,28 @@ export const prestationSelfLove: PrestationData = {
 	title: "Portrait - Self Love",
 	surtitle: "Photographie",
 	description: `Envie de reprendre confiance en toi à travers un shooting photo ou bien tout simplement te faire plaisir ? 
-	En exterieur ou en studio, cette formule est faite pour toi`,
+	Que ce soit au cœur de la nature, ou en studio, la formule de portrait / Self Love est faite pour toi.
+	</br></br>
+	C'est bien plus qu'une simple séance photo, c'est une expérience qui capture l'authenticité de qui tu es.
+	En extérieur, la lumière naturelle et les décors variés deviennent le cadre idéal pour révéler ta beauté naturelle.
+	Chaque instant devient une opportunité de capturer des expressions spontanées, des émotions sincères et de créer des souvenirs qui durent.
+	</br></br>
+	Si tu préfères l'intimité d'un studio, nous façonnons l'éclairage et l'ambiance pour mettre en lumière ta personnalité de manière unique.
+	Chaque expression, chaque nuance, est capturée avec une précision artistique, transformant la séance en une véritable célébration de toi-même.
+	</br></br>
+	Prêt(e) à explorer des lieux magnifiques tout en mettant en lumière ce qui te rend exceptionnel(le) ?
+	Cette aventure photographique en extérieur t'offre l'opportunité de célébrer ta beauté naturelle d'une manière totalement authentique.
+	Réserve dès maintenant et laisse-nous capturer la meilleure version de toi-même, dans des décors qui feront écho à la richesse de ta personnalité.
+`,
 	stepData: {
 		title: "Le dérouler d'une seance",
 		stepList: [
 			{
 				description: "On discute de ton projet, defini la date et le lieu",
-				image : dotBleu
+				image: dotBleu
 			},
-			{ description: "Shooting", image :dotRose },
-			{ description: "Tu choisi le nombre de photo", image : dotRouge },
+			{ description: "Shooting", image: dotRose },
+			{ description: "Tu choisi le nombre de photo", image: dotRouge },
 		],
 	},
 	pricing: {
@@ -37,7 +49,7 @@ export const prestationSelfLove: PrestationData = {
 				title: "En exterieur",
 				priceList: ["5 photos - 60€", "10 photos - 100€", "20 photos - 150€"],
 				subtitle:
-					"Ces tarifs comprennent les frais de déplacement en ile et vilaine, la prise de vie et le post traitement",
+					"Ces tarifs comprennent les frais de déplacement en Ille-et-Vilaine, la prise de vue et le post traitement",
 			},
 		],
 	},

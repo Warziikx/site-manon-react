@@ -18,7 +18,7 @@ export const ServiceDetailPage: React.FC = () => {
       <div className="space-y-16 py-16 lg:px-32">
         <h3 className="text-center font-title text-4xl font-semibold text-ternary">{prestation.pricing.title}</h3>
         {prestation.pricing.pricingData.length !== 0 ? (
-          <div className={`grid grid-cols-1 gap-16 md:grid-cols-${prestation.pricing.pricingData.length}`}>
+          <div className={`md:grid-cols- grid grid-cols-1 gap-16${prestation.pricing.pricingData.length}`}>
             {prestation.pricing.pricingData.map((pricingData: PrestationPrincingData) => (
               <div className="flex flex-col items-center justify-center px-32">
                 <h4 className="whitespace-pre-line px-16 text-center text-xl text-ternary">{pricingData.title}</h4>
@@ -30,12 +30,12 @@ export const ServiceDetailPage: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                <p className="text-sm text-gray-600 mt-8">{pricingData.subtitle}</p>
+                <p className="mt-8 text-sm text-gray-600">{pricingData.subtitle}</p>
               </div>
             ))}
           </div>
         ) : (
-          <div className="text-center mx-auto space-y-4">
+          <div className="mx-auto space-y-4 text-center">
             <p>Uniquement sur devis</p>
             <div>
               <Link

@@ -20,13 +20,13 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
       </button>
       <div
         id={`dropdownHover-${index}`}
-        className="z-10 hidden bg-primary divide-y divide-gray-100 rounded-lg shadow w-44"
+        className="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-primary shadow"
       >
-        <ul className="py-4 space-y-4" aria-labelledby={`dropdownHoverButton-${index}`}>
+        <ul className="space-y-4 py-4" aria-labelledby={`dropdownHoverButton-${index}`}>
           {menu.children?.map((subMenu: Menu, subI: number) => {
             return (
               <li
-                className="flex flex-row justify-between items-center px-4"
+                className="flex flex-row items-center justify-between px-4"
                 key={`submenu-${subI}`}
                 data-dropdown-toggle={`doubledropdown-${subI}`}
                 data-dropdown-placement="right-start"
@@ -37,7 +37,7 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
                 {subMenu.children && subMenu.children.length > 0 && (
                   <>
                     <svg
-                      className="w-2.5 h-2.5 ms-3 rtl:rotate-180"
+                      className="ms-3 h-2.5 w-2.5 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -53,7 +53,7 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
                     </svg>
                     <div
                       id={`doubledropdown-${subI}`}
-                      className="z-10 hidden bg-primary divide-y divide-gray-100 rounded-lg shadow w-44 "
+                      className="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-primary shadow "
                     >
                       <ul className="py-2 text-sm" aria-labelledby="doubleDropdownButton">
                         {subMenu.children?.map((subsubMenu: Menu, subsubI: number) => {

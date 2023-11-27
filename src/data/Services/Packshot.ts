@@ -14,7 +14,19 @@ export const prestationPackshot: PrestationData = {
 	title: "Packshot",
 	surtitle: "Photographie",
 	description:
-		"Besoin de réaliser des packshot produit ou nourriture pour de la création de contenue ou un site web ? Cette formules est la pour vous !",
+		`
+		Vous êtes un professionnel, conscient de l'importance de l'image dans le monde des affaires.
+		Notre prestation de packshot offre une solution complète pour sublimer vos produits et renforcer votre présence sur le marché.
+		<br/><br/>
+		Chaque cliché est pensé avec précision pour mettre en valeur les détails, la qualité et l'unicité de vos articles.
+		Que vous soyez dans le secteur de la mode, de l'alimentation ou de tout autre domaine, je vous accompagne dans la
+		création des images exceptionnelles qui reflètent l'excellence de votre marque.
+		<br/><br/>
+		Optez pour la prestation de packshot et donnez à vos produits l'attention visuelle qu'ils méritent.
+		Renforcez votre identité de marque, stimulez vos ventes et positionnez-vous en tant que leader dans votre secteur.
+		Contactez-moi dès maintenant pour discuter de la manière dont nous pouvons mettre en lumière le meilleur de votre
+		entreprise à travers des images qui parlent à votre clientèle cible.
+		`,
 		stepData: {
 			title: "Le dérouler d'une seance",
 			stepList: [

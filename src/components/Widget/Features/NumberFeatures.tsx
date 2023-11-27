@@ -1,8 +1,8 @@
 import { NumberFeature } from "@/data/Homepage";
 
 interface NumberFeaturesPropos {
-  title: string;
-  featuresList: NumberFeature[];
+	title: string;
+	featuresList: NumberFeature[];
 }
 
 export const NumberFeatures: React.FC<NumberFeaturesPropos> = ({ title, featuresList }) => {

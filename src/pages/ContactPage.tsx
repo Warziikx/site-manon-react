@@ -1,8 +1,24 @@
-
-import { useForm, ValidationError } from "@formspree/react";
+import { useEffect } from "react";
 
 export const ContactPage: React.FC = () => {
-	const [state, handleSubmit] = useForm("mleyzqrw");
+	useEffect(() => {
+		const script = document.createElement("script");
+		script.src = "https://js.hsforms.net/forms/v2.js";
+		document.body.appendChild(script);
+
+		script.addEventListener("load", () => {
+			// @TS-ignore
+			if (window.hbspt) {
+				// @TS-ignore
+				window.hbspt.forms.create({
+					region: "eu1",
+					portalId: "143624250",
+					formId: "c0fba5fc-23bc-44dd-9db7-96d5cba2da58",
+					target: "#hubspotForm",
+				});
+			}
+		});
+	}, []);
 
 	return (
 		<div className="mt-16">
@@ -16,48 +32,7 @@ export const ContactPage: React.FC = () => {
 					</h4>
 					<p>Vous pouvez également me contacter par mail à : contact@manonbertho-studio.fr</p>
 				</div>
-				{/* <script src="https://www.google.com/recaptcha/api.js" async defer></script> */}
-				{state.succeeded ? (
-					<p>Oui !!!</p>
-				) : (
-					<form onSubmit={handleSubmit} className="flex flex-col">
-						{/* <div className="flex flex-col md:flex-row md:space-x-4">
-							<input
-								type="text"
-								className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 w-full
-					focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-primary 
-					transition ease-in-out duration-150"
-								placeholder="Nom"
-							/>
-							<input
-								type="text"
-								className="bg-gray-100 text-gray-800 border-0 rounded-md p-2 mb-4 w-full
-					focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-primary 
-					transition ease-in-out duration-150"
-								placeholder="Prenom"
-							/>
-						</div> */}
-						<input
-							type="email"
-							name="email"
-							className="mb-4 rounded-md border-0 bg-gray-100 p-2 text-gray-800 
-					transition duration-150 ease-in-out focus:bg-gray-200 
-					focus:outline-none focus:ring-1 focus:ring-primary"
-							placeholder="Email"
-						/>
-						<ValidationError prefix="Email" field="email" errors={state.errors} />
-
-						<textarea
-							name="message"
-							className="mb-4 rounded-md border-0 bg-gray-100 p-2 text-gray-800 transition 
-						duration-150 ease-in-out focus:bg-gray-200 focus:outline-none focus:ring-1 focus:ring-primary"
-							placeholder="Message"
-						/>
-						<ValidationError prefix="Message" field="message" errors={state.errors} />
-
-						{/* <div className="g-recaptcha" data-sitekey="your_site_key"></div> */}
-					</form>
-				)}
+				<div id="hubspotForm"></div>
 			</div>
 		</div>
 	);

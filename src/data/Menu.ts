@@ -1,13 +1,6 @@
-import { PrestationData, mesPrestationPhoto } from "./Service";
 
-export interface Menu {
-  name: string;
-  path?: string | undefined;
-  external?: string | undefined;
-  children?: Menu[] | undefined;
-}
 
-export const menuList: Menu[] = [
+/*export const menuList: Menu[] = [
   {
     name: "Services",
     path: "/services",
@@ -29,3 +22,4 @@ export const menuList: Menu[] = [
   },
   { name: "Contact", path: "/contact" },
 ];
+*/

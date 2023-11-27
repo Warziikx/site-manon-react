@@ -7,13 +7,13 @@ import { NumberFeatures } from "@/components/Widget/Features/NumberFeatures";
 import { CallToAction } from "@/components/Widget/CallToAction";
 
 export const ServiceDetailPage: React.FC = () => {
-  const { serviceSlug } = useParams({ from: serviceDetailRoute.id });
-  const prestation = mesPrestationPhoto.find((p: PrestationData) => p.slug === serviceSlug);
-  if (prestation === undefined) return <Navigate to="/services" />;
-  return (
-    <>
-      <Prestation prestation={prestation} />
-      <NumberFeatures title={prestation.stepData.title} featuresList={prestation.stepData.stepList} />
+	const { serviceSlug } = useParams({ from: serviceDetailRoute.id });
+	const prestation = mesPrestationPhoto.find((p: PrestationData) => p.slug === serviceSlug);
+	if (prestation === undefined) return <Navigate to="/services" />;
+	return (
+		<div className="mt-0 md:mt-16">
+			<Prestation prestation={prestation} />
+			<NumberFeatures title={prestation.stepData.title} featuresList={prestation.stepData.stepList} />
 
       <div className="space-y-16 py-16 lg:px-32">
         <h3 className="text-center font-title text-4xl font-semibold text-ternary">{prestation.pricing.title}</h3>
@@ -42,14 +42,14 @@ export const ServiceDetailPage: React.FC = () => {
                 to="/contact"
                 className="mb-2focus:outline-none mr-2 rounded-lg bg-ternary px-5 
 						py-2.5 text-sm font-medium text-white hover:bg-ternary-500 focus:ring-4 focus:ring-ternary-500"
-              >
-                Contacter moi
-              </Link>
-            </div>
-          </div>
-        )}
-      </div>
-      {prestation.pricing.pricingData.length !== 0 && <CallToAction />}
-    </>
-  );
+							>
+								Contacter moi
+							</Link>
+						</div>
+					</div>
+				)}
+			</div>
+			{prestation.pricing.pricingData.length !== 0 && <CallToAction />}
+		</div>
+	);
 };

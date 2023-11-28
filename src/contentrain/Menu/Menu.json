@@ -44,10 +44,17 @@
     "libelle": "Photographie",
     "internal_url": "/service/photographie",
     "external_url": "",
-    "children": "",
+    "children": [
+      "dc25ce1d-9a21-4480-88ab-2fda96370da6",
+      "67550056-c6ad-4e88-9e75-3eba9cb4db2f",
+      "faf83d65-eb10-4142-a0fb-aab57fb8cf26",
+      "866d668c-cc95-4bd8-a821-bfff7437d1cd",
+      "8fc4d7a1-4339-4520-847a-c93624b852b2"
+    ],
     "ordre": 1,
     "level": 1,
-    "createdAt": 1701188504247
+    "createdAt": 1701188504247,
+    "updatedAt": 1701188614916
   },
   {
     "ID": "1b2569c1-5845-44c6-b4eb-6cfb0a8d2a7e",

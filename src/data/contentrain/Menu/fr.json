@@ -110,5 +110,15 @@
     "ordre": 4,
     "level": 2,
     "createdAt": 1701164246254
+  },
+  {
+    "ID": "5287f136-36d8-4e9d-a253-82b9ca78dd7d",
+    "libelle": "Evenement",
+    "relative_url": "/services/evenement",
+    "external_url": "",
+    "children": "",
+    "ordre": 5,
+    "level": 2,
+    "createdAt": 1701164265805
   }
 ]

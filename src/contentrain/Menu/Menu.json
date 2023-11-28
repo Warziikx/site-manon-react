@@ -4,10 +4,14 @@
     "libelle": "Services",
     "internal_url": "/service",
     "external_url": "",
-    "children": "",
+    "children": [
+      "606933f3-2871-43d2-96a0-541234d1dd57",
+      "1b2569c1-5845-44c6-b4eb-6cfb0a8d2a7e"
+    ],
     "ordre": 1,
     "level": 0,
-    "createdAt": 1701188441230
+    "createdAt": 1701188441230,
+    "updatedAt": 1701188635441
   },
   {
     "ID": "e04db8e2-7ee2-45b0-8636-46ada80a35d1",

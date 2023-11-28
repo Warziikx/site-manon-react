@@ -1,6 +1,13 @@
 [
   {
-    "presentation": {},
+    "presentation": {
+      "ID": "b8b1a46f-0f40-46b1-9724-0c8a1e5f1de0",
+      "surtitle": "Manon Bertho | Studio Creatif",
+      "title": "Manon - Graphiste et Photographe Freelance",
+      "description": "<p>Bienvenue dans mon univers , où la créativité rencontre la précision. En tant que photographe et graphiste, je façonne des images et des univers graphiques saisissants, alignés sur votre personnalité.</p><p><br></p><p>Vous souhaitez uniquement une séance photo pour vous faire plaisir, ou retravailler votre image en tant que marque, je suis à l’écoute de vos envies.</p><p><br></p><p>Grâce à mon expertise, je donne vie à des supports percutants (Print ou Digital). Maîtrisant les codes visuels, je crée une esthétique cohérente et mémorable à votre image.</p><p><br></p><p>Que vous soyez particulier ou professionnel, explorez mon portfolio pour découvrir comment nous pouvons travailler ensemble.</p>",
+      "image": "src/assets/1701189012933_1701165939542_manon.jpg",
+      "createdAt": 1701189014232
+    },
     "createdAt": 1701188946486,
     "ID": "9b8edbcf-f9ef-4371-84c7-909d6977e19c"
   }

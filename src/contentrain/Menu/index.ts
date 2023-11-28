@@ -3,7 +3,7 @@ import _menuList from "@/contentrain/Menu/Menu.json";
 interface ContentRainMenu {
 	ID: string;
 	libelle: string;
-	relative_url?: string | undefined;
+	internal_url?: string | undefined;
 	external_url?: string | undefined;
 	children: string[] | string;
 	level: number;
@@ -13,7 +13,7 @@ interface ContentRainMenu {
 export interface Menu {
 	ID: string;
 	libelle: string;
-	relative_url?: string | undefined;
+	internal_url?: string | undefined;
 	external_url?: string | undefined;
 	children: string[];
 	childrenObject?: Menu[];
@@ -58,7 +58,9 @@ const createMenuLevel = (menuList: Menu[], level: number) => {
 
 const createMenu = (menuList: Menu[]) => {
 	let firstLevelMenuWithoutChildren = menuList.filter((m: Menu) => m.children.length === 0).filter((m: Menu) => m.level === 0);
-	return [...createMenuLevel(menuList, 0), ...firstLevelMenuWithoutChildren];
+	let data = [...createMenuLevel(menuList, 0), ...firstLevelMenuWithoutChildren];
+	console.log(data)
+	return data
 };
 
 export const menuList = createMenu(objMenuList);

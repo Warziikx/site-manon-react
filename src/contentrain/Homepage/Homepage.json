@@ -5,7 +5,7 @@
       "surtitle": "Manon Bertho | Studio Creatif",
       "title": "Manon - Graphiste et Photographe Freelance",
       "description": "<p>Bienvenue dans mon univers , où la créativité rencontre la précision. En tant que photographe et graphiste, je façonne des images et des univers graphiques saisissants, alignés sur votre personnalité.</p><p>Vous souhaitez uniquement une séance photo pour vous faire plaisir, ou retravailler votre image en tant que marque, je suis à l’écoute de vos envies.</p><p>Grâce à mon expertise, je donne vie à des supports percutants (Print ou Digital). Maîtrisant les codes visuels, je crée une esthétique cohérente et mémorable à votre image.</p><p>Que vous soyez particulier ou professionnel, explorez mon portfolio pour découvrir comment nous pouvons travailler ensemble.</p>",
-      "image": "src/assets/1701193259471_01042021-_OB_22922.jpg",
+      "image": "public/1701193259471_01042021-_OB_22922.jpg",
       "createdAt": 1701189014232,
       "updatedAt": 1701193262890
     },
@@ -18,21 +18,21 @@
         {
           "ID": "da6accba-d7b6-406a-8f52-8f7703280fcb",
           "description": "<p>Capturer l'instant, figer l'émotion. Que ce soit pour des événements spéciaux, des portraits ou des moments du quotidien, chaque photo raconte une histoire unique. Mon objectif est de saisir la quintessence de chaque instant, immortalisant des moments précieux que vous chérirez pour toujours.</p>",
-          "image": "src/assets/1701189152201_dot-bleu.svg",
+          "image": "public/1701189152201_dot-bleu.svg",
           "ordre": 1,
           "createdAt": 1701189154613
         },
         {
           "ID": "514276c6-00bc-43c0-8beb-4c9d0e4c2561",
           "description": "<p>Donnez vie à vos événements avec une papeterie exceptionnelle. Je fusionne la photographie avec l'art graphique pour concevoir des supports uniques et mémorables. Chaque détail est soigneusement orchestré, depuis les images capturées spécialement pour vous jusqu'à la mise en page élégante. Offrez à votre papeterie (Fairs part, invitation) une touche personnelle et faites de chaque moment une expérience à part entière.</p>",
-          "image": "src/assets/1701189182711_dot-rose.svg",
+          "image": "public/1701189182711_dot-rose.svg",
           "ordre": 2,
           "createdAt": 1701189183863
         },
         {
           "ID": "e5f0dde0-4ea2-4084-a327-6b108e39a6d7",
           "description": "<p>Votre entreprise a une histoire à raconter, une identité à affirmer. À travers mon service complet de création d'identité visuelle, je marie l'art photographique au design graphique pour donner vie à la personnalité unique de votre entreprise. Des portraits évocateurs aux images de produits captivantes, chaque photo est soigneusement intégrée, contribuant à une identité visuelle distinctive. Faites une première impression mémorable et construisez une image de marque forte avec une identité visuelle qui vous distingue sur le marché.</p>",
-          "image": "src/assets/1701189191118_dot-rouge.svg",
+          "image": "public/1701189191118_dot-rouge.svg",
           "ordre": 3,
           "createdAt": 1701189199489
         }
@@ -46,7 +46,7 @@
         {
           "ID": "fe7878dd-8ad1-460b-aad9-7d09f577f725",
           "title": "Photographie",
-          "image": "src/assets/1701189534818_prestation_photo.svg",
+          "image": "public/1701189534818_prestation_photo.svg",
           "list": [
             "Portraits (Self-love)",
             "Famille (Couple, Grossesse)",
@@ -58,7 +58,7 @@
         {
           "ID": "ed94a722-9520-4c85-9c3c-dbb8beec2994",
           "title": "Graphisme",
-          "image": "src/assets/1701189542974_prestation_graphisme.svg",
+          "image": "public/1701189542974_prestation_graphisme.svg",
           "list": [
             "Identitée visuelle",
             "Papeterie",
@@ -72,7 +72,7 @@
     "testimonial": [
       {
         "ID": "c78bf9a9-fb62-4020-86c9-ed83bf7f5809",
-        "image": "src/assets/1701193774528_maelle2.webp",
+        "image": "public/1701193774528_maelle2.webp",
         "description": "<p>Une séance au top, je recommande vraiment</p>",
         "author": "Maelle",
         "ordre": 1,
@@ -80,7 +80,7 @@
       },
       {
         "ID": "ce3d5ef9-c9b0-4cf4-863f-becf5a143ce4",
-        "image": "src/assets/1701193794019_laura.webp",
+        "image": "public/1701193794019_laura.webp",
         "description": "<p>Une séance au top, je recommande vraiment</p>",
         "author": "Laura",
         "ordre": 2,
@@ -88,7 +88,7 @@
       },
       {
         "ID": "b5eb8b62-5759-4c81-ac1a-22ad1a08c86c",
-        "image": "src/assets/1701193802302_enora2.webp",
+        "image": "public/1701193802302_enora2.webp",
         "description": "<p>Une séance au top, je recommande vraiment</p>",
         "author": "Enora",
         "ordre": 3,

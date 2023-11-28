@@ -38,5 +38,15 @@
     "ordre": 4,
     "level": 0,
     "createdAt": 1701188480801
+  },
+  {
+    "ID": "606933f3-2871-43d2-96a0-541234d1dd57",
+    "libelle": "Photographie",
+    "internal_url": "/service/photographie",
+    "external_url": "",
+    "children": "",
+    "ordre": 1,
+    "level": 1,
+    "createdAt": 1701188504247
   }
 ]

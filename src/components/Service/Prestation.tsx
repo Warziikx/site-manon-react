@@ -1,4 +1,4 @@
-import { IPrestation } from "@/data/contentrain/Services";
+import { IPrestation } from "@/contentrain/Service";
 
 import { Link } from "@tanstack/react-router";
 import { motion, useInView } from "framer-motion";

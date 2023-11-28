@@ -1,6 +1,6 @@
 import { Link, Navigate, useParams } from "@tanstack/react-router";
 
-import { IPricingObj, getBySlug } from "@/data/contentrain/Services";
+import { IPricingObj, getBySlug } from "@/contentrain/Service";
 
 import { serviceDetailRoute } from "@/Router";
 import { Prestation } from "@/components/Service/Prestation";

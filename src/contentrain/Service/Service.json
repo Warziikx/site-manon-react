@@ -1,6 +1,7 @@
 [
   {
     "ID": "337e4fd5-aa85-4c28-9917-14edf010bc32",
+    "createdAt": 1701194496266,
     "title": "Portrait - Self Love",
     "image": "public/1701194495220_enora2.webp",
     "description": "<p>Envie de reprendre confiance en toi à travers un shooting photo ou bien tout simplement te faire plaisir ? Que ce soit au cœur de la nature, ou en studio, la formule de portrait / Self Love est faite pour toi.</p><p>C'est bien plus qu'une simple séance photo, c'est une expérience qui capture l'authenticité de qui tu es. En extérieur, la lumière naturelle et les décors variés deviennent le cadre idéal pour révéler ta beauté naturelle. Chaque instant devient une opportunité de capturer des expressions spontanées, des émotions sincères et de créer des souvenirs qui durent.</p><p>Si tu préfères l'intimité d'un studio, nous façonnons l'éclairage et l'ambiance pour mettre en lumière ta personnalité de manière unique. Chaque expression, chaque nuance, est capturée avec une précision artistique, transformant la séance en une véritable célébration de toi-même.</p><p>Prêt(e) à explorer des lieux magnifiques tout en mettant en lumière ce qui te rend exceptionnel(le) ? Cette aventure photographique en extérieur t'offre l'opportunité de célébrer ta beauté naturelle d'une manière totalement authentique.\\tRéserve dès maintenant et laisse-nous capturer la meilleure version de toi-même, dans des décors qui feront écho à la richesse de ta personnalité.</p>",
@@ -9,7 +10,103 @@
     "type": "photographie",
     "slug": "portrait",
     "ordre": 1,
-    "step": [],
-    "createdAt": 1701194496266
+    "step": {
+      "list": [
+        {
+          "ID": "7e6aeccd-e7e8-4800-b630-43bf5ab29ea5",
+          "description": "<p>On discute de ton projet, defini la date et le lieu</p>",
+          "image": "public/1701177711691_dot-bleu.svg",
+          "ordre": 1,
+          "createdAt": 1701177712515
+        },
+        {
+          "ID": "165d8023-f3c9-4bf1-baa0-f4b1e6f2199f",
+          "description": "<p>Shooting</p>",
+          "image": "public/1701177723064_dot-rose.svg",
+          "ordre": 2,
+          "createdAt": 1701177724341
+        },
+        {
+          "ID": "13904396-fa7f-4ae4-ad57-de32734c3efa",
+          "description": "<p>Tu choisi le nombre de photo</p>",
+          "image": "public/1701177732385_dot-rouge.svg",
+          "ordre": 3,
+          "createdAt": 1701177744455
+        }
+      ],
+      "createdAt": 1701177680679,
+      "ID": "da9d1044-2705-4a0f-b2f6-2c0fec3048fd",
+      "title": "Le dérouler d'une seance",
+      "updatedAt": 1701177797125
+    },
+    "pricing": {
+      "ID": "06acfbec-3131-44cc-b8f5-fbdda2c85a0b",
+      "title": "Les tarifs",
+      "list": [
+        {
+          "ID": "9e128f9e-ebe6-4caf-be8d-38e45051e007",
+          "title": "En studio",
+          "subtitle": "Ces tarifs comprennent la location du studio, la prise de vue et le post traitement",
+          "list": ["5 photos - 100€", "10 photos - 150€", "20 photos - 200€"],
+          "createdAt": 1701178288240
+        },
+        {
+          "ID": "f866b8bb-8caf-4261-9775-ad4ab9bdfc7f",
+          "title": "En exterieur",
+          "subtitle": "Ces tarifs comprennent les frais de déplacement en Ille-et-Vilaine, la prise de vue et le post traitement",
+          "list": ["5 photos - 60€", "10 photos - 100€", "20 photos - 150€"],
+          "createdAt": 1701178299024
+        }
+      ],
+      "createdAt": 1701178276229
+    }
+  },
+  {
+    "ID": "f400620e-44d0-4810-b8cd-5485c88fbe5c",
+    "title": "Famille - Couple - Grossesse",
+    "image": "public/1701176310950_louise2.webp",
+    "slug": "famile",
+    "surtitle": "Photographie",
+    "description": "<p>Capturer les moments précieux en famille, immortaliser la complicité d'un couple ou célébrer l'attente d'un nouveau chapitre de vie, notre séance photo offre une expérience unique pour tous les moments marquants de ta vie.</p><p><br></p><p>Que vous souhaitiez conserver des souvenirs complices en famille, capturer l'amour qui unit un couple ou documenter la douce anticipation de l'arrivée d'un nouveau membre, cette formule est conçue pour rendre chaque instant inoubliable.</p><p><br></p><p>Au cœur de la nature, dans votre cocon familial ou en studio, chaque lieu devient le décor idéal pour mettre en lumière les liens qui vous unissent. Les sourires complices, les étreintes chaleureuses et les moments de bonheur authentique sont capturés avec soin, transformant chaque cliché en un témoignage visuel de l'amour et de la joie partagés.</p><p><br></p><p>Réservez dès maintenant pour une expérience qui va au-delà de la simple séance photo. Laissez-moi capturer l'essence de votre bonheur, créer des souvenirs qui durent et vous offrir des images qui racontent votre histoire avec authenticité et émotion.</p>",
+    "display": "right",
+    "type": "photographie",
+    "ordre": 2,
+    "createdAt": 1701176312142
+  },
+  {
+    "ID": "0f8659f8-77bd-430d-aee0-3904190f2e06",
+    "title": "Animaux",
+    "image": "public/1701176377336_maelle2.webp",
+    "slug": "animaux",
+    "surtitle": "Photographie",
+    "description": "<p>Parce que nos amis à fourrure ou à crinière font partie intégrante de nos vies, cette prestation photo avec les animaux célèbre la complicité unique que nous partageons avec nos compagnons. Que ce soit avec votre chien fidèle, votre majestueux cheval ou tout autre ami à quatre pattes, cette séance est là pour capturer la beauté de ces liens incommensurables.</p><p><br></p><p>Imaginez-vous dans des décors enchanteurs, au cœur de la nature ou dans des lieux qui évoquent l'aventure. Chaque photo devient une histoire captivante, un instantané de votre connexion spéciale avec vos animaux. Que ce soit la fougue et la loyauté d'un chien, la grâce majestueuse d'un cheval, ou la complicité joyeuse avec vos animaux de compagnie, chaque cliché capture l'essence de cette relation unique.</p><p><br></p><p>Réservez dès maintenant pour une expérience où vos animaux seront les stars. Laissez-moi immortaliser ces instants de complicité, créant des souvenirs qui réchaufferont votre cœur à chaque regard porté sur ces images. Préparez-vous à voir la personnalité unique de vos compagnons à quatre pattes prendre vie, transformant chaque photo en une œuvre d'art qui témoigne de l'amour inconditionnel et de la beauté de ces précieux moments partagés.</p>",
+    "display": "left",
+    "type": "photographie",
+    "ordre": 3,
+    "createdAt": 1701176378962
+  },
+  {
+    "ID": "ce8d67c0-1afc-429f-8301-24caa5065cce",
+    "title": "Packshot",
+    "image": "public/1701176463146_tarte_cut.webp",
+    "slug": "packshot",
+    "surtitle": "Photographie",
+    "description": "<p>Vous êtes un professionnel, conscient de l'importance de l'image dans le monde des affaires. Notre prestation de packshot offre une solution complète pour sublimer vos produits et renforcer votre présence sur le marché.</p><p><br></p><p>Chaque cliché est pensé avec précision pour mettre en valeur les détails, la qualité et l'unicité de vos articles. Que vous soyez dans le secteur de la mode, de l'alimentation ou de tout autre domaine, je vous accompagne dans la création des images exceptionnelles qui reflètent l'excellence de votre marque.</p><p>\t</p><p>Optez pour la prestation de packshot et donnez à vos produits l'attention visuelle qu'ils méritent. Renforcez votre identité de marque, stimulez vos ventes et positionnez-vous en tant que leader dans votre secteur. Contactez-moi dès maintenant pour discuter de la manière dont nous pouvons mettre en lumière le meilleur de votre entreprise à travers des images qui parlent à votre clientèle cible.</p>",
+    "display": "right",
+    "type": "photographie",
+    "ordre": 4,
+    "createdAt": 1701176502858
+  },
+  {
+    "ID": "f2a4bd44-4c50-4562-9f50-6e23ede965a1",
+    "title": "Evenement",
+    "image": "public/1701176533966_traiteur_byd1.webp",
+    "slug": "evenement",
+    "surtitle": "Photographie",
+    "description": "<p>Chaque moment spécial mérite d'être capturé avec une précision et une sensibilité qui transcendent le simple cliché. En tant que photographe d'événements, ma mission est de transformer les moments éphémères en souvenirs éternels, figeant l'émotion et la beauté de chaque instant.</p><p><br></p><p>Que ce soit pour immortaliser l'amour partagé lors d'un mariage, la joie contagieuse d'un baptême ou tout autre événement marquant, je suis là pour saisir l'essence même de chaque occasion. Chaque détail compte, chaque regard, chaque sourire, chaque émotion raconte une histoire unique.</p><p><br></p><p>Le jour de votre mariage, laissez-nous capturer la magie de l'amour qui unit deux personnes. Chaque photo devient un témoignage visuel de cet engagement profond, une histoire d'amour racontée à travers des images qui traverseront les générations.</p><p><br></p><p>Pour un baptême, chaque rire d'enfant, chaque émotion partagée entre amis et famille, est immortalisé avec une délicatesse particulière. Chaque cliché devient un héritage visuel, un témoignage précieux de ce moment de célébration et de spiritualité.</p><p><br></p><p>Mon approche discrète mais attentive me permet de capturer l'authenticité de chaque moment sans perturber le déroulement naturel de l'événement. Que vous préfériez des clichés spontanés ou des portraits posés, notre équipe s'adapte à vos besoins pour créer un album qui reflète véritablement l'atmosphère unique de votre événement.</p><p><br></p><p>Réservez dès maintenant  votre prestation de photographe d'événements et offrez-vous la tranquillité d'esprit en sachant que chaque instant inoubliable sera préservé de manière artistique et significative. Parce que la vie est faite de moments précieux, et nous sommes là pour les capturer, les chérir et les rendre intemporels</p>",
+    "display": "left",
+    "type": "photographie",
+    "ordre": 5,
+    "createdAt": 1701176590726
   }
 ]

@@ -98,5 +98,15 @@
     "ordre": 3,
     "level": 2,
     "createdAt": 1701188582033
+  },
+  {
+    "ID": "8fc4d7a1-4339-4520-847a-c93624b852b2",
+    "libelle": "Evenement",
+    "internal_url": "/service/photographie/evenement",
+    "external_url": "",
+    "children": "",
+    "ordre": 5,
+    "level": 2,
+    "createdAt": 1701188594000
   }
 ]

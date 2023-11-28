@@ -26,6 +26,13 @@
           "image": "public/1701177723064_dot-rose.svg",
           "ordre": 2,
           "createdAt": 1701177724341
+        },
+        {
+          "ID": "13904396-fa7f-4ae4-ad57-de32734c3efa",
+          "description": "<p>Tu choisi le nombre de photo</p>",
+          "image": "public/1701177732385_dot-rouge.svg",
+          "ordre": 3,
+          "createdAt": 1701177744455
         }
       ],
       "createdAt": 1701177680679,

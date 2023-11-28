@@ -121,11 +121,12 @@
   {
     "ID": "5287f136-36d8-4e9d-a253-82b9ca78dd7d",
     "libelle": "Evenement",
-    "relative_url": "/services/evenement",
+    "relative_url": "/service/photographie/evenement",
     "external_url": "",
     "children": "",
     "ordre": 5,
     "level": 2,
-    "createdAt": 1701164265805
+    "createdAt": 1701164265805,
+    "updatedAt": 1701176928824
   }
 ]

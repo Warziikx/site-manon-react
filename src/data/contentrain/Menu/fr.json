@@ -35,14 +35,18 @@
   {
     "ID": "1a0fe671-ff11-4694-8173-8da12b503787",
     "libelle": "Photographie",
-    "relative_url": "/photographie",
+    "relative_url": "/service",
     "external_url": "",
     "children": [
-      "0a5d98f1-d494-4d00-aba4-a7df81832436"
+      "0a5d98f1-d494-4d00-aba4-a7df81832436",
+      "08eb8986-c5c6-4112-acf0-3eee24cf2021",
+      "38c64f7e-b17b-4c07-952b-13dc17db8dd9",
+      "8b64bb40-3177-47bb-80c2-ffc6ecfb09a7",
+      "5287f136-36d8-4e9d-a253-82b9ca78dd7d"
     ],
     "ordre": 1,
     "createdAt": 1701105762313,
-    "updatedAt": 1701160964411,
+    "updatedAt": 1701164295770,
     "level": 1
   },
   {

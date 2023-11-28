@@ -97,7 +97,15 @@
       },
       {
         "createdAt": 1701203095320,
-        "ID": "cfcbfec0-5029-40d4-a499-5eba256c3cdc"
+        "ID": "cfcbfec0-5029-40d4-a499-5eba256c3cdc",
+        "images": [
+          {
+            "ID": "363bf07e-8c9f-4d5f-86ec-a2c3f81df711",
+            "image": "public/1701204274744_enora2.webp",
+            "ordre": 1,
+            "createdAt": 1701204277296
+          }
+        ]
       }
     ]
   },

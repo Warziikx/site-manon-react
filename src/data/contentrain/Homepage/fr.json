@@ -25,6 +25,13 @@
           "image": "public/1701166773128_dot-rose.svg",
           "ordre": 2,
           "createdAt": 1701166775444
+        },
+        {
+          "ID": "1dcb8b72-0115-4bfc-bf63-50b730b1b9ce",
+          "description": "<p>Votre entreprise a une histoire à raconter, une identité à affirmer. À travers mon service complet de création d'identité visuelle, je marie l'art photographique au design graphique pour donner vie à la personnalité unique de votre entreprise. Des portraits évocateurs aux images de produits captivantes, chaque photo est soigneusement intégrée, contribuant à une identité visuelle distinctive. Faites une première impression mémorable et construisez une image de marque forte avec une identité visuelle qui vous distingue sur le marché.</p>",
+          "image": "public/1701166789747_dot-rouge.svg",
+          "ordre": 3,
+          "createdAt": 1701166791213
         }
       ],
       "createdAt": 1701166653287

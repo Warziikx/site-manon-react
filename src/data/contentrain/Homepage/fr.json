@@ -8,7 +8,12 @@
       "image": "public/1701165939542_manon.jpg",
       "createdAt": 1701165940430
     },
-    "why_me": {},
+    "why_me": {
+      "ID": "b1b84305-acb8-4b0a-9b11-6e57b5fbe3c1",
+      "title": "Pourquoi travailer avec moi ?",
+      "list": [],
+      "createdAt": 1701166653287
+    },
     "prestation": {},
     "createdAt": 1701165831180,
     "ID": "8a41bfd4-6425-4455-8f00-6e5a717c4b8b"

@@ -12,7 +12,15 @@
     "type": "photographie",
     "ordre": 1,
     "step": {
-      "list": [],
+      "list": [
+        {
+          "ID": "7e6aeccd-e7e8-4800-b630-43bf5ab29ea5",
+          "description": "<p>On discute de ton projet, defini la date et le lieu</p>",
+          "image": "public/1701177711691_dot-bleu.svg",
+          "ordre": 1,
+          "createdAt": 1701177712515
+        }
+      ],
       "createdAt": 1701177680679,
       "ID": "da9d1044-2705-4a0f-b2f6-2c0fec3048fd"
     }

@@ -97,10 +97,11 @@
       {
         "ID": "265093cb-5359-445c-b1ef-944a5405d3bd",
         "image": "public/1701206698880_lauralie2.webp",
-        "description": "<p>Ma séance photo avec Manon a été incroyable. Son professionnalisme et sa créativité ont donné naissance à des images remarquables. Elle a su capturer chaque moment avec précision et attention aux détails. Je recommande fortement</p>",
+        "description": "<p>Ma séance photo avec Manon a été incroyable. Son professionnalisme et sa créativité ont donné naissance à des images remarquables. Je recommande fortement</p>",
         "author": "Lauralie",
         "ordre": 0,
-        "createdAt": 1701206744189
+        "createdAt": 1701206744189,
+        "updatedAt": 1701206867713
       }
     ]
   }

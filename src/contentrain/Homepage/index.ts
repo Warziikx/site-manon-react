@@ -27,7 +27,6 @@ export interface IPrestationObj {
 export interface ITestimonial {
     ID: string;
     createdAt: number;
-    updatedAt: number;
     author: string;
     description: string;
     image: string;
@@ -38,9 +37,9 @@ export interface HomepageData {
     ID: string;
     createdAt: number;
     presentation: IPresentation;
-    prestation?: IPrestation;
-    why_me?: INumberFeatures;
-    testimonial?: ITestimonial[];
+    prestation: IPrestation;
+    why_me: INumberFeatures;
+    testimonial: ITestimonial[];
 }
 
 export const homepage = _homepage[0] as HomepageData;

@@ -1,5 +1,13 @@
 import { useEffect } from "react";
 
+declare global {
+	interface Window {
+		hbspt: any;
+	}
+}
+
+window.hbspt = window.hbspt || {};
+
 export const ContactPage: React.FC = () => {
 	useEffect(() => {
 		const script = document.createElement("script");
@@ -7,9 +15,7 @@ export const ContactPage: React.FC = () => {
 		document.body.appendChild(script);
 
 		script.addEventListener("load", () => {
-			// @TS-ignore
 			if (window.hbspt) {
-				// @TS-ignore
 				window.hbspt.forms.create({
 					region: "eu1",
 					portalId: "143624250",

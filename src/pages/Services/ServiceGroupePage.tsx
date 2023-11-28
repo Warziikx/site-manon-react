@@ -30,3 +30,5 @@ export const ServiceGroupePage: React.FC = () => {
         </div>
     );
 };
+
+export default ServiceGroupePage;

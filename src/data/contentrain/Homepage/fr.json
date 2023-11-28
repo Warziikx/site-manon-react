@@ -74,7 +74,9 @@
         "image": "public/1701168050835_maelle2.webp",
         "description": "<p>Une séance au top, je recommande vraiment</p>",
         "author": "Maelle",
-        "createdAt": 1701168052399
+        "createdAt": 1701168052399,
+        "ordre": 1,
+        "updatedAt": 1701168370738
       },
       {
         "ID": "0b3da933-3613-41f8-85a9-5238f30f9a7e",

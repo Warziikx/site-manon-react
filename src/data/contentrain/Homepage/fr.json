@@ -67,6 +67,15 @@
       "createdAt": 1701167213086
     },
     "createdAt": 1701165831180,
-    "ID": "8a41bfd4-6425-4455-8f00-6e5a717c4b8b"
+    "ID": "8a41bfd4-6425-4455-8f00-6e5a717c4b8b",
+    "testimonial": [
+      {
+        "ID": "3cf0588b-ef72-4bcc-b21f-02fd36950301",
+        "image": "public/1701168050835_maelle2.webp",
+        "description": "<p>Une séance au top, je recommande vraiment</p>",
+        "author": "Maelle",
+        "createdAt": 1701168052399
+      }
+    ]
   }
 ]

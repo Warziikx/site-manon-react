@@ -77,13 +77,13 @@
   {
     "ID": "0a5d98f1-d494-4d00-aba4-a7df81832436",
     "libelle": "Portrait - Self Love",
-    "relative_url": "/services/portrait",
+    "relative_url": "/service/photographie/portrait",
     "external_url": "",
     "children": "",
     "ordre": 1,
     "createdAt": 1701160197491,
     "level": 2,
-    "updatedAt": 1701160982505
+    "updatedAt": 1701176894913
   },
   {
     "ID": "08eb8986-c5c6-4112-acf0-3eee24cf2021",

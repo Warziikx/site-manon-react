@@ -5,7 +5,6 @@ import { NumberFeatures } from "@/components/Widget/Features/NumberFeatures";
 import { Presentation } from "@/components/Homepage/Presentation";
 
 import { IllustrationFeatures } from "@/components/Widget/Features/IllustrationFeatures";
-import { Testimonial1 } from "@/components/Widget/Testimonial/Testimonial1";
 import { CallToAction } from "@/components/Widget/CallToAction";
 import SmoothScroll from "@/components/Widget/SmoothScroll";
 

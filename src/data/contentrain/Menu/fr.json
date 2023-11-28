@@ -99,12 +99,13 @@
   {
     "ID": "38c64f7e-b17b-4c07-952b-13dc17db8dd9",
     "libelle": "Animaux",
-    "relative_url": "/services/animaux",
+    "relative_url": "/service/photographie/animaux",
     "external_url": "",
     "children": [],
     "ordre": 3,
     "level": 2,
-    "createdAt": 1701164216803
+    "createdAt": 1701164216803,
+    "updatedAt": 1701176910697
   },
   {
     "ID": "8b64bb40-3177-47bb-80c2-ffc6ecfb09a7",

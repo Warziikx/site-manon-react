@@ -1,4 +1,4 @@
-import { INumberFeatures, INumberFeature } from "@/data/Widget";
+import { INumberFeatures, INumberFeature } from "@/contentrain/Widget";
 
 interface NumberFeaturesPropos {
   data: INumberFeatures;

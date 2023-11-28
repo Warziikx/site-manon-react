@@ -1,7 +1,7 @@
 import darkLogo from "@/assets/images/logo-dark.png";
 
 import { Link } from "@tanstack/react-router";
-import { menuList, Menu } from "@/data/contentrain/Menu";
+import { menuList, Menu } from "@/contentrain/Menu";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { MenuButton } from "./MenuButton";

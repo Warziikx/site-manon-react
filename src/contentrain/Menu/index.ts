@@ -1,4 +1,4 @@
-import _menuList from "@/data/contentrain/Menu/fr.json";
+import _menuList from "@/contentrain/Menu/Menu.json";
 
 interface ContentRainMenu {
 	ID: string;

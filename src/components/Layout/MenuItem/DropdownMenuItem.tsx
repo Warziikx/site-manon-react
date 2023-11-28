@@ -1,4 +1,4 @@
-import { Menu } from "@/data/contentrain/Menu";
+import { Menu } from "@/contentrain/Menu";
 
 import { InternalMenuItem } from "./InternalMenuItem";
 import { ExternalMenuItem } from "./ExternalMenuItem";

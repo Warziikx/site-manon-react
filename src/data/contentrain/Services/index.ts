@@ -1,4 +1,4 @@
-import { INumberFeatures } from "@/data/Widget";
+import { INumberFeatures } from "@/contentrain/Widget";
 import _prestationList from "@/data/contentrain/Services/fr.json";
 
 // export interface PrestationPrincingData {

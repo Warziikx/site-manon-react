@@ -1,4 +1,4 @@
-import { homepage } from "@/data/contentrain/Homepage";
+import { homepage } from "@/contentrain/Homepage";
 
 import { Hero } from "@/components/Homepage/Hero";
 import { NumberFeatures } from "@/components/Widget/Features/NumberFeatures";
@@ -14,8 +14,8 @@ export const Homepage: React.FC = () => {
       <Hero />
       <Presentation data={homepage.presentation} />
       <NumberFeatures data={homepage.why_me} />
-      <IllustrationFeatures data={homepage.prestation} />
-      <Testimonial1 data={homepage.testimonial} />
+      {homepage.prestation && <IllustrationFeatures data={homepage.prestation} />}
+      {homepage.testimonial && <Testimonial1 data={homepage.testimonial} />}
       <CallToAction />
     </div>
   );

@@ -1,4 +1,4 @@
-import { ITestimonial } from "@/data/contentrain/Homepage";
+import { ITestimonial } from "@/contentrain/Homepage";
 
 interface Testimonial1Props {
 	data: ITestimonial[];

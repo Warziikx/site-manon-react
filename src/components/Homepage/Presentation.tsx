@@ -1,4 +1,4 @@
-import { IPresentation } from "@/data/contentrain/Homepage";
+import { IPresentation } from "@/contentrain/Homepage";
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";

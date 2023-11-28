@@ -1,4 +1,4 @@
-import { Menu } from "@/data/contentrain/Menu";
+import { Menu } from "@/contentrain/Menu";
 
 interface ExternalMenuItemProps {
 	menu: Menu;

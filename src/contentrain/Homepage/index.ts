@@ -1,5 +1,5 @@
-import { INumberFeatures } from "@/data/Widget";
-import _homepage from "@/data/contentrain/Homepage/fr.json";
+import { INumberFeatures } from "@/contentrain/Widget";
+import _homepage from "@/contentrain/Homepage/Homepage.json";
 
 export interface IPresentation {
     ID: string;
@@ -38,9 +38,9 @@ export interface HomepageData {
     ID: string;
     createdAt: number;
     presentation: IPresentation;
-    prestation: IPrestation;
-    why_me: INumberFeatures;
-    testimonial: ITestimonial[];
+    prestation?: IPrestation;
+    why_me?: INumberFeatures;
+    testimonial?: ITestimonial[];
 }
 
 export const homepage = _homepage[0] as HomepageData;

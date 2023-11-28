@@ -39,7 +39,17 @@ export default defineConfig({
       },
     }),
   ],
-  build: { outDir: "./build" },
+  build: {
+    outDir: "./build",
+    rollupOptions: {
+      output: {
+
+        assetFileNames: (assetInfo) => {
+          return `public/[name]-[hash][extname]`;
+        },
+      },
+    },
+  },
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },

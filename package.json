@@ -12,7 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@formspree/react": "^2.5.1",
     "@tanstack/react-router": "^0.0.1-beta.194",
     "flowbite": "^2.1.1",
     "framer-motion": "^10.16.4",

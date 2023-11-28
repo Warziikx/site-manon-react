@@ -1,6 +1,6 @@
 import darkLogo from "@/assets/images/logo-dark.png";
 
-import { menuList, Menu } from "@/data/contentrain/Menu";
+import { menuList, Menu } from "@/contentrain/Menu";
 import { Link } from "@tanstack/react-router";
 
 export const Footer: React.FC = () => {

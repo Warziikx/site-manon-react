@@ -1,4 +1,4 @@
-import { IPrestation, IPrestationObj } from "@/data/contentrain/Homepage";
+import { IPrestation, IPrestationObj } from "@/contentrain/Homepage";
 
 interface NumberFeaturesPropos {
   data: IPrestation;

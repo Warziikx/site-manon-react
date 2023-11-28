@@ -88,5 +88,15 @@
     "ordre": 3,
     "level": 2,
     "createdAt": 1701188569770
+  },
+  {
+    "ID": "866d668c-cc95-4bd8-a821-bfff7437d1cd",
+    "libelle": "Packshot",
+    "internal_url": "/service/photographie/packshot",
+    "external_url": "",
+    "children": "",
+    "ordre": 3,
+    "level": 2,
+    "createdAt": 1701188582033
   }
 ]

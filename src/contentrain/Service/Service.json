@@ -1,0 +1,15 @@
+[
+  {
+    "ID": "337e4fd5-aa85-4c28-9917-14edf010bc32",
+    "title": "Portrait - Self Love",
+    "image": "src/assets/1701194495220_enora2.webp",
+    "description": "<p>Envie de reprendre confiance en toi à travers un shooting photo ou bien tout simplement te faire plaisir ? Que ce soit au cœur de la nature, ou en studio, la formule de portrait / Self Love est faite pour toi.</p><p>C'est bien plus qu'une simple séance photo, c'est une expérience qui capture l'authenticité de qui tu es. En extérieur, la lumière naturelle et les décors variés deviennent le cadre idéal pour révéler ta beauté naturelle. Chaque instant devient une opportunité de capturer des expressions spontanées, des émotions sincères et de créer des souvenirs qui durent.</p><p>Si tu préfères l'intimité d'un studio, nous façonnons l'éclairage et l'ambiance pour mettre en lumière ta personnalité de manière unique. Chaque expression, chaque nuance, est capturée avec une précision artistique, transformant la séance en une véritable célébration de toi-même.</p><p>Prêt(e) à explorer des lieux magnifiques tout en mettant en lumière ce qui te rend exceptionnel(le) ? Cette aventure photographique en extérieur t'offre l'opportunité de célébrer ta beauté naturelle d'une manière totalement authentique.\\tRéserve dès maintenant et laisse-nous capturer la meilleure version de toi-même, dans des décors qui feront écho à la richesse de ta personnalité.</p>",
+    "surtitle": "Photographie",
+    "display": "left",
+    "type": "photographie",
+    "slug": "portrait",
+    "ordre": 1,
+    "step": [],
+    "createdAt": 1701194496266
+  }
+]

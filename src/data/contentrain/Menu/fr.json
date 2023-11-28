@@ -110,12 +110,13 @@
   {
     "ID": "8b64bb40-3177-47bb-80c2-ffc6ecfb09a7",
     "libelle": "Packshot",
-    "relative_url": "/services/packshot",
+    "relative_url": "/service/photographie/packshot",
     "external_url": "",
     "children": "",
     "ordre": 4,
     "level": 2,
-    "createdAt": 1701164246254
+    "createdAt": 1701164246254,
+    "updatedAt": 1701176919487
   },
   {
     "ID": "5287f136-36d8-4e9d-a253-82b9ca78dd7d",

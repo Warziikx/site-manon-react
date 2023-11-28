@@ -50,6 +50,13 @@
           "subtitle": "Ces tarifs comprennent la location du studio, la prise de vue et le post traitement",
           "list": [],
           "createdAt": 1701178288240
+        },
+        {
+          "ID": "f866b8bb-8caf-4261-9775-ad4ab9bdfc7f",
+          "title": "En exterieur",
+          "subtitle": "Ces tarifs comprennent les frais de déplacement en Ille-et-Vilaine, la prise de vue et le post traitement",
+          "list": [],
+          "createdAt": 1701178299024
         }
       ],
       "createdAt": 1701178276229

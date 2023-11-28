@@ -90,5 +90,15 @@
     "ordre": 2,
     "level": 2,
     "createdAt": 1701164193609
+  },
+  {
+    "ID": "38c64f7e-b17b-4c07-952b-13dc17db8dd9",
+    "libelle": "Animaux",
+    "relative_url": "/services/animaux",
+    "external_url": "",
+    "children": [],
+    "ordre": 3,
+    "level": 2,
+    "createdAt": 1701164216803
   }
 ]

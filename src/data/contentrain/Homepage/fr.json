@@ -83,7 +83,9 @@
         "image": "public/1701168070650_laura.webp",
         "description": "<p>Une séance au top, je recommande vraiment</p>",
         "author": "Laura",
-        "createdAt": 1701168074215
+        "createdAt": 1701168074215,
+        "ordre": 2,
+        "updatedAt": 1701168375071
       },
       {
         "ID": "f195a067-284e-4a59-9f79-89a0cdefef17",

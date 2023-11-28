@@ -80,7 +80,9 @@
         "ID": "5c0a4b76-6c43-4242-a91d-7a8986a5484d"
       },
       {
-        "images": [],
+        "images": [
+          "public/1701203106446_lauralie2.webp"
+        ],
         "createdAt": 1701203095320,
         "ID": "cfcbfec0-5029-40d4-a499-5eba256c3cdc"
       }

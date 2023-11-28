@@ -11,7 +11,15 @@
     "why_me": {
       "ID": "b1b84305-acb8-4b0a-9b11-6e57b5fbe3c1",
       "title": "Pourquoi travailer avec moi ?",
-      "list": [],
+      "list": [
+        {
+          "ID": "034e9b19-0f31-451b-ba0d-bb052a74eeaf",
+          "description": "<p>Capturer l'instant, figer l'émotion. Que ce soit pour des événements spéciaux, des portraits ou des moments du quotidien, chaque photo raconte une histoire unique. Mon objectif est de saisir la quintessence de chaque instant, immortalisant des moments précieux que vous chérirez pour toujours.</p>",
+          "image": "public/1701166743849_dot-bleu.svg",
+          "ordre": 1,
+          "createdAt": 1701166745556
+        }
+      ],
       "createdAt": 1701166653287
     },
     "prestation": {},

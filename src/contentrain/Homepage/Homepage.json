@@ -47,7 +47,9 @@
           "ID": "fe7878dd-8ad1-460b-aad9-7d09f577f725",
           "title": "Photographie",
           "image": "src/assets/1701189534818_prestation_photo.svg",
-          "list": [],
+          "list": [
+            "Portraits (Self-love)"
+          ],
           "createdAt": 1701189536043
         },
         {

@@ -20,6 +20,13 @@
           "image": "src/assets/1701189152201_dot-bleu.svg",
           "ordre": 1,
           "createdAt": 1701189154613
+        },
+        {
+          "ID": "514276c6-00bc-43c0-8beb-4c9d0e4c2561",
+          "description": "<p>Donnez vie à vos événements avec une papeterie exceptionnelle. Je fusionne la photographie avec l'art graphique pour concevoir des supports uniques et mémorables. Chaque détail est soigneusement orchestré, depuis les images capturées spécialement pour vous jusqu'à la mise en page élégante. Offrez à votre papeterie (Fairs part, invitation) une touche personnelle et faites de chaque moment une expérience à part entière.</p>",
+          "image": "src/assets/1701189182711_dot-rose.svg",
+          "ordre": 2,
+          "createdAt": 1701189183863
         }
       ],
       "createdAt": 1701189118876

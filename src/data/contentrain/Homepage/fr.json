@@ -56,7 +56,9 @@
           "ID": "04caf763-2ca4-45f9-946d-35527f8cee22",
           "title": "Graphisme",
           "image": "public/1701167250769_prestation_graphisme.svg",
-          "list": [],
+          "list": [
+            "Identitée visuelle"
+          ],
           "createdAt": 1701167251374
         }
       ],

@@ -28,5 +28,15 @@
     "ordre": 3,
     "level": 0,
     "createdAt": 1701188471968
+  },
+  {
+    "ID": "4889e67d-fab5-407a-a6ba-b274d1e981a0",
+    "libelle": "Contact",
+    "internal_url": "/contact",
+    "external_url": "",
+    "children": "",
+    "ordre": 4,
+    "level": 0,
+    "createdAt": 1701188480801
   }
 ]

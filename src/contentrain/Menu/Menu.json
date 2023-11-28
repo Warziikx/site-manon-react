@@ -48,5 +48,15 @@
     "ordre": 1,
     "level": 1,
     "createdAt": 1701188504247
+  },
+  {
+    "ID": "1b2569c1-5845-44c6-b4eb-6cfb0a8d2a7e",
+    "libelle": "Graphisme",
+    "internal_url": "/service/graphisme",
+    "external_url": "",
+    "children": "",
+    "ordre": 2,
+    "level": 1,
+    "createdAt": 1701188521495
   }
 ]

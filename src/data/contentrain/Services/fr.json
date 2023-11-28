@@ -43,7 +43,15 @@
     "pricing": {
       "ID": "06acfbec-3131-44cc-b8f5-fbdda2c85a0b",
       "title": "Les tarifs",
-      "list": [],
+      "list": [
+        {
+          "ID": "9e128f9e-ebe6-4caf-be8d-38e45051e007",
+          "title": "En studio",
+          "subtitle": "Ces tarifs comprennent la location du studio, la prise de vue et le post traitement",
+          "list": [],
+          "createdAt": 1701178288240
+        }
+      ],
       "createdAt": 1701178276229
     }
   },

@@ -90,11 +90,12 @@
       },
       {
         "ID": "b5eb8b62-5759-4c81-ac1a-22ad1a08c86c",
-        "image": "public/1701193802302_enora2.webp",
-        "description": "<p>Une séance au top, je recommande vraiment</p>",
-        "author": "Enora",
+        "image": "public/1701207082867_maelle.webp",
+        "description": "<p>La séance photo avec mon cheval, capturée par Manon, a été magique. Elle a su saisir la complicité entre mon cheval et moi de manière remarquable. Chaque cliché exprimait la beauté de notre lien unique. Des moments précieux immortalisés avec professionnalisme. Une expérience inoubliable !</p>",
+        "author": "Maelle",
         "ordre": 3,
-        "createdAt": 1701193807581
+        "createdAt": 1701193807581,
+        "updatedAt": 1701207122972
       },
       {
         "ID": "265093cb-5359-445c-b1ef-944a5405d3bd",

@@ -74,18 +74,19 @@
         "ID": "c78bf9a9-fb62-4020-86c9-ed83bf7f5809",
         "image": "public/1701206961870_louise2.webp",
         "description": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Je remercie Manon pour son travail. D'abord pour cette séance photo grossesse, je ne me suis jamais sentie aussi à l'aise face à un objectif d'appareil photo et quels beaux souvenirs elle a immortalisé ! Elle a su t'adapter à ma demande et le rendu est encore mieux que ce que je l'imaginais.</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Qui dit naissance, dit faire-part ! Là encore elle nous a conquis, les propositions étaient superbes, nous avons mis du temps à nous décider pour le choix final.</span></p>",
-        "author": "Maelle",
+        "author": "Louise",
         "ordre": 1,
         "createdAt": 1701193776045,
-        "updatedAt": 1701206963282
+        "updatedAt": 1701206968481
       },
       {
         "ID": "ce3d5ef9-c9b0-4cf4-863f-becf5a143ce4",
         "image": "public/1701193794019_laura.webp",
-        "description": "<p>Une séance au top, je recommande vraiment</p>",
-        "author": "Laura",
+        "description": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">J'ai eu le plaisir de faire une séance photo avec Manon. Son professionnalisme et sa passion pour la photographie transparaissent dans chaque cliché capturé. Dès le début, elle a su me mettre à l'aise devant l'objectif. Je suis enchantée du résultat final et je recommande vivement Manon pour toutes vos séances photo.</span></p>",
+        "author": "Berenice",
         "ordre": 2,
-        "createdAt": 1701193794838
+        "createdAt": 1701193794838,
+        "updatedAt": 1701206989971
       },
       {
         "ID": "b5eb8b62-5759-4c81-ac1a-22ad1a08c86c",

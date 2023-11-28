@@ -4,6 +4,7 @@ import { Homepage } from "@/pages/Homepage";
 import { Layout } from "./components/Layout";
 import { ServicePage } from "@/pages/ServicePage";
 import { ServiceDetailPage } from "@/pages/ServiceDetailPage";
+import { ServiceGroupePage } from "@/pages/Services/ServiceGroupePage";
 // Create a root route
 const rootRoute = new RootRoute({
 	component: Layout,
@@ -11,12 +12,17 @@ const rootRoute = new RootRoute({
 
 const serviceRoute = new Route({
 	getParentRoute: () => rootRoute,
-	path: "/services",
+	path: "/service",
 	component: ServicePage,
+});
+export const serviceGroupeRoute = new Route({
+	getParentRoute: () => rootRoute,
+	path: "/service/$serviceGroupeSlug",
+	component: ServiceGroupePage,
 });
 export const serviceDetailRoute = new Route({
 	getParentRoute: () => rootRoute,
-	path: "/services/$serviceSlug",
+	path: "/service/$serviceGroupeSlug/$serviceSlug",
 	component: ServiceDetailPage,
 });
 
@@ -33,7 +39,7 @@ const indexRoute = new Route({
 	component: Homepage,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute, serviceRoute, serviceDetailRoute, contactRoute]);
+const routeTree = rootRoute.addChildren([indexRoute, serviceRoute, serviceGroupeRoute, serviceDetailRoute, contactRoute]);
 
 // Create the router using your route tree
 const router = new Router({ routeTree });

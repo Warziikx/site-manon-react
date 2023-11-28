@@ -1,4 +1,4 @@
-import { NumberFeature } from "@/data/Homepage";
+import { INumberFeatures } from "@/data/Widget";
 
 export interface PrestationPrincingData {
 	title: string;
@@ -13,10 +13,7 @@ export interface PrestationData {
 	title: string;
 	surtitle: string;
 	description: string;
-	stepData: {
-		title: string;
-		stepList: NumberFeature[];
-	};
+	stepData: INumberFeatures;
 	pricing: {
 		title: string;
 		pricingData: PrestationPrincingData[];

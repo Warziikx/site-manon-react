@@ -9,7 +9,8 @@ import { CallToAction } from "@/components/Widget/CallToAction";
 export const ServiceDetailPage: React.FC = () => {
 	const { serviceSlug } = useParams({ from: serviceDetailRoute.id });
 	const prestation = mesPrestationPhoto.find((p: PrestationData) => p.slug === serviceSlug);
-	if (prestation === undefined) return <Navigate to="/services" />;
+  if (prestation === undefined) return <Navigate to="/service" />;
+  
 	return (
 		<div className="mt-0 md:mt-16">
 			<Prestation prestation={prestation} />

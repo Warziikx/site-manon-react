@@ -1,22 +1,23 @@
-import { PrestationData } from "@/data/Service";
+import { IPrestation } from "@/data/contentrain/Services";
+
 import { Link } from "@tanstack/react-router";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 interface PrestationProps {
-  prestation: PrestationData;
+  prestation: IPrestation;
 }
 
 export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
-  const { type, img, surtitle, title, description, slug } = prestation;
+  const { display, type, image, surtitle, title, description, slug } = prestation;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   return (
     <div className="my-16 grid grid-cols-12 gap-8 overflow-x-hidden py-16 md:gap-4 xl:gap-8 xl:px-32">
-      {type === "left" && (
+      {display === "left" && (
         <div className="col-span-12 mx-16 flex items-center md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
           <motion.img
-            src={img}
+            src={"/" + image}
             className="mx-auto max-w-xs rounded-full"
             style={{
               boxShadow: "#fff -20px 20px 0px -3px, #3B4F43 -20px 20px",
@@ -36,23 +37,22 @@ export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
           <p dangerouslySetInnerHTML={{ __html: description }}></p>
           <div>
             <Link
-              to={"/services/$serviceSlug"}
-              params={{ serviceSlug: slug }}
+              to={"/service/$serviceGroupeSlug/$serviceSlug"}
+              params={{ serviceSlug: slug, serviceGroupeSlug: type }}
               activeProps={{ className: "hidden" }}
               activeOptions={{ exact: true }}
-              className="mb-2 me-2 rounded-lg bg-secondary px-5 py-2.5 
-        text-sm font-medium text-white transition duration-150 ease-in-out hover:bg-secondary-400 focus:outline-none 
-        focus:ring-4 focus:ring-secondary-300"
+              className="mb-2 me-2 rounded-lg bg-secondary px-5 py-2.5 text-sm font-medium text-white transition duration-150 
+              ease-in-out hover:bg-secondary-400 focus:outline-none focus:ring-4 focus:ring-secondary-300"
             >
               Découvrir cette formule
             </Link>
           </div>
         </div>
       </div>
-      {type === "right" && (
-        <div className="col-span-12 mx-16 md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
+      {display === "right" && (
+        <div className="col-span-12 mx-16 flex items-center md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
           <motion.img
-            src={img}
+            src={"/" + image}
             className="mx-auto max-w-xs rounded-full"
             style={{
               boxShadow: "#fff -20px 20px 0px -3px, #3B4F43 -20px 20px",

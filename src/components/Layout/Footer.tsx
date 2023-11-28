@@ -9,10 +9,10 @@ export const Footer: React.FC = () => {
 		<footer className="hidden bg-primary md:flex">
 			<div className="w-full  p-4 md:py-8">
 				<div className="sm:flex sm:items-center sm:justify-between">
-					<a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
+					<Link to="/" className="mb-4 flex items-center sm:mb-0">
 						<img src={darkLogo} className="mr-3 h-12" alt="Flowbite Logo" />
 						<span className=" self-center  whitespace-nowrap font-title text-2xl font-semibold text-white ">Manon Bertho</span>
-					</a>
+					</Link>
 					<ul className="flex flex-row space-x-8 text-white transition">
 						{menuList.map((menu: Menu) => {
 							return (
@@ -41,9 +41,9 @@ export const Footer: React.FC = () => {
 				<hr className="my-6 border-gray-300  sm:mx-auto lg:my-8" />
 				<span className="block text-sm text-gray-300  sm:text-center">
 					© {currentYear}{" "}
-					<a href="https://manonbertho-studio.fr/" className="hover:underline">
+					<Link to="/" className="hover:underline">
 						Manon Bertho Studio
-					</a>
+					</Link>
 					. Tous droits réservés.
 				</span>
 			</div>

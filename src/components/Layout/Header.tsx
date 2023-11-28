@@ -114,14 +114,14 @@ export const Header: React.FC = () => {
 			>
 				<span className="block px-8 text-center text-sm text-gray-300 sm:text-center">
 					© {currentYear}{" "}
-					<a href="https://manonbertho-studio.fr/" className="hover:underline">
+					<Link to="/" className="hover:underline" onClick={closeMenu}>
 						Manon Bertho Studio
-					</a>
+					</Link>
 					. Tous droits réservés.
 				</span>
-				<a href="https://manonbertho-studio.fr/" className="mb-4 flex items-center sm:mb-0">
+				<Link to="/" className="mb-4 flex items-center sm:mb-0" onClick={closeMenu}>
 					<img src={darkLogo} className="mr-3 h-48" alt="Manon Logo" />
-				</a>
+				</Link>
 				<ul className="space-y-4">
 					{menuList.map((menu: Menu) => {
 						return (

@@ -1,4 +1,5 @@
-import { Menu } from "@/data/Menu";
+import { Menu } from "@/data/contentrain/Menu";
+
 import { InternalMenuItem } from "./InternalMenuItem";
 import { ExternalMenuItem } from "./ExternalMenuItem";
 
@@ -18,10 +19,7 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
 			>
 				{menu.libelle}
 			</button>
-			<div
-				id={`dropdownHover-${index}`}
-				className="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-primary shadow"
-			>
+			<div id={`dropdownHover-${index}`} className="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-primary shadow">
 				<ul className="space-y-4 py-4" aria-labelledby={`dropdownHoverButton-${index}`}>
 					{menu.childrenObject
 						?.sort((a: Menu, b: Menu) => a.ordre - b.ordre)
@@ -60,16 +58,16 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
 												<ul className="space-y-4 py-4" aria-labelledby="doubleDropdownButton">
 													{subMenu.childrenObject?.map((subsubMenu: Menu, subsubI: number) => {
 														return (
-															<li
-																className="flex flex-row items-center justify-between px-4"
-																key={`subsubmenu-${subsubI}`}
-															>
-																{subsubMenu.relative_url !== undefined && menu.relative_url !== "" && <InternalMenuItem menu={subsubMenu} />}
-																{subsubMenu.external_url !== undefined && menu.external_url !== "" && <ExternalMenuItem menu={subsubMenu} />}
+															<li className="flex flex-row items-center justify-between px-4" key={`subsubmenu-${subsubI}`}>
+																{subsubMenu.relative_url !== undefined && menu.relative_url !== "" && (
+																	<InternalMenuItem menu={subsubMenu} />
+																)}
+																{subsubMenu.external_url !== undefined && menu.external_url !== "" && (
+																	<ExternalMenuItem menu={subsubMenu} />
+																)}
 															</li>
 														);
 													})}
-
 												</ul>
 											</div>
 										</>

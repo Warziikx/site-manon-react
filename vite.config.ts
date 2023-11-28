@@ -19,12 +19,12 @@ export default defineConfig({
       routes: [
         "/",
         "/contact",
-        "/services",
-        "/services/portrait",
-        "/services/famille",
-        "/services/animaux",
-		"/services/packshot",
-        "/services/evenement",
+        "/service",
+        "/service/portrait",
+        "/service/famille",
+        "/service/animaux",
+        "/service/packshot",
+        "/service/evenement",
       ],
 
       /**

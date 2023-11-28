@@ -48,7 +48,9 @@
           "ID": "9e128f9e-ebe6-4caf-be8d-38e45051e007",
           "title": "En studio",
           "subtitle": "Ces tarifs comprennent la location du studio, la prise de vue et le post traitement",
-          "list": [],
+          "list": [
+            "5 photos - 100€"
+          ],
           "createdAt": 1701178288240
         },
         {

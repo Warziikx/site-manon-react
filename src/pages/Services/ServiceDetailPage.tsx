@@ -6,6 +6,7 @@ import { serviceDetailRoute } from "@/Router";
 import { Prestation } from "@/components/Service/Prestation";
 import { NumberFeatures } from "@/components/Widget/Features/NumberFeatures";
 import { CallToAction } from "@/components/Widget/CallToAction";
+import { Mansonery } from "@/components/Widget/Mansonery";
 
 export const ServiceDetailPage: React.FC = () => {
   const { serviceSlug } = useParams({ from: serviceDetailRoute.id });
@@ -23,7 +24,7 @@ export const ServiceDetailPage: React.FC = () => {
           {prestation.pricing?.list.length !== 0 ? (
             <div className={`md:grid-cols-${prestation.pricing.list.length} grid grid-cols-1 gap-16`}>
               {prestation.pricing.list.map((pricingData: IPricingObj) => (
-                <div className="flex flex-col items-center justify-center px-32">
+                <div className="flex flex-col items-center justify-center">
                   <h4 className="whitespace-pre-line px-16 text-center text-xl text-ternary">{pricingData.title}</h4>
                   <ul className="mt-4">
                     {pricingData.list.map((liItem: string, liIndex: number) => (
@@ -53,6 +54,7 @@ export const ServiceDetailPage: React.FC = () => {
           )}
         </div>
       )}
+      {prestation.mansonery && <Mansonery data={prestation.mansonery} />}
       <CallToAction />
     </div>
   );

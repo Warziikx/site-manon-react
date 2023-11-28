@@ -1,4 +1,4 @@
-import { INumberFeatures } from "@/contentrain/Widget";
+import { IMansonery, INumberFeatures } from "@/contentrain/Widget";
 import _prestationList from "@/contentrain/Service/Service.json";
 
 // export interface PrestationPrincingData {
@@ -36,6 +36,7 @@ export interface IPrestation {
   ordre: number;
   step?: INumberFeatures;
   pricing?: IPricing;
+  mansonery?: IMansonery[];
   // pricing: {
   //     title: string;
   //     pricingData: PrestationPrincingData[];

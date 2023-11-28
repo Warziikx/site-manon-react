@@ -27,11 +27,12 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
           {menu.childrenObject
             ?.sort((a: Menu, b: Menu) => a.ordre - b.ordre)
             .map((subMenu: Menu, subI: number) => {
+              const isChildren = subMenu.childrenObject && subMenu.childrenObject.length > 0;
               return (
                 <li
                   className="flex flex-row items-center justify-between px-4"
                   key={`submenu-${subI}`}
-                  data-dropdown-toggle={`doubledropdown-${subI}`}
+                  data-dropdown-toggle={isChildren && `doubledropdown-${subI}`}
                   data-dropdown-placement="right-start"
                   data-dropdown-trigger="hover"
                 >
@@ -41,7 +42,7 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
                   {subMenu.external_url !== undefined && menu.external_url !== "" && (
                     <ExternalMenuItem menu={subMenu} />
                   )}
-                  {subMenu.childrenObject && subMenu.childrenObject.length > 0 && (
+                  {isChildren && (
                     <>
                       <svg
                         className="ms-3 h-2.5 w-2.5 rtl:rotate-180"

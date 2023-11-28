@@ -10,7 +10,12 @@
     "surtitle": "Portrait - Self Love",
     "display": "left",
     "type": "photographie",
-    "ordre": 1
+    "ordre": 1,
+    "step": {
+      "list": [],
+      "createdAt": 1701177680679,
+      "ID": "da9d1044-2705-4a0f-b2f6-2c0fec3048fd"
+    }
   },
   {
     "ID": "f400620e-44d0-4810-b8cd-5485c88fbe5c",

@@ -7,6 +7,7 @@ import { Presentation } from "@/components/Homepage/Presentation";
 import { IllustrationFeatures } from "@/components/Widget/Features/IllustrationFeatures";
 import { Testimonial1 } from "@/components/Widget/Testimonial/Testimonial1";
 import { CallToAction } from "@/components/Widget/CallToAction";
+import SmoothScroll from "@/components/Widget/SmoothScroll";
 
 export const Homepage: React.FC = () => {
   return (
@@ -15,7 +16,8 @@ export const Homepage: React.FC = () => {
       <Presentation data={homepage.presentation} />
       <NumberFeatures data={homepage.why_me} />
       {homepage.prestation && <IllustrationFeatures data={homepage.prestation} />}
-      {homepage.testimonial && <Testimonial1 data={homepage.testimonial} />}
+      {homepage.testimonial && <SmoothScroll data={homepage.testimonial} />}
+      {/* {homepage.testimonial && <Testimonial1 data={homepage.testimonial} />} */}
       <CallToAction />
     </div>
   );

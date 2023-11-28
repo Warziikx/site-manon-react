@@ -32,9 +32,12 @@
     "libelle": "Photographie",
     "relative_url": "/photographie",
     "external_url": "",
-    "children": [],
+    "children": [
+      "0a5d98f1-d494-4d00-aba4-a7df81832436"
+    ],
     "ordre": 1,
-    "createdAt": 1701105762313
+    "createdAt": 1701105762313,
+    "updatedAt": 1701160207900
   },
   {
     "ID": "075491b1-85ce-4c38-8e2f-e9888d7c8ce3",

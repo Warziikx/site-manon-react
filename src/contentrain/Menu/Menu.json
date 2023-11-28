@@ -78,5 +78,15 @@
     "ordre": 2,
     "level": 2,
     "createdAt": 1701188557984
+  },
+  {
+    "ID": "faf83d65-eb10-4142-a0fb-aab57fb8cf26",
+    "libelle": "Animaux",
+    "internal_url": "/service/photographie/animaux",
+    "external_url": "",
+    "children": "",
+    "ordre": 3,
+    "level": 2,
+    "createdAt": 1701188569770
   }
 ]

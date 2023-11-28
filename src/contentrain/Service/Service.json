@@ -72,6 +72,26 @@
     "full_description": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Envie de reprendre confiance en toi à travers un shooting photo ou bien tout simplement te faire plaisir ? Que ce soit au cœur de la nature, ou en studio, la formule de portrait / Self Love est faite pour toi.</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">C'est bien plus qu'une simple séance photo, c'est une expérience qui capture l'authenticité de qui tu es. En extérieur, la lumière naturelle et les décors variés deviennent le cadre idéal pour révéler ta beauté naturelle. Chaque instant devient une opportunité de capturer des expressions spontanées, des émotions sincères et de créer des souvenirs qui durent.</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Si tu préfères l'intimité d'un studio, nous façonnons l'éclairage et l'ambiance pour mettre en lumière ta personnalité de manière unique. Chaque expression, chaque nuance, est capturée avec une précision artistique, transformant la séance en une véritable célébration de toi-même.</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Prêt(e) à explorer des lieux magnifiques tout en mettant en lumière ce qui te rend exceptionnel(le) ? Cette aventure photographique en extérieur t'offre l'opportunité de célébrer ta beauté naturelle d'une manière totalement authentique. Réserve dès maintenant et laisse-moi capturer la meilleure version de toi-même, dans des décors qui feront écho à la richesse de ta personnalité.</span></p><p><br></p>",
     "mansonery": [
       {
+        "images": [
+          {
+            "ID": "c8de1deb-1c47-4c45-a973-3e78b73aef13",
+            "image": "public/1701204107175_alicia.webp",
+            "ordre": 1,
+            "createdAt": 1701204109217
+          },
+          {
+            "ID": "1d499421-477b-4dc0-b2bb-f2a208102094",
+            "image": "public/1701204115349_andrea.webp",
+            "ordre": 2,
+            "createdAt": 1701204117938
+          },
+          {
+            "ID": "d4568938-f189-4972-b1c9-d1841e60e768",
+            "image": "public/1701204125686_lauralie.webp",
+            "ordre": 3,
+            "createdAt": 1701204128281
+          }
+        ],
         "createdAt": 1701203061193,
         "ID": "5c0a4b76-6c43-4242-a91d-7a8986a5484d"
       },
@@ -112,25 +132,29 @@
   {
     "ID": "ce8d67c0-1afc-429f-8301-24caa5065cce",
     "title": "Packshot",
-    "image": "public/1701176463146_tarte_cut.webp",
+    "image": "public/1701203509012_DSC_0092.jpg",
     "slug": "packshot",
     "surtitle": "Photographie",
-    "description": "<p>Vous êtes un professionnel, conscient de l'importance de l'image dans le monde des affaires. Notre prestation de packshot offre une solution complète pour sublimer vos produits et renforcer votre présence sur le marché.</p><p><br></p><p>Chaque cliché est pensé avec précision pour mettre en valeur les détails, la qualité et l'unicité de vos articles. Que vous soyez dans le secteur de la mode, de l'alimentation ou de tout autre domaine, je vous accompagne dans la création des images exceptionnelles qui reflètent l'excellence de votre marque.</p><p>\t</p><p>Optez pour la prestation de packshot et donnez à vos produits l'attention visuelle qu'ils méritent. Renforcez votre identité de marque, stimulez vos ventes et positionnez-vous en tant que leader dans votre secteur. Contactez-moi dès maintenant pour discuter de la manière dont nous pouvons mettre en lumière le meilleur de votre entreprise à travers des images qui parlent à votre clientèle cible.</p>",
+    "description": "<p>Vous êtes un professionnel, conscient de l'importance de l'image dans le monde des affaires. Notre prestation de packshot offre une solution complète pour sublimer vos produits et renforcer votre présence sur le marché.</p>",
     "display": "right",
     "type": "photographie",
     "ordre": 4,
-    "createdAt": 1701176502858
+    "createdAt": 1701176502858,
+    "full_description": "<p>Vous êtes un professionnel, conscient de l'importance de l'image dans le monde des affaires. Notre prestation de packshot offre une solution complète pour sublimer vos produits et renforcer votre présence sur le marché.</p><p><br></p><p>Chaque cliché est pensé avec précision pour mettre en valeur les détails, la qualité et l'unicité de vos articles. Que vous soyez dans le secteur de la mode, de l'alimentation ou de tout autre domaine, je vous accompagne dans la création des images exceptionnelles qui reflètent l'excellence de votre marque.</p><p><br></p><p>Optez pour la prestation de packshot et donnez à vos produits l'attention visuelle qu'ils méritent. Renforcez votre identité de marque, stimulez vos ventes et positionnez-vous en tant que leader dans votre secteur. Contactez-moi dès maintenant pour discuter de la manière dont nous pouvons mettre en lumière le meilleur de votre entreprise à travers des images qui parlent à votre clientèle cible.</p>",
+    "updatedAt": 1701203511294
   },
   {
     "ID": "f2a4bd44-4c50-4562-9f50-6e23ede965a1",
     "title": "Evenement",
-    "image": "public/1701176533966_traiteur_byd1.webp",
+    "image": "public/1701203831866_82-INAUGURATION-BYD-SOIREE-TRAITEUR2.jpg",
     "slug": "evenement",
     "surtitle": "Photographie",
-    "description": "<p>Chaque moment spécial mérite d'être capturé avec une précision et une sensibilité qui transcendent le simple cliché. En tant que photographe d'événements, ma mission est de transformer les moments éphémères en souvenirs éternels, figeant l'émotion et la beauté de chaque instant.</p><p><br></p><p>Que ce soit pour immortaliser l'amour partagé lors d'un mariage, la joie contagieuse d'un baptême ou tout autre événement marquant, je suis là pour saisir l'essence même de chaque occasion. Chaque détail compte, chaque regard, chaque sourire, chaque émotion raconte une histoire unique.</p><p><br></p><p>Le jour de votre mariage, laissez-nous capturer la magie de l'amour qui unit deux personnes. Chaque photo devient un témoignage visuel de cet engagement profond, une histoire d'amour racontée à travers des images qui traverseront les générations.</p><p><br></p><p>Pour un baptême, chaque rire d'enfant, chaque émotion partagée entre amis et famille, est immortalisé avec une délicatesse particulière. Chaque cliché devient un héritage visuel, un témoignage précieux de ce moment de célébration et de spiritualité.</p><p><br></p><p>Mon approche discrète mais attentive me permet de capturer l'authenticité de chaque moment sans perturber le déroulement naturel de l'événement. Que vous préfériez des clichés spontanés ou des portraits posés, notre équipe s'adapte à vos besoins pour créer un album qui reflète véritablement l'atmosphère unique de votre événement.</p><p><br></p><p>Réservez dès maintenant  votre prestation de photographe d'événements et offrez-vous la tranquillité d'esprit en sachant que chaque instant inoubliable sera préservé de manière artistique et significative. Parce que la vie est faite de moments précieux, et nous sommes là pour les capturer, les chérir et les rendre intemporels</p>",
+    "description": "<p>Chaque moment spécial mérite d'être capturé avec une précision et une sensibilité qui transcendent le simple cliché. En tant que photographe d'événements, ma mission est de transformer les moments éphémères en souvenirs éternels, figeant l'émotion et la beauté de chaque instant.</p><p><br></p><p>Que ce soit pour immortaliser l'amour partagé lors d'un mariage, la joie contagieuse d'un baptême ou tout autre événement marquant, je suis là pour saisir l'essence même de chaque occasion. Chaque détail compte, chaque regard, chaque sourire, chaque émotion raconte une histoire unique.</p><p><br></p>",
     "display": "left",
     "type": "photographie",
     "ordre": 5,
-    "createdAt": 1701176590726
+    "createdAt": 1701176590726,
+    "full_description": "<p>Chaque moment spécial mérite d'être capturé avec une précision et une sensibilité qui transcendent le simple cliché. En tant que photographe d'événements, ma mission est de transformer les moments éphémères en souvenirs éternels, figeant l'émotion et la beauté de chaque instant.</p><p><br></p><p>Que ce soit pour immortaliser l'amour partagé lors d'un mariage, la joie contagieuse d'un baptême ou tout autre événement marquant, je suis là pour saisir l'essence même de chaque occasion. Chaque détail compte, chaque regard, chaque sourire, chaque émotion raconte une histoire unique.</p><p><br></p><p>Le jour de votre mariage, laissez-nous capturer la magie de l'amour qui unit deux personnes. Chaque photo devient un témoignage visuel de cet engagement profond, une histoire d'amour racontée à travers des images qui traverseront les générations.</p><p><br></p><p>Pour un baptême, chaque rire d'enfant, chaque émotion partagée entre amis et famille, est immortalisé avec une délicatesse particulière. Chaque cliché devient un héritage visuel, un témoignage précieux de ce moment de célébration et de spiritualité.</p>",
+    "updatedAt": 1701203833488
   }
 ]

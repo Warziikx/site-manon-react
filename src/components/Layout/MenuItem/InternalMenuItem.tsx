@@ -1,4 +1,4 @@
-import { Menu } from "@/data/Menu";
+import { Menu } from "@/data/contentrain/Menu";
 import { Link } from "@tanstack/react-router";
 
 interface InternalMenuItemProps {

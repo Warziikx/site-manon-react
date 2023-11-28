@@ -70,9 +70,7 @@ export const Header: React.FC = () => {
 				<div className=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 md:px-8 xl:px-0">
 					<Link to="/" className="ml-4 flex items-center" aria-current="page">
 						<img src={darkLogo} className="mr-3 h-16 py-2" alt="Logo Manon" />
-						<span className="self-center whitespace-nowrap font-title text-2xl font-semibold">
-							Manon Bertho
-						</span>
+						<span className="self-center whitespace-nowrap font-title text-2xl font-semibold">Manon Bertho</span>
 					</Link>
 					<ul className="hidden flex-row space-x-8 md:flex ">
 						{menuList
@@ -80,12 +78,12 @@ export const Header: React.FC = () => {
 							.map((menu: Menu, index: number) => {
 								return (
 									<li key={index}>
-										{menu.children != undefined ? (
+										{menu.childrenObject != undefined ? (
 											<DropdownMenuItem menu={menu} index={index} />
 										) : (
 											<>
-												{menu.relative_url !== undefined && <InternalMenuItem menu={menu} />}
-												{menu.external_url !== undefined && <ExternalMenuItem menu={menu} />}
+												{menu.relative_url !== undefined && menu.relative_url !== "" && <InternalMenuItem menu={menu} />}
+												{menu.external_url !== undefined && menu.external_url !== "" && <ExternalMenuItem menu={menu} />}
 											</>
 										)}
 									</li>
@@ -127,30 +125,25 @@ export const Header: React.FC = () => {
 				<ul className="space-y-4">
 					{menuList.map((menu: Menu) => {
 						return (
-							<motion.li
-								variants={liVariants}
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.95 }}
-								key={menu.name}
-							>
-								{menu.path !== undefined && (
+							<motion.li variants={liVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} key={menu.libelle}>
+								{menu.relative_url !== undefined && menu.relative_url !== "" && (
 									<Link
 										onClick={closeMenu}
-										to={menu.path}
+										to={menu.relative_url}
 										activeProps={{ className: "text-secondary" }}
 										activeOptions={{ exact: true }}
 										className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
 										aria-current="page"
 									>
-										{menu.name}
+										{menu.libelle}
 									</Link>
 								)}
-								{menu.external !== undefined && (
+								{menu.external_url !== undefined && menu.external_url !== "" && (
 									<a
-										href={menu.external}
+										href={menu.external_url}
 										className="block text-center text-2xl transition ease-in-out hover:text-secondary md:p-0"
 									>
-										{menu.name}
+										{menu.libelle}
 									</a>
 								)}
 							</motion.li>

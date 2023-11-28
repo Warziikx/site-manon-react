@@ -24,11 +24,11 @@ export interface PrestationData {
 }
 
 import {
-  prestationSelfLove,
-  prestationFcg,
-  prestationEvenement,
-  prestationPackshot,
-  prestationAnimaux,
+	prestationSelfLove,
+	prestationFcg,
+	prestationEvenement,
+	prestationPackshot,
+	prestationAnimaux,
 } from "@/data/Services/Photographie";
 
 export const mesPrestationPhoto: PrestationData[] = [

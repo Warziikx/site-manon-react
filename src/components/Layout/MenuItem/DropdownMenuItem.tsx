@@ -23,8 +23,8 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
 				className="z-10 hidden w-44 divide-y divide-gray-100 rounded-lg bg-primary shadow"
 			>
 				<ul className="space-y-4 py-4" aria-labelledby={`dropdownHoverButton-${index}`}>
-					{menu.children
-						?.sort((a: Menu, b: Menu) => b.ordre - a.ordre)
+					{menu.childrenObject
+						?.sort((a: Menu, b: Menu) => a.ordre - b.ordre)
 						.map((subMenu: Menu, subI: number) => {
 							return (
 								<li
@@ -34,9 +34,9 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
 									data-dropdown-placement="right-start"
 									data-dropdown-trigger="hover"
 								>
-									{subMenu.relative_url !== undefined && <InternalMenuItem menu={subMenu} />}
-									{subMenu.external_url !== undefined && <ExternalMenuItem menu={subMenu} />}
-									{subMenu.children && subMenu.children.length > 0 && (
+									{subMenu.relative_url !== undefined && menu.relative_url !== "" && <InternalMenuItem menu={subMenu} />}
+									{subMenu.external_url !== undefined && menu.external_url !== "" && <ExternalMenuItem menu={subMenu} />}
+									{subMenu.childrenObject && subMenu.childrenObject.length > 0 && (
 										<>
 											<svg
 												className="ms-3 h-2.5 w-2.5 rtl:rotate-180"
@@ -58,25 +58,18 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({ menu, index 
 												className="z-10 hidden w-64 divide-y divide-gray-100 rounded-lg bg-primary shadow "
 											>
 												<ul className="space-y-4 py-4" aria-labelledby="doubleDropdownButton">
-													{subMenu.children?.map((subsubMenu: Menu, subsubI: number) => {
+													{subMenu.childrenObject?.map((subsubMenu: Menu, subsubI: number) => {
 														return (
 															<li
 																className="flex flex-row items-center justify-between px-4"
 																key={`subsubmenu-${subsubI}`}
 															>
-																{subsubMenu.path !== undefined && <InternalMenuItem menu={subsubMenu} />}
-																{subsubMenu.external !== undefined && <ExternalMenuItem menu={subsubMenu} />}
+																{subsubMenu.relative_url !== undefined && menu.relative_url !== "" && <InternalMenuItem menu={subsubMenu} />}
+																{subsubMenu.external_url !== undefined && menu.external_url !== "" && <ExternalMenuItem menu={subsubMenu} />}
 															</li>
 														);
 													})}
-													{/* <li>
-                        <a
-                          href="#"
-                          className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
-                          Overview
-                        </a>
-                      </li> */}
+
 												</ul>
 											</div>
 										</>

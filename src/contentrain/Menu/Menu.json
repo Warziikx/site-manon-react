@@ -18,5 +18,15 @@
     "ordre": 2,
     "level": 0,
     "createdAt": 1701188458756
+  },
+  {
+    "ID": "4a9c250b-c683-4fb5-9abd-629d0f73d6ad",
+    "libelle": "Boutique",
+    "internal_url": "",
+    "external_url": "https://www.etsy.com/fr/shop/ManonBerthoStudio",
+    "children": "",
+    "ordre": 3,
+    "level": 0,
+    "createdAt": 1701188471968
   }
 ]

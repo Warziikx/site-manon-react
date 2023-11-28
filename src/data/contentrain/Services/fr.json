@@ -39,6 +39,12 @@
       "ID": "da9d1044-2705-4a0f-b2f6-2c0fec3048fd",
       "title": "Le dérouler d'une seance",
       "updatedAt": 1701177797125
+    },
+    "pricing": {
+      "ID": "06acfbec-3131-44cc-b8f5-fbdda2c85a0b",
+      "title": "Les tarifs",
+      "list": [],
+      "createdAt": 1701178276229
     }
   },
   {

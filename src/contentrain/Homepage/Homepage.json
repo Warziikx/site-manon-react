@@ -62,13 +62,11 @@
           "title": "Graphisme",
           "image": "public/1701189542974_prestation_graphisme.svg",
           "list": [
-            "Identitée visuelle",
-            "Papeterie",
-            "Illustration"
+            "4c67d97d-fac3-4445-abd7-b1e8d51a9b72"
           ],
           "createdAt": 1701189544027,
           "link": "/service/graphisme",
-          "updatedAt": 1701279114607
+          "updatedAt": 1701279162517
         }
       ],
       "createdAt": 1701189513961

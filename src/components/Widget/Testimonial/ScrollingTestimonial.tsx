@@ -3,11 +3,11 @@ import ResizeObserver from "resize-observer-polyfill";
 import { motion, useTransform, useSpring, useScroll, useInView, useMotionValueEvent } from "framer-motion";
 import { ITestimonial } from "@/contentrain/Homepage";
 
-interface SmoothScrollProps {
+interface ScrollingTestimonialProps {
   data: ITestimonial[];
 }
 
-const SmoothScroll: React.FC<SmoothScrollProps> = ({ data }) => {
+const ScrollingTestimonial: React.FC<ScrollingTestimonialprops> = ({ data }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const ghostRef = useRef<HTMLDivElement>(null);
   const [scrollRange, setScrollRange] = useState(0);
@@ -62,9 +62,8 @@ const SmoothScroll: React.FC<SmoothScrollProps> = ({ data }) => {
     <>
       <div ref={ghostRef} style={{ height: scrollRange }}>
         <div
-          className={`scroll-container will-change-transform overflow-hidden ${
-            fixeElement ? "mb-16 md:mb-0" : "mb-0"
-          } ${fixeElement ? "mt-0 md:mt-16" : "mt-0"}`}
+          className={`scroll-container will-change-transform overflow-hidden ${fixeElement ? "mb-16 md:mb-0" : "mb-0"
+            } ${fixeElement ? "mt-0 md:mt-16" : "mt-0"}`}
           ref={ref}
           style={{
             height: "calc(100vh - 4rem)",
@@ -102,4 +101,4 @@ const SmoothScroll: React.FC<SmoothScrollProps> = ({ data }) => {
   );
 };
 
-export default SmoothScroll;
+export default ScrollingTestimonial;

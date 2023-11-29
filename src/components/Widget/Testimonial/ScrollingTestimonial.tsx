@@ -7,7 +7,7 @@ interface ScrollingTestimonialProps {
   data: ITestimonial[];
 }
 
-const ScrollingTestimonial: React.FC<ScrollingTestimonialprops> = ({ data }) => {
+const ScrollingTestimonial: React.FC<ScrollingTestimonialProps> = ({ data }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const ghostRef = useRef<HTMLDivElement>(null);
   const [scrollRange, setScrollRange] = useState(0);
@@ -62,8 +62,9 @@ const ScrollingTestimonial: React.FC<ScrollingTestimonialprops> = ({ data }) => 
     <>
       <div ref={ghostRef} style={{ height: scrollRange }}>
         <div
-          className={`scroll-container will-change-transform overflow-hidden ${fixeElement ? "mb-16 md:mb-0" : "mb-0"
-            } ${fixeElement ? "mt-0 md:mt-16" : "mt-0"}`}
+          className={`scroll-container will-change-transform overflow-hidden ${
+            fixeElement ? "mb-16 md:mb-0" : "mb-0"
+          } ${fixeElement ? "mt-0 md:mt-16" : "mt-0"}`}
           ref={ref}
           style={{
             height: "calc(100vh - 4rem)",

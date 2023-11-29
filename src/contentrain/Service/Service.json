@@ -17,7 +17,8 @@
           "description": "<p>On discute de ton projet, defini la date et le lieu</p>",
           "image": "public/1701177711691_dot-bleu.svg",
           "ordre": 1,
-          "createdAt": 1701177712515
+          "createdAt": 1701177712515,
+          "updatedAt": 1701280975068
         },
         {
           "ID": "165d8023-f3c9-4bf1-baa0-f4b1e6f2199f",

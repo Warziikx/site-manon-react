@@ -17,7 +17,8 @@
           "description": "<p>On discute de ton projet, defini la date et le lieu</p>",
           "image": "public/1701177711691_dot-bleu.svg",
           "ordre": 1,
-          "createdAt": 1701177712515
+          "createdAt": 1701177712515,
+          "updatedAt": 1701280975068
         },
         {
           "ID": "165d8023-f3c9-4bf1-baa0-f4b1e6f2199f",
@@ -220,28 +221,31 @@
           "description": "<h2><strong>Le brief </strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Dans cette phase initiale, nous entrons en contact pour comprendre votre vision. Je m'engage à écouter attentivement vos idées, objectifs et valeurs. Ce moment d'échange nous permet de définir les contours de votre identité visuelle et d'établir les bases solides nécessaires à sa création.</span></p>",
           "ordre": 1,
           "image": "public/1701278902406_IDENTITE VISUELLE_Plan de travail 1-20.svg",
-          "createdAt": 1701278904413
+          "createdAt": 1701278904413,
+          "updatedAt": 1701281016283
         },
         {
           "ID": "193fb2b0-22fc-42b8-b924-0ca0824ef04a",
           "description": "<h2><strong>La création</strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">La phase de création est le cœur du processus. Ici, je transforme vos concepts et besoins en designs concrets. Ensemble, nous explorons différentes pistes créatives, des esquisses aux maquettes, pour donner vie à une identité visuelle qui vous ressemble et qui transmet efficacement votre message.</span></p>",
           "ordre": 2,
           "image": "public/1701278956064_IDENTITE VISUELLE_Plan de travail 1-21.svg",
-          "createdAt": 1701278958555
+          "createdAt": 1701278958555,
+          "updatedAt": 1701281037963
         },
         {
           "ID": "f4e0f4db-68b5-472f-882b-ea098b836cd0",
           "description": "<h2><strong>La livraison</strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Lors de cette dernière étape, je finalise les designs approuvés en livrant des fichiers prêts à être utilisés sur tous vos supports de communication. Des logos aux palettes de couleurs, en passant par les directives d'utilisation, je vous fournis l'ensemble complet de votre identité visuelle pour une utilisation immédiate.</span></p>",
           "ordre": 3,
           "image": "public/1701279002212_IDENTITE VISUELLE_Plan de travail 1-19.svg",
-          "createdAt": 1701279003729
+          "createdAt": 1701279003729,
+          "updatedAt": 1701281049444
         }
       ],
       "createdAt": 1701278378335
     },
     "pricing": {
       "ID": "d890cd1a-6700-4bf2-97a6-71718f54c054",
-      "title": "Tarrifs",
+      "title": "Tarifs",
       "list": [
         {
           "ID": "58616ab4-7050-4f3a-b751-a568ab7345c9",
@@ -251,7 +255,8 @@
           "createdAt": 1701280190045
         }
       ],
-      "createdAt": 1701280143613
+      "createdAt": 1701280143613,
+      "updatedAt": 1701280990753
     },
     "full_description": "<p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Création d'Identité Visuelle : Donnez Vie à Votre Marque</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Dans le monde numérique en constante évolution, l'identité visuelle d'une marque est sa signature visuelle, son reflet dans l'esprit des consommateurs. En tant que créatrice passionnée d'identités visuelles, je suis là pour donner une âme à votre marque, pour la distinguer dans un paysage compétitif.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Du Concept à la Réalité : Votre Marque, Ma Créativité</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Mon approche commence par comprendre l'essence même de votre entreprise. Chaque trait de votre identité - vos valeurs, vos aspirations, votre histoire - devient la toile sur laquelle je crée une identité visuelle distincte. De la conception de logos emblématiques à la sélection minutieuse des couleurs et des typographies, chaque élément est pensé pour susciter l'émotion et la reconnaissance.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Une Cohérence Perceptible : Cohésion dans Chaque Point de Contact</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">L'identité visuelle que je crée n'est pas seulement esthétique ; elle est fonctionnelle. Elle se déploie harmonieusement sur tous les supports, du site web aux réseaux sociaux, du packaging aux campagnes marketing. Chaque détail est conçu pour créer une expérience cohérente et mémorable, renforçant ainsi la perception positive de votre marque dans l'esprit de vos clients.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Authenticité et Impact : Votre Marque, Votre Histoire</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Je crois en l'authenticité. Votre marque a une histoire unique, et mon objectif est de la raconter visuellement. Chaque création est imprégnée de cette authenticité, de manière à capter l'attention et à susciter un engagement durable auprès de votre public cible.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>L'Identité Visuelle Qui Vous Ressemble : Votre Succès, Ma Passion</em></strong></p><p><em style=\"background-color: transparent; color: rgb(55, 65, 81);\"><span class=\"ql-cursor\">﻿﻿﻿</span></em></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Confiez-moi la tâche de créer une identité visuelle qui vous représente vraiment. Ensemble, nous donnerons vie à votre vision, en transformant les concepts en réalité visuelle, renforçant ainsi la reconnaissance et la résonance de votre marque dans l'esprit de votre audience.</span></p><p><br></p>",
     "mansonery": [],

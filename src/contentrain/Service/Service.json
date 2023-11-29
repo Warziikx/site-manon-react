@@ -234,11 +234,11 @@
         },
         {
           "ID": "f4e0f4db-68b5-472f-882b-ea098b836cd0",
-          "description": "<h2><strong>La livraison</strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Lors de cette dernière étape, je finalise les designs approuvés en livrant des fichiers prêts à être utilisés sur tous vos supports de communication. Des logos aux palettes de couleurs, en passant par les directives d'utilisation, je vous fournis l'ensemble complet de votre identité visuelle pour une utilisation immédiate.</span></p>",
+          "description": "<h2><strong>La livraison</strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81); background-color: rgb(59, 79, 67);\">Lors de cette dernière étape, je finalise les designs approuvés en livrant des fichiers prêts à être utilisés sur tous vos supports de communication. Des logos aux palettes de couleurs, en passant par les directives d'utilisation, je vous fournis l'ensemble complet de votre identité visuelle pour une utilisation immédiate.</span></p>",
           "ordre": 3,
           "image": "public/1701279002212_IDENTITE VISUELLE_Plan de travail 1-19.svg",
           "createdAt": 1701279003729,
-          "updatedAt": 1701281049444
+          "updatedAt": 1701292461561
         }
       ],
       "createdAt": 1701278378335

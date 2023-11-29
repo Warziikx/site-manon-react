@@ -17,7 +17,10 @@ export const NumberFeatures: React.FC<NumberFeaturesPropos> = ({ data }) => {
                 <img src={"/" + feature.image} className="h-48 w-48	" />
                 <p className={`absolute left-[42%] top-[40%] font-title text-6xl font-black`}>{index + 1}</p>
               </div>
-              <p className="whitespace-pre-line px-4 text-center" dangerouslySetInnerHTML={{ __html: feature.description }}></p>
+              <div
+                className="whitespace-pre-line px-4 text-center text-white"
+                dangerouslySetInnerHTML={{ __html: feature.description }}
+              ></div>
             </div>
           ))}
       </div>

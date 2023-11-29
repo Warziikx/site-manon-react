@@ -48,14 +48,15 @@
           "title": "Photographie",
           "image": "public/1701189534818_prestation_photo.svg",
           "list": [
-            "Portraits (Self-love)",
-            "Famille (Couple, Grossesse)",
-            "Evenement (Mariage)",
-            "Packshot"
+            "337e4fd5-aa85-4c28-9917-14edf010bc32",
+            "f400620e-44d0-4810-b8cd-5485c88fbe5c",
+            "0f8659f8-77bd-430d-aee0-3904190f2e06",
+            "ce8d67c0-1afc-429f-8301-24caa5065cce",
+            "f2a4bd44-4c50-4562-9f50-6e23ede965a1"
           ],
           "createdAt": 1701189536043,
           "link": "/service/photographie",
-          "updatedAt": 1701279095828
+          "updatedAt": 1701279193214
         },
         {
           "ID": "ed94a722-9520-4c85-9c3c-dbb8beec2994",

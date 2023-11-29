@@ -15,7 +15,7 @@ export const ServiceDetailPage: React.FC = () => {
 
   return (
     <div className="mt-0 md:mt-16">
-      <Prestation prestation={prestation} />
+      <Prestation prestation={prestation} fullDescription={true} />
       {prestation.step && <NumberFeatures data={prestation.step} />}
 
       {prestation.pricing && (

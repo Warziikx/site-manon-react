@@ -33,6 +33,7 @@ export interface IPrestation {
   title: string;
   surtitle: string;
   description: string;
+  full_description: string;
   ordre: number;
   step?: INumberFeatures;
   pricing?: IPricing;

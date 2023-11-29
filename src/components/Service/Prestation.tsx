@@ -6,14 +6,15 @@ import { useRef } from "react";
 
 interface PrestationProps {
   prestation: IPrestation;
+  fullDescription?: boolean;
 }
 
-export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
-  const { display, type, image, surtitle, title, description, slug } = prestation;
+export const Prestation: React.FC<PrestationProps> = ({ prestation, fullDescription = false }) => {
+  const { display, full_description, type, image, surtitle, title, description, slug } = prestation;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   return (
-    <div className="my-16 grid grid-cols-12 gap-8 overflow-x-hidden py-16 md:gap-4 xl:gap-8 xl:px-32">
+    <div className="py-8 grid grid-cols-12 gap-8 overflow-x-hidden md:gap-4 xl:gap-8 xl:px-32">
       {display === "left" && (
         <div className="col-span-12 mx-16 flex items-center md:col-span-6 md:mx-8 xl:col-span-4" ref={ref}>
           <motion.img
@@ -34,7 +35,7 @@ export const Prestation: React.FC<PrestationProps> = ({ prestation }) => {
         </h4>
         <div className="space-y-4">
           <h1 className="mt-2 font-title text-3xl font-semibold">{title}</h1>
-          <p dangerouslySetInnerHTML={{ __html: description }}></p>
+          <p dangerouslySetInnerHTML={{ __html: fullDescription ? full_description : description }}></p>
           <div>
             <Link
               to={"/service/$serviceGroupeSlug/$serviceSlug"}

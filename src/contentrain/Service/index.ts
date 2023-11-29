@@ -52,3 +52,7 @@ export const getByGroup = (group: string) => {
 export const getBySlug = (slug: string) => {
   return prestationList.find((p: IPrestation) => p.slug === slug);
 };
+
+export const getById = (ID : string) => {
+  return prestationList.find((p: IPrestation) => p.ID === ID);
+}

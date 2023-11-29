@@ -22,6 +22,7 @@ export interface IPrestationObj {
     createdAt: number;
     title: string;
     image: string;
+    link : string
     list: string[];
 }
 export interface ITestimonial {

@@ -21,7 +21,7 @@ export const ServiceDetailPage: React.FC = () => {
       {prestation.pricing && (
         <div className="space-y-16 py-16 lg:px-32">
           <h3 className="text-center font-title text-4xl font-semibold text-ternary">{prestation.pricing.title}</h3>
-          {prestation.pricing?.list.length !== 0 ? (
+          {prestation.pricing.list && prestation.pricing.list.length !== 0 ? (
             <div className={`md:grid-cols-${prestation.pricing.list.length} grid grid-cols-1 gap-16`}>
               {prestation.pricing.list.map((pricingData: IPricingObj) => (
                 <div className="flex flex-col items-center justify-center">

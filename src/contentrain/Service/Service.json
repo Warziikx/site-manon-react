@@ -226,11 +226,11 @@
         },
         {
           "ID": "193fb2b0-22fc-42b8-b924-0ca0824ef04a",
-          "description": "<h2><strong>La création</strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">La phase de création est le cœur du processus. Ici, je transforme vos concepts et besoins en designs concrets. Ensemble, nous explorons différentes pistes créatives, des esquisses aux maquettes, pour donner vie à une identité visuelle qui vous ressemble et qui transmet efficacement votre message.</span></p>",
+          "description": "<h2><strong>La création</strong></h2><p><br></p><p>La phase de création est le cœur du processus. Ici, je transforme vos concepts et besoins en designs concrets. Ensemble, nous explorons différentes pistes créatives, des esquisses aux maquettes, pour donner vie à une identité visuelle qui vous ressemble et qui transmet efficacement votre message.</p>",
           "ordre": 2,
           "image": "public/1701278956064_IDENTITE VISUELLE_Plan de travail 1-21.svg",
           "createdAt": 1701278958555,
-          "updatedAt": 1701281037963
+          "updatedAt": 1701292438007
         },
         {
           "ID": "f4e0f4db-68b5-472f-882b-ea098b836cd0",

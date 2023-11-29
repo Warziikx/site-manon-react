@@ -221,7 +221,8 @@
           "description": "<h2><strong>Le brief </strong></h2><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Dans cette phase initiale, nous entrons en contact pour comprendre votre vision. Je m'engage à écouter attentivement vos idées, objectifs et valeurs. Ce moment d'échange nous permet de définir les contours de votre identité visuelle et d'établir les bases solides nécessaires à sa création.</span></p>",
           "ordre": 1,
           "image": "public/1701278902406_IDENTITE VISUELLE_Plan de travail 1-20.svg",
-          "createdAt": 1701278904413
+          "createdAt": 1701278904413,
+          "updatedAt": 1701281016283
         },
         {
           "ID": "193fb2b0-22fc-42b8-b924-0ca0824ef04a",

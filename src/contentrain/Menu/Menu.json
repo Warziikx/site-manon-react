@@ -65,10 +65,13 @@
     "libelle": "Graphisme",
     "internal_url": "/service/graphisme",
     "external_url": "",
-    "children": "",
+    "children": [
+      "49b236c9-ede7-40a8-be91-432404ea96ee"
+    ],
     "ordre": 2,
     "level": 1,
-    "createdAt": 1701188521495
+    "createdAt": 1701188521495,
+    "updatedAt": 1701277915137
   },
   {
     "ID": "dc25ce1d-9a21-4480-88ab-2fda96370da6",

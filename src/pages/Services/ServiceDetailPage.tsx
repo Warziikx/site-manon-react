@@ -40,7 +40,15 @@ export const ServiceDetailPage: React.FC = () => {
             </div>
           ) : (
             <div className="mx-auto space-y-4 text-center">
-              <p>Uniquement sur devis</p>
+              <h3 className="text-center font-title text-4xl font-semibold text-ternary">Tarifs</h3>
+
+              <p>
+                Chaque projet étant unique et spécifique à vos besoins, mes tarifs sont déterminés sur mesure. Je
+                m'engage à fournir des services personnalisés pour répondre parfaitement à vos attentes. Pour obtenir un
+                devis adapté à votre projet et discuter des tarifs, veuillez me contacter. Je serais ravi(e) d'échanger
+                avec vous et de vous fournir toutes les informations nécessaires pour concrétiser votre vision
+                graphique.
+              </p>
               <div>
                 <Link
                   to="/contact"

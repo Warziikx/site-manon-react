@@ -107,9 +107,10 @@
         "images": [
           {
             "ID": "363bf07e-8c9f-4d5f-86ec-a2c3f81df711",
-            "image": "public/1701204274744_enora2.webp",
+            "image": "public/1701338003399_BERENICE.png",
             "ordre": 1,
-            "createdAt": 1701204277296
+            "createdAt": 1701204277296,
+            "updatedAt": 1701338005408
           },
           {
             "ID": "914879dd-fc31-4759-aa38-94b599dbde04",

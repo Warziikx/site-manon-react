@@ -1,7 +1,7 @@
 import { Router, Route, RootRoute } from "@tanstack/react-router";
 import { Layout } from "@/components/Layout";
 
-import { Homepage, ServiceDetailPage, ServiceGroupePage, ServicePage, PortfolioPage, ContactPage } from "@/pages";
+import { Homepage, ServiceDetailPage, ServiceGroupePage, ServicePage, PortfolioPage, ContactPage, PortfolioDetailPage } from "@/pages";
 // Create a root route
 const rootRoute = new RootRoute({
   component: Layout,
@@ -29,6 +29,12 @@ export const portfolioRoute = new Route({
   component: PortfolioPage,
 });
 
+export const portfolioDetailRoute = new Route({
+  getParentRoute: () => rootRoute,
+  path: "/portfolio/$portfolioSlug",
+  component: PortfolioDetailPage,
+});
+
 const contactRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/contact",
@@ -48,6 +54,7 @@ const routeTree = rootRoute.addChildren([
   serviceGroupeRoute,
   serviceDetailRoute,
   portfolioRoute,
+  portfolioDetailRoute,
   contactRoute,
 ]);
 

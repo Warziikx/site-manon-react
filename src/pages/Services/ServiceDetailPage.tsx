@@ -55,7 +55,7 @@ export const ServiceDetailPage: React.FC = () => {
                   className="mb-2focus:outline-none mr-2 rounded-lg bg-ternary px-5 py-2.5 text-sm font-medium 
                   text-white hover:bg-ternary-500 focus:ring-4 focus:ring-ternary-500"
                 >
-                  Contacter moi
+                  Contactezmoi
                 </Link>
               </div>
             </div>

@@ -24,12 +24,13 @@ export const ContactPage: React.FC = () => {
 				});
 			}
 		});
+
 	}, []);
 
 	return (
 		<div className="mt-16">
 			<div className="grid grid-cols-1 gap-8 px-8 py-16 md:grid-cols-2 md:px-16 lg:px-32">
-				<div>
+				<div className="flex flex-col justify-center">
 					<h1 className="text-sm text-ternary" style={{ fontVariant: "small-caps" }}>
 						Contact
 					</h1>

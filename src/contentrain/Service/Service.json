@@ -30,10 +30,11 @@
         },
         {
           "ID": "13904396-fa7f-4ae4-ad57-de32734c3efa",
-          "description": "<p>Tu choisi le nombre de photo</p>",
-          "image": "public/1701177732385_dot-rouge.svg",
+          "description": "<p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Dans l'étape cruciale de la post-production et de la livraison, je prends soin de chaque détail pour vous offrir un résultat exceptionnel. Après avoir minutieusement sélectionné les meilleurs clichés avec vous par le biais d’une planche contact, je passe à la post-production pour optimiser la qualité visuelle de chaque image.</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Je vous envoie ensuite le nombre de photos définit en amont via une galerie en ligne ou par mail. Vous avez la possibilité de demander des ajustements mineurs pour que les photos correspondent parfaitement à vos attentes Je reste à votre écoute pour m'assurer de votre satisfaction et recueillir vos retours, car votre bonheur est ma priorité.</span></p><p><br></p>",
+          "image": "public/1701331924962_Rond Rouge.svg",
           "ordre": 3,
-          "createdAt": 1701177744455
+          "createdAt": 1701177744455,
+          "updatedAt": 1701331926176
         }
       ],
       "createdAt": 1701177680679,

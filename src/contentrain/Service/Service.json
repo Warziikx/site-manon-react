@@ -322,7 +322,15 @@
     "step": {
       "ID": "dc5e5b14-d5be-493b-82ce-1f3931305912",
       "title": "Le dérouler d'une séance",
-      "list": [],
+      "list": [
+        {
+          "ID": "af9f52f2-d2be-49bb-a4a4-f4a78527651a",
+          "description": "<p>Lors de notre premier échange, plongeons ensemble dans le projet dédié à votre compagnon à quatre pattes ! Je serai pleinement à l'écoute pour comprendre les traits uniques de votre animal, discutant du style, du lieu, et de tout détail essentiel pour créer une séance personnalisée qui mettra en valeur sa personnalité. Explorez mes diverses formules et options adaptées pour une expérience qui capture l'essence même de votre fidèle compagnon. Ensuite, nous planifierons la date, le lieu idéal et les accessoires nécessaires pour une séance fluide et agréable, afin d'immortaliser la beauté et la personnalité de votre animal de compagnie.</p>",
+          "ordre": 1,
+          "image": "public/1701353738378_Rond Bleu.svg",
+          "createdAt": 1701353765465
+        }
+      ],
       "createdAt": 1701353722054
     }
   },

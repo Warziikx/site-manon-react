@@ -92,9 +92,10 @@
           },
           {
             "ID": "d4568938-f189-4972-b1c9-d1841e60e768",
-            "image": "public/1701204125686_lauralie.webp",
+            "image": "public/1701337915759_LAURALIE.png",
             "ordre": 3,
-            "createdAt": 1701204128281
+            "createdAt": 1701204128281,
+            "updatedAt": 1701337917097
           }
         ],
         "createdAt": 1701203061193,

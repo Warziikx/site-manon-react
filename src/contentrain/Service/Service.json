@@ -169,7 +169,13 @@
     "ordre": 2,
     "createdAt": 1701176312142,
     "full_description": "<p>Capturer les moments précieux en famille, immortaliser la complicité d'un couple ou célébrer l'attente d'un nouveau chapitre de vie, notre séance photo offre une expérience unique pour tous les moments marquants de ta vie.</p><p><br></p><p>Que vous souhaitiez conserver des souvenirs complices en famille, capturer l'amour qui unit un couple ou documenter la douce anticipation de l'arrivée d'un nouveau membre, cette formule est conçue pour rendre chaque instant inoubliable.</p><p><br></p><p>Au cœur de la nature, dans votre cocon familial ou en studio, chaque lieu devient le décor idéal pour mettre en lumière les liens qui vous unissent. Les sourires complices, les étreintes chaleureuses et les moments de bonheur authentique sont capturés avec soin, transformant chaque cliché en un témoignage visuel de l'amour et de la joie partagés.</p><p><br></p><p>Réservez dès maintenant pour une expérience qui va au-delà de la simple séance photo. Laissez-moi capturer l'essence de votre bonheur, créer des souvenirs qui durent et vous offrir des images qui racontent votre histoire avec authenticité et émotion.</p>",
-    "updatedAt": 1701334123213
+    "updatedAt": 1701334123213,
+    "step": {
+      "ID": "afd5127b-af46-4817-a50d-b3f82bb202aa",
+      "title": "Dérouler de la séance",
+      "list": [],
+      "createdAt": 1701339727404
+    }
   },
   {
     "ID": "0f8659f8-77bd-430d-aee0-3904190f2e06",

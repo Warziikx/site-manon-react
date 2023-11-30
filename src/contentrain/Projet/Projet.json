@@ -3,7 +3,10 @@
     "ID": "ba8a08e3-0d62-4bcb-8fd7-eddada8b8952",
     "libelle": "Cleeen",
     "type": "Identitée visuelle",
-    "brief": "Mettre à jour le logo et la base line de la marque \"Cleeen\". Une marque de produit d'entretien solides et 100% naturels ainsi que de créer le packaging de leur nouveau produit.",
-    "createdAt": 1701292188173
+    "brief": "<p>Mettre à jour le logo et la base line de la marque \"Cleeen\". Une marque de produit d'entretien solides et 100% naturels ainsi que de créer le packaging de leur nouveau produit.</p>",
+    "createdAt": 1701292188173,
+    "detail": "<p>undefined</p>",
+    "img": "public/1701352177633_judite2.webp",
+    "updatedAt": 1701352178562
   }
 ]

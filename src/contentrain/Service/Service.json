@@ -355,7 +355,9 @@
           "ID": "0d22935a-7c30-4c1c-80c6-8ba4319ce826",
           "title": "Formules",
           "subtitle": "Ces tarifs comprennent les frais de déplacement en Ille-et-Vilaine, la préparation de la séance, la prise de vue et le post traitement",
-          "list": [],
+          "list": [
+            "5 photos- 90€"
+          ],
           "createdAt": 1701354057982
         }
       ],

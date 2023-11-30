@@ -367,7 +367,14 @@
     },
     "mansonery": [
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "e60c576a-b78f-4d86-a733-4cb8facf1c31",
+            "image": "public/1701355482592_CELIA.png",
+            "ordre": 1,
+            "createdAt": 1701355487143
+          }
+        ],
         "createdAt": 1701355461424,
         "ID": "bbff0254-3806-44d8-bdf3-b2032adf58e7"
       }

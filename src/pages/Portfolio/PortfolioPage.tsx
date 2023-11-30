@@ -17,10 +17,10 @@ export const PortfolioPage: React.FC = () => {
           portfolioPage.projetListObj.length > 0 &&
           portfolioPage.projetListObj.map((projet: IProjet) => {
             return (
-              <Link to={`/portfolio/${projet.slug}`}>
+              <Link to={`/portfolio/${projet.slug}`} key={projet.ID}>
                 <p className="text-sm text-ternary">{projet.type}</p>
                 <h1 className="font-title text-3xl font-semibold">{projet.libelle}</h1>
-                <img src={`/${projet.img}`} />
+                <img className="rounded-lg" src={`/${projet.img}`} />
               </Link>
             );
           })}

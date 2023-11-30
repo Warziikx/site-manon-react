@@ -1,11 +1,23 @@
 import { IPrestation, IPrestationObj } from "@/contentrain/Homepage";
 import { getById } from "@/contentrain/Service";
 import { Link } from "@tanstack/react-router";
-import { DotArrowRight } from "iconoir-react";
+import { motion } from "framer-motion";
+import { DotArrowRight, DotArrowLeft } from "iconoir-react";
+import dotRose from "@/assets/images/identite_visuelle/dot-rose.svg";
 
 interface NumberFeaturesPropos {
   data: IPrestation;
 }
+
+const liDotMotion = {
+  hover: { scale: 1.2, rotate: 180 },
+  tap: { scale: 0.8, rotate: -90, borderRadius: "100%" },
+};
+
+const liTextMotion = {
+  hover: { scale: 1.1 },
+  tap: { scale: 0.8 },
+};
 
 export const IllustrationFeatures: React.FC<NumberFeaturesPropos> = ({ data }) => {
   return (
@@ -19,23 +31,25 @@ export const IllustrationFeatures: React.FC<NumberFeaturesPropos> = ({ data }) =
               to={feature.link}
               className="whitespace-pre-line flex flex-row space-x-4 px-16 text-center text-xl text-ternary"
             >
+              <DotArrowLeft />
               <p className="font-semibold">{feature.title}</p>
               <DotArrowRight />
             </Link>
-            <ul className="mt-4">
+            <ul className="mt-4 space-y-4">
               {feature.list.map((liItem: string, i: number) => {
                 let prestation = getById(liItem);
                 return (
-                  <li>
+                  <motion.li key={`feat-${i}`} initial="rest" whileHover="hover" whileTap="tap">
                     <Link
                       to={`/service/${prestation?.type}/${prestation?.slug}`}
-                      key={`feat-${i}`}
-                      className="flex flex-row items-center space-x-2"
+                      className="flex flex-row items-center space-x-4"
                     >
-                      <div className="h-4 w-4 rounded-full bg-ternary" />
-                      <p className="font-semibold">{prestation?.title}</p>
+                      <motion.img src={dotRose} className="h-6 w-6" variants={liDotMotion} />
+                      <motion.p className="font-semibold" variants={liTextMotion}>
+                        {prestation?.title}
+                      </motion.p>
                     </Link>
-                  </li>
+                  </motion.li>
                 );
               })}
             </ul>

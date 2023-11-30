@@ -438,7 +438,15 @@
     "pricing": {
       "ID": "5d1b1396-d2df-4577-b682-fc78a010de81",
       "title": "Les tarifs",
-      "list": [],
+      "list": [
+        {
+          "ID": "5272c8ef-167b-459e-a987-94071302cfe0",
+          "title": "Formules",
+          "subtitle": " ",
+          "list": [],
+          "createdAt": 1701355949520
+        }
+      ],
       "createdAt": 1701355906728
     }
   },

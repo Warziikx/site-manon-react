@@ -132,9 +132,10 @@
         "images": [
           {
             "ID": "3e1b5602-cb20-433a-8dde-ad654767d405",
-            "image": "public/1701204585306_maelle2.webp",
+            "image": "public/1701338084453_ENORA.png",
             "ordre": 1,
-            "createdAt": 1701204590074
+            "createdAt": 1701204590074,
+            "updatedAt": 1701338086675
           },
           {
             "ID": "be201a03-2bdf-4256-b4d3-9ca9b1dcd326",

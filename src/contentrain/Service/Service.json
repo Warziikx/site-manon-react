@@ -198,6 +198,12 @@
       ],
       "createdAt": 1701339727404,
       "updatedAt": 1701340258539
+    },
+    "pricing": {
+      "ID": "8a4adc26-06fc-4064-875b-b305126db3af",
+      "title": "Les Tarifs",
+      "list": [],
+      "createdAt": 1701340466402
     }
   },
   {

@@ -184,10 +184,11 @@
         },
         {
           "ID": "e1e4e0b6-2435-42bb-81bc-0736a073ef64",
-          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Le jour de notre séance, je me présente avec tout l'équipement nécessaire pour vous offrir une expérience inoubliable. Ma priorité est de créer une atmosphère détendue et chaleureuse afin de capturer des moments naturels et authentiques qui reflètent votre essence.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Durant notre temps ensemble, je vous guiderai avec des conseils pour obtenir les poses les plus naturelles et spontanées, tout en préservant votre authenticité. Chaque instant compte, et je veille à capturer ces moments précieux.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Si nécessaire, nous pourrons rapidement visualiser les images prises pour m'assurer que vous êtes satisfaits des résultats. Nous aurons alors l'opportunité de discuter d'éventuels ajustements ou ajouts spécifiques pour que les photos transmettent parfaitement l'émotion et la beauté de ces instants uniques.</span></p><p><br></p>",
+          "description": "<p>Le jour de notre séance, je me présente avec tout l'équipement nécessaire pour vous offrir une expérience inoubliable. Ma priorité est de créer une atmosphère détendue et chaleureuse afin de capturer des moments naturels et authentiques qui reflètent votre essence. Durant notre temps ensemble, je vous guiderai avec des conseils pour obtenir les poses les plus naturelles et spontanées, tout en préservant votre authenticité. Chaque instant compte, et je veille à capturer ces moments précieux. Si nécessaire, nous pourrons rapidement visualiser les images prises pour m'assurer que vous êtes satisfaits des résultats. Nous aurons alors l'opportunité de discuter d'éventuels ajustements ou ajouts spécifiques pour que les photos transmettent parfaitement l'émotion et la beauté de ces instants uniques.</p><p><br></p>",
           "ordre": 2,
           "image": "public/1701340010274_Rond Rose.svg",
-          "createdAt": 1701340097009
+          "createdAt": 1701340097009,
+          "updatedAt": 1701344557931
         },
         {
           "ID": "e0a2602c-60c3-4ef4-b08f-39f4db822303",

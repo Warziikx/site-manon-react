@@ -172,7 +172,7 @@
     "updatedAt": 1701334123213,
     "step": {
       "ID": "afd5127b-af46-4817-a50d-b3f82bb202aa",
-      "title": "Dérouler de la séance",
+      "title": "Le dérouler d'une séance",
       "list": [
         {
           "ID": "384ab756-2e70-4c3c-a6fe-088207862b67",
@@ -196,7 +196,8 @@
           "createdAt": 1701340182730
         }
       ],
-      "createdAt": 1701339727404
+      "createdAt": 1701339727404,
+      "updatedAt": 1701340258539
     }
   },
   {

@@ -329,6 +329,13 @@
           "ordre": 1,
           "image": "public/1701353738378_Rond Bleu.svg",
           "createdAt": 1701353765465
+        },
+        {
+          "ID": "e8a72df2-3d22-4311-b5bb-9b0482086af8",
+          "description": "<p>Le jour de notre séance avec votre animal, j'arrive avec tout le matériel nécessaire pour capturer des moments authentiques et pleins de vie. Ma priorité est de créer une atmosphère détendue et sécurisante pour votre compagnon, favorisant ainsi des clichés naturels et expressifs. Je vous guiderai avec des conseils pour immortaliser les meilleurs instants, tout en respectant le rythme et le tempérament propre à votre animal. Ensemble, nous créerons des souvenirs uniques qui refléteront l'essence et la personnalité de votre compagnon à quatre pattes.</p>",
+          "ordre": 2,
+          "image": "public/1701353799457_Rond Rose.svg",
+          "createdAt": 1701353832461
         }
       ],
       "createdAt": 1701353722054

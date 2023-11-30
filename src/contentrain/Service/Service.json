@@ -350,7 +350,15 @@
     "pricing": {
       "ID": "5895774e-536a-49aa-a7ac-d0d0d273fca8",
       "title": "Les tarifs",
-      "list": [],
+      "list": [
+        {
+          "ID": "0d22935a-7c30-4c1c-80c6-8ba4319ce826",
+          "title": "Formules",
+          "subtitle": "Ces tarifs comprennent les frais de déplacement en Ille-et-Vilaine, la préparation de la séance, la prise de vue et le post traitement",
+          "list": [],
+          "createdAt": 1701354057982
+        }
+      ],
       "createdAt": 1701353932944
     }
   },

@@ -373,6 +373,12 @@
             "image": "public/1701355482592_CELIA.png",
             "ordre": 1,
             "createdAt": 1701355487143
+          },
+          {
+            "ID": "73f90a66-453d-49bf-b46f-79b96160e644",
+            "image": "public/1701355502237_MAELLE.png",
+            "ordre": 2,
+            "createdAt": 1701355506539
           }
         ],
         "createdAt": 1701355461424,

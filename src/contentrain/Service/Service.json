@@ -278,7 +278,14 @@
         "ID": "fb656309-c1ab-4b1f-afdd-bb8b30032b1d"
       },
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "f262cabe-13a0-461a-86f3-e95b2eee1616",
+            "image": "public/1701341714107_LOUISE.png",
+            "ordre": 1,
+            "createdAt": 1701341717850
+          }
+        ],
         "createdAt": 1701341702994,
         "ID": "1a82c340-ae14-4be9-a9c5-599c5716a082"
       }

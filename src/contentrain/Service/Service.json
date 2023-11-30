@@ -230,7 +230,14 @@
     },
     "mansonery": [
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "840ae2b0-e3a2-4503-a179-9cf2c63aedd8",
+            "image": "public/1701341579884_LOUISE3.png",
+            "ordre": 1,
+            "createdAt": 1701341582684
+          }
+        ],
         "createdAt": 1701341554790,
         "ID": "fa9ca83b-9383-4185-beda-53397c86fe1e"
       }

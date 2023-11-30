@@ -403,7 +403,14 @@
         "ID": "cd872663-b961-4d87-8c0d-886cf2294513"
       },
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "62e258fb-53f7-4e20-80eb-dd9c1433b2b5",
+            "image": "public/1701355577312_MAELLE3.png",
+            "ordre": 1,
+            "createdAt": 1701355582364
+          }
+        ],
         "createdAt": 1701355563605,
         "ID": "b3dd6dfd-a749-4f4c-a83b-e4fc62bdf716"
       }

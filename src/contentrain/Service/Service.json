@@ -78,9 +78,10 @@
         "images": [
           {
             "ID": "c8de1deb-1c47-4c45-a973-3e78b73aef13",
-            "image": "public/1701204107175_alicia.webp",
+            "image": "public/1701337875931_ALICIA.png",
             "ordre": 1,
-            "createdAt": 1701204109217
+            "createdAt": 1701204109217,
+            "updatedAt": 1701337878560
           },
           {
             "ID": "1d499421-477b-4dc0-b2bb-f2a208102094",

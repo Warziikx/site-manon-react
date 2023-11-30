@@ -242,6 +242,12 @@
             "image": "public/1701341592948_ANTOINE2.png",
             "ordre": 2,
             "createdAt": 1701341598077
+          },
+          {
+            "ID": "61304116-575a-4cf2-acbf-654fcc11153d",
+            "image": "public/1701341615476_LAETITIA_JADE.png",
+            "ordre": 3,
+            "createdAt": 1701341619553
           }
         ],
         "createdAt": 1701341554790,

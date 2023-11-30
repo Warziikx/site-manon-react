@@ -176,10 +176,11 @@
       "list": [
         {
           "ID": "384ab756-2e70-4c3c-a6fe-088207862b67",
-          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Lors de notre premier contact, plongeons ensemble dans votre projet ! Je serai à votre écoute attentive pour comprendre vos envies et aspirations, discutant des détails qui rendront votre séance mémorable. Que ce soit pour une séance de grossesse, en couple ou en famille, nous explorerons ensemble les styles, les lieux et les thèmes pour créer une expérience authentique et personnalisée. Découvrez les diverses formules et options adaptées, je préparerai ensuite un devis sur mesure, détaillant les délais et les conditions contractuelles pour une totale clarté. Passons à l'étape de la planification : sélectionnons la date, le lieu idéal, ainsi que d'éventuels accessoires ou tenues spécifiques pour une séance fluide et détendue, où les moments précieux seront capturés en toute simplicité.</span></p>",
+          "description": "<p>Lors de notre premier contact, plongeons ensemble dans votre projet ! Je serai à votre écoute attentive pour comprendre vos envies et aspirations, discutant des détails qui rendront votre séance mémorable. Que ce soit pour une séance de grossesse, en couple ou en famille, nous explorerons ensemble les styles, les lieux et les thèmes pour créer une expérience authentique et personnalisée. Découvrez les diverses formules et options adaptées, je préparerai ensuite un devis sur mesure, détaillant les délais et les conditions contractuelles pour une totale clarté. Passons à l'étape de la planification : sélectionnons la date, le lieu idéal, ainsi que d'éventuels accessoires ou tenues spécifiques pour une séance fluide et détendue, où les moments précieux seront capturés en toute simplicité.</p>",
           "ordre": 1,
           "image": "public/1701339818456_Rond Bleu.svg",
-          "createdAt": 1701339979183
+          "createdAt": 1701339979183,
+          "updatedAt": 1701344503481
         },
         {
           "ID": "e1e4e0b6-2435-42bb-81bc-0736a073ef64",

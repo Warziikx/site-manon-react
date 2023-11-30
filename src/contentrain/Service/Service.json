@@ -260,6 +260,12 @@
             "image": "public/1701341650899_ANTOINE3.png",
             "ordre": 1,
             "createdAt": 1701341658628
+          },
+          {
+            "ID": "14784e58-a9cb-4de0-83c7-4c2b85a893db",
+            "image": "public/1701341671699_LAETITIA2.png",
+            "ordre": 2,
+            "createdAt": 1701341675627
           }
         ],
         "createdAt": 1701341629579,

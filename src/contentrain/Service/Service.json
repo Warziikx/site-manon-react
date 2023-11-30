@@ -470,9 +470,10 @@
     "updatedAt": 1701334219482,
     "pricing": {
       "ID": "67393576-2565-40eb-a0ec-46a71caa814f",
-      "title": "Les tarifs",
+      "title": " ",
       "list": [],
-      "createdAt": 1701362320925
+      "createdAt": 1701362320925,
+      "updatedAt": 1701362972930
     }
   },
   {

@@ -442,13 +442,14 @@
         {
           "ID": "5272c8ef-167b-459e-a987-94071302cfe0",
           "title": "Formules",
-          "subtitle": " ",
+          "subtitle": " Ces tarifs comprennent la préparation de la séance, la prise de vue et le post traitement",
           "list": [
             "5 photos- 80€",
             "10 photos- 120€",
             "20 photos- 150€"
           ],
-          "createdAt": 1701355949520
+          "createdAt": 1701355949520,
+          "updatedAt": 1701356103328
         }
       ],
       "createdAt": 1701355906728

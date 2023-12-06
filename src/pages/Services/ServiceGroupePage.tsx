@@ -2,7 +2,7 @@ import { Navigate, useParams } from "@tanstack/react-router";
 import { serviceGroupeRoute } from "@/Router";
 
 import { IPrestation, getByGroup } from "@/contentrain/Service";
-import { CallToAction } from "@/components/Widget/CallToAction";
+import { CallToAction } from "@/components/Widget/CTA/CallToAction";
 import { Prestation } from "@/components/Service/Prestation";
 
 export const ServiceGroupePage: React.FC = () => {
@@ -28,7 +28,9 @@ export const ServiceGroupePage: React.FC = () => {
           </div>
         );
       })}
-      <CallToAction />
+      <div className="mt-16">
+        <CallToAction />
+      </div>
     </div>
   );
 };

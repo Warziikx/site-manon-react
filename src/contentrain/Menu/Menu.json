@@ -138,11 +138,12 @@
   {
     "ID": "afc16000-25d1-4523-adb1-4f9affb9ae4e",
     "libelle": "papeterie",
-    "internal_url": "",
+    "internal_url": "/service/graphisme/papeterie",
     "external_url": "",
     "ordre": 2,
     "level": 2,
     "children": "",
-    "createdAt": 1701893659504
+    "createdAt": 1701893659504,
+    "updatedAt": 1701893671526
   }
 ]

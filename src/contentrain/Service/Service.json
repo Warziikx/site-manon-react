@@ -513,6 +513,13 @@
           "ordre": 1,
           "image": "public/1701861620332_Rond Bleu.svg",
           "createdAt": 1701861636286
+        },
+        {
+          "ID": "01733b7a-f771-4ea2-93a3-1db5cd698999",
+          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Le jour de l'événement, je suis présent pour capturer les moments spéciaux, les instants émouvants et les détails significatifs. Je veille à ce que chaque moment important soit immortalisé, en utilisant mon expertise pour capturer l'ambiance, l'énergie et l'essence même de l'événement.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Je me fonds discrètement dans l'environnement pour saisir des photos naturelles et authentiques, tout en restant attentif aux demandes spécifiques et aux moments particuliers que vous avez soulignés lors du brief.</span></p><p><br></p>",
+          "ordre": 2,
+          "image": "public/1701861650483_Rond Rose.svg",
+          "createdAt": 1701861667915
         }
       ],
       "createdAt": 1701861608183

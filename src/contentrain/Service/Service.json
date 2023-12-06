@@ -644,7 +644,15 @@
     "step": {
       "ID": "16fb2fae-7c78-4864-a1ee-18d56d15050e",
       "title": "Les étapes clés ",
-      "list": [],
+      "list": [
+        {
+          "ID": "9f2d00b3-edf2-4c73-b6be-8b0d0baf94a5",
+          "description": "<p>Lors de notre première rencontre pour discuter de votre service d'illustration, nous établissons un brief détaillé pour comprendre vos besoins spécifiques en termes de style, de tonalité et de contenu visuel que vous souhaitez intégrer dans vos illustrations. Cette étape permet de cerner précisément vos attentes et vos objectifs pour les créations à venir.</p>",
+          "ordre": 1,
+          "image": "public/1701864008885_Rond Bleu.svg",
+          "createdAt": 1701864009575
+        }
+      ],
       "createdAt": 1701863966790
     },
     "pricing": [],

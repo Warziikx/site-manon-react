@@ -651,6 +651,13 @@
           "ordre": 1,
           "image": "public/1701864008885_Rond Bleu.svg",
           "createdAt": 1701864009575
+        },
+        {
+          "ID": "b39b2625-bd52-417c-b9fd-a259eed8c045",
+          "description": "<p>En tant qu'illustratrice, je vous propose deux croquis d'illustrations, chacune présentant une approche artistique unique en accord avec vos indications du brief. Ces propositions vous offrent la possibilité de choisir celle qui correspond le mieux à vos attentes et à l'image que vous souhaitez véhiculer. Une fois votre choix fait, je commence le processus de création des illustrations. Je veille à ce que chaque détail soit pris en compte, que ce soit le style graphique, les couleurs ou les éléments visuels spécifiques que vous avez mentionnés. Si nécessaire, je procède à des ajustements en fonction de vos retours pour assurer votre entière satisfaction.</p>",
+          "ordre": 2,
+          "image": "public/1701864102538_Rond Rose.svg",
+          "createdAt": 1701864104286
         }
       ],
       "createdAt": 1701863966790

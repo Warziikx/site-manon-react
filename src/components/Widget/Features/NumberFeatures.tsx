@@ -15,7 +15,7 @@ export const NumberFeatures: React.FC<NumberFeaturesPropos> = ({ data }) => {
             <div key={index} className="flex flex-col items-center space-y-8 text-white">
               <div className="relative">
                 <img src={"/" + feature.image} className="h-48 w-48	" />
-                <p className={`absolute left-[42%] top-[40%] font-title text-6xl font-black`}>{index + 1}</p>
+                <p className={`absolute left-[42%] top-[37%] font-title text-6xl font-black`}>{index + 1}</p>
               </div>
               <div
                 className="whitespace-pre-line px-4 text-center text-white"

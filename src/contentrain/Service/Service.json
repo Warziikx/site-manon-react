@@ -613,6 +613,13 @@
           "ordre": 2,
           "image": "public/1701863532566_Rond Rose.svg",
           "createdAt": 1701863534370
+        },
+        {
+          "ID": "701d0882-3381-43ba-bd12-485396a2888b",
+          "description": "<p>Après la finalisation de la conception et des photos, une fois l'impression réalisée, je vous livre les produits finaux. Vous recevez la papeterie, que ce soit des faire-part, des cartes ou d'autres produits, dans le délai convenu. Je veille à ce que la livraison soit effectuée selon vos préférences, qu'il s'agisse d'une livraison à domicile, d'un envoi postal ou d'un retrait en personne, assurant ainsi que vous receviez vos articles dans les meilleures conditions et prêts à être utilisés. Je m'engage à ce que la papeterie réponde à vos attentes, reflétant le design convenu et vous offrant des produits de qualité qui correspondent parfaitement à l'image souhaitée pour votre événement ou votre usage personnel.</p>",
+          "ordre": 3,
+          "image": "public/1701863579783_Rond Rouge.svg",
+          "createdAt": 1701863580743
         }
       ],
       "createdAt": 1701863436925,

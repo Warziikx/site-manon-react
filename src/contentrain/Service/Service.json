@@ -598,7 +598,15 @@
     "step": {
       "ID": "9201e348-7457-4465-8287-b1acfd936e4d",
       "title": "Les étapes clés",
-      "list": [],
+      "list": [
+        {
+          "ID": "9c41c658-5813-4350-9132-ff1ae7075be8",
+          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Lors de notre rencontre initiale pour discuter de votre service de papeterie, nous établissons un brief détaillé pour comprendre vos besoins spécifiques. Si vous avez opté pour des faire-part comprenant des photos, nous discutons des styles, des thèmes et des éléments visuels que vous souhaitez intégrer.</span></p><p><span style=\"color: rgb(55, 65, 81);\">En tant que créateur de votre papeterie, je vous propose deux propositions distinctes, chacune représentant une approche unique en accord avec vos directives. Ces propositions vous permettent de choisir celle qui correspond le mieux à vos attentes.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Si une séance photo est incluse pour les faire-part avec des images personnalisées, nous planifions cette session pour capturer les photos qui seront intégrées dans le design.</span></p><p><br></p>",
+          "ordre": 1,
+          "image": "public/1701863464251_Rond Bleu.svg",
+          "createdAt": 1701863469249
+        }
+      ],
       "createdAt": 1701863436925,
       "updatedAt": 1701863448467
     },

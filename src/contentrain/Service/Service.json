@@ -595,7 +595,12 @@
     "display": "right",
     "slug": "papeterie",
     "ordre": 2,
-    "step": [],
+    "step": {
+      "ID": "9201e348-7457-4465-8287-b1acfd936e4d",
+      "title": "Les étapes Clés",
+      "list": [],
+      "createdAt": 1701863436925
+    },
     "pricing": [],
     "full_description": "<p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Ma Papeterie Personnalisée : Chaque Moment, une Création Unique</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Je suis passionnée par la création de souvenirs exceptionnels à travers ma papeterie. De la naissance aux mariages, des cartes de vœux illustrées aux plans de table sur mesure, je transforme vos moments précieux en œuvres uniques et inoubliables.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Votre Style, Mon Engagement : Créations Personnalisées</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Mon approche repose sur la personnalisation totale. Vos idées prennent vie dans mes conceptions uniques. En intégrant vos photos (que l’on peut créer ensemble), ou mes illustrations, je crée des pièces qui reflètent pleinement votre individualité et captivent l'essence de chaque événement.</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Créez des Souvenirs Durables : Ma Signature Artistique</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\"><span class=\"ql-cursor\">﻿﻿﻿</span></span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Offrez à vos moments spéciaux une touche distinctive avec ma gamme de papeterie. Contactez-moi pour découvrir comment mes créations sur mesure peuvent enrichir vos moments de vie avec une touche personnelle.</span></p>",
     "mansonery": [],

@@ -606,6 +606,13 @@
           "image": "public/1701863464251_Rond Bleu.svg",
           "createdAt": 1701863469249,
           "updatedAt": 1701863495021
+        },
+        {
+          "ID": "0859cece-c16b-49fd-87b9-05cc97aff20d",
+          "description": "<p>En utilisant les informations du brief, je crée des maquettes de la papeterie en fonction des deux propositions préalablement discutées. Si une séance photo est prévue pour les faire-part, nous organisons cette session en mettant en scène et capturant les images désirées pour votre papeterie. Je veille à ce que chaque élément graphique et visuel soit harmonieusement intégré dans la conception finale, en suivant vos indications et en garantissant la qualité visuelle des produits finaux.</p>",
+          "ordre": 2,
+          "image": "public/1701863532566_Rond Rose.svg",
+          "createdAt": 1701863534370
         }
       ],
       "createdAt": 1701863436925,

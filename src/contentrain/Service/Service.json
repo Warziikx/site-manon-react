@@ -453,6 +453,37 @@
         }
       ],
       "createdAt": 1701355906728
+    },
+    "step": {
+      "ID": "0f232485-37a8-49fa-9b9d-afeba5c3ca88",
+      "title": "Les étapes clés",
+      "list": [
+        {
+          "ID": "0c155723-57df-4006-a7f7-2aff1a126c19",
+          "description": "<p><span class=\"ql-cursor\">﻿</span>Lorsque vous me contactez pour des photos de packshot, nous discutons en détail de vos besoins. Après avoir défini le brief, vous envoyez vos produits à mon studio. Je veille à leur sécurité tout au long du processus.</p>",
+          "ordre": 1,
+          "image": "public/1701861357058_Rond Bleu.svg",
+          "createdAt": 1701861361734,
+          "updatedAt": 1701861760630
+        },
+        {
+          "ID": "67bb5d6f-b78b-4d5d-b163-edccefcdec02",
+          "description": "<p>Une fois les produits reçus, je les prépare minutieusement pour la séance photo. J'utilise des équipements haut de gamme pour capturer chaque détail, mettant en valeur leurs caractéristiques. Je travaille en collaboration avec vous pour obtenir des images de qualité.</p>",
+          "ordre": 2,
+          "image": "public/1701861377220_Rond Rose.svg",
+          "createdAt": 1701861388140,
+          "updatedAt": 1701861780693
+        },
+        {
+          "ID": "e08f5c83-7921-468e-90c1-235a568321d6",
+          "description": "<p>Une fois les images finalisées, je vous propose diverses options de livraison. Vous pouvez choisir la formule qui vous convient le mieux, que ce soit une livraison en ligne sécurisée, sur support physique ou une intégration directe dans votre système. Je m'engage à respecter les délais convenus et à vous fournir des images qui dépassent vos attentes. Votre satisfaction est ma priorité à chaque étape du processus de création photographique de packshot.</p><p><br></p>",
+          "ordre": 3,
+          "image": "public/1701861404974_Rond Rouge.svg",
+          "createdAt": 1701861419827,
+          "updatedAt": 1701861800626
+        }
+      ],
+      "createdAt": 1701861310011
     }
   },
   {
@@ -474,6 +505,37 @@
       "list": [],
       "createdAt": 1701362320925,
       "updatedAt": 1701362972930
+    },
+    "step": {
+      "ID": "6ca054f0-8299-4b2e-ba3e-da43ec29f929",
+      "title": "Les étapes clés",
+      "list": [
+        {
+          "ID": "aeaa4589-359a-4e35-a388-5fd3fdd51813",
+          "description": "<p>Lors de notre premier contact pour la couverture photographique de votre événement, nous discutons en détail de vos attentes et de la portée de la couverture photographique souhaitée. Nous établissons un brief précis pour saisir l'essence de l'événement, ses moments-clés et vos priorités en matière de photographie. Une rencontre préliminaire peut être organisée pour mieux comprendre l'emplacement, les conditions d'éclairage et les détails logistiques qui garantiront une couverture photographique optimale lors du jour J.</p><p><br></p>",
+          "ordre": 1,
+          "image": "public/1701861620332_Rond Bleu.svg",
+          "createdAt": 1701861636286,
+          "updatedAt": 1701861829673
+        },
+        {
+          "ID": "01733b7a-f771-4ea2-93a3-1db5cd698999",
+          "description": "<p>Le jour de l'événement, je suis présent pour capturer les moments spéciaux, les instants émouvants et les détails significatifs. Je veille à ce que chaque moment important soit immortalisé, en utilisant mon expertise pour capturer l'ambiance, l'énergie et l'essence même de l'événement. Je me fonds discrètement dans l'environnement pour saisir des photos naturelles et authentiques, tout en restant attentif aux demandes spécifiques et aux moments particuliers que vous avez soulignés lors du brief.</p><p><br></p>",
+          "ordre": 2,
+          "image": "public/1701861650483_Rond Rose.svg",
+          "createdAt": 1701861667915,
+          "updatedAt": 1701861850284
+        },
+        {
+          "ID": "45ffa6aa-fb00-4106-9f86-29ac0c64f159",
+          "description": "<p>Une fois l'événement terminé, je sélectionne, retouche et prépare les meilleures photos pour vous. Selon vos préférences convenues, je livre les images finales dans le délai convenu, que ce soit à travers une galerie en ligne sécurisée, ou tout autre support choisi. Je m'assure que vous recevez des photos qui reflètent l'essence de votre événement, capturant ses moments les plus mémorables. Votre satisfaction est ma priorité, et je m'efforce de vous offrir un souvenir photographique de qualité exceptionnelle de votre événement.</p><p><br></p>",
+          "ordre": 3,
+          "image": "public/1701861707791_Rond Rouge.svg",
+          "createdAt": 1701861708537,
+          "updatedAt": 1701861877317
+        }
+      ],
+      "createdAt": 1701861608183
     }
   },
   {
@@ -533,7 +595,36 @@
     "display": "right",
     "slug": "papeterie",
     "ordre": 2,
-    "step": [],
+    "step": {
+      "ID": "9201e348-7457-4465-8287-b1acfd936e4d",
+      "title": "Les étapes clés",
+      "list": [
+        {
+          "ID": "9c41c658-5813-4350-9132-ff1ae7075be8",
+          "description": "<p>Lors de notre rencontre initiale pour discuter de votre service de papeterie, nous établissons un brief détaillé pour comprendre vos besoins spécifiques. Si vous avez opté pour des faire-part comprenant des photos, nous discutons des styles, des thèmes et des éléments visuels que vous souhaitez intégrer. En tant que créateur de votre papeterie, je vous propose deux propositions distinctes, chacune représentant une approche unique en accord avec vos directives. Ces propositions vous permettent de choisir celle qui correspond le mieux à vos attentes. Si une séance photo est incluse pour les faire-part avec des images personnalisées, nous planifions cette session pour capturer les photos qui seront intégrées dans le design.</p><p><br></p>",
+          "ordre": 1,
+          "image": "public/1701863464251_Rond Bleu.svg",
+          "createdAt": 1701863469249,
+          "updatedAt": 1701863495021
+        },
+        {
+          "ID": "0859cece-c16b-49fd-87b9-05cc97aff20d",
+          "description": "<p>En utilisant les informations du brief, je crée des maquettes de la papeterie en fonction des deux propositions préalablement discutées. Si une séance photo est prévue pour les faire-part, nous organisons cette session en mettant en scène et capturant les images désirées pour votre papeterie. Je veille à ce que chaque élément graphique et visuel soit harmonieusement intégré dans la conception finale, en suivant vos indications et en garantissant la qualité visuelle des produits finaux.</p>",
+          "ordre": 2,
+          "image": "public/1701863532566_Rond Rose.svg",
+          "createdAt": 1701863534370
+        },
+        {
+          "ID": "701d0882-3381-43ba-bd12-485396a2888b",
+          "description": "<p>Après la finalisation de la conception et des photos, une fois l'impression réalisée, je vous livre les produits finaux. Vous recevez la papeterie, que ce soit des faire-part, des cartes ou d'autres produits, dans le délai convenu. Je veille à ce que la livraison soit effectuée selon vos préférences, qu'il s'agisse d'une livraison à domicile, d'un envoi postal ou d'un retrait en personne, assurant ainsi que vous receviez vos articles dans les meilleures conditions et prêts à être utilisés. Je m'engage à ce que la papeterie réponde à vos attentes, reflétant le design convenu et vous offrant des produits de qualité qui correspondent parfaitement à l'image souhaitée pour votre événement ou votre usage personnel.</p>",
+          "ordre": 3,
+          "image": "public/1701863579783_Rond Rouge.svg",
+          "createdAt": 1701863580743
+        }
+      ],
+      "createdAt": 1701863436925,
+      "updatedAt": 1701863448467
+    },
     "pricing": [],
     "full_description": "<p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Ma Papeterie Personnalisée : Chaque Moment, une Création Unique</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Je suis passionnée par la création de souvenirs exceptionnels à travers ma papeterie. De la naissance aux mariages, des cartes de vœux illustrées aux plans de table sur mesure, je transforme vos moments précieux en œuvres uniques et inoubliables.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\"><em>Votre Style, Mon Engagement : Créations Personnalisées</em></strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Mon approche repose sur la personnalisation totale. Vos idées prennent vie dans mes conceptions uniques. En intégrant vos photos (que l’on peut créer ensemble), ou mes illustrations, je crée des pièces qui reflètent pleinement votre individualité et captivent l'essence de chaque événement.</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Créez des Souvenirs Durables : Ma Signature Artistique</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\"><span class=\"ql-cursor\">﻿﻿﻿</span></span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Offrez à vos moments spéciaux une touche distinctive avec ma gamme de papeterie. Contactez-moi pour découvrir comment mes créations sur mesure peuvent enrichir vos moments de vie avec une touche personnelle.</span></p>",
     "mansonery": [],
@@ -550,10 +641,110 @@
     "display": "left",
     "slug": "illustration",
     "ordre": 3,
-    "step": [],
+    "step": {
+      "ID": "16fb2fae-7c78-4864-a1ee-18d56d15050e",
+      "title": "Les étapes clés ",
+      "list": [
+        {
+          "ID": "9f2d00b3-edf2-4c73-b6be-8b0d0baf94a5",
+          "description": "<p>Lors de notre première rencontre pour discuter de votre service d'illustration, nous établissons un brief détaillé pour comprendre vos besoins spécifiques en termes de style, de tonalité et de contenu visuel que vous souhaitez intégrer dans vos illustrations. Cette étape permet de cerner précisément vos attentes et vos objectifs pour les créations à venir.</p>",
+          "ordre": 1,
+          "image": "public/1701864008885_Rond Bleu.svg",
+          "createdAt": 1701864009575
+        },
+        {
+          "ID": "b39b2625-bd52-417c-b9fd-a259eed8c045",
+          "description": "<p>En tant qu'illustratrice, je vous propose deux croquis d'illustrations, chacune présentant une approche artistique unique en accord avec vos indications du brief. Ces propositions vous offrent la possibilité de choisir celle qui correspond le mieux à vos attentes et à l'image que vous souhaitez véhiculer. Une fois votre choix fait, je commence le processus de création des illustrations. Je veille à ce que chaque détail soit pris en compte, que ce soit le style graphique, les couleurs ou les éléments visuels spécifiques que vous avez mentionnés. Si nécessaire, je procède à des ajustements en fonction de vos retours pour assurer votre entière satisfaction.</p>",
+          "ordre": 2,
+          "image": "public/1701864102538_Rond Rose.svg",
+          "createdAt": 1701864104286
+        },
+        {
+          "ID": "a2ae0b1e-1393-49fa-bf49-23242c884b12",
+          "description": "<p>Après finalisation des illustrations, je procède à la livraison des fichiers dans le format convenu. Si une mise en page est requise, je peux également vous proposer mes services pour intégrer les illustrations dans vos supports, que ce soit pour des brochures, des publications en ligne ou tout autre support de communication. Cette étape assure une présentation optimale de vos illustrations dans leur contexte final. Je m'engage à respecter les délais convenus et à vous fournir des illustrations de qualité qui répondent à vos attentes. Votre satisfaction est ma priorité, et je suis là pour vous accompagner à chaque étape du processus créatif d'illustration.</p>",
+          "ordre": 3,
+          "image": "public/1701864145886_Rond Rouge.svg",
+          "createdAt": 1701864147415
+        }
+      ],
+      "createdAt": 1701863966790
+    },
     "pricing": [],
     "full_description": "<p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\">Création Artistique et Illustration : Donnez Vie à Vos Projets</strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Dans l'univers vaste et inspirant de la création artistique, chaque idée, chaque récit est une opportunité de donner forme à l'imagination. En tant qu'illustratrice passionnée, je vous accompagne pour donner vie à vos projets, pour transformer vos concepts en des illustrations riches en émotion et en créativité.</span></p><p><br></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\">Du Concept à l'Œuvre : Vos Récits, Mon Art</strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Mon approche artistique commence par plonger dans l'essence de votre vision. Chaque détail, chaque chapitre est une toile vierge où je crée des illustrations évocatrices. Je vous aide à matérialiser vos idées à travers des illustrations uniques qui captent l'essence de vos récits.</span></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\"><span class=\"ql-cursor\">﻿﻿</span></span></p><p><strong style=\"background-color: transparent; color: rgb(55, 65, 81);\">L'Art de la Création Visuelle : Vos Projets, Mon Engagement</strong></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(55, 65, 81);\">Permettez-moi de donner forme à vos récits à travers mes illustrations. Ensemble, nous créerons des œuvres d'art visuellement stimulantes qui captiveront l'imagination et transmettront des messages puissants, une alliance harmonieuse entre l'édition et la création artistique.</span></p><p><br></p>",
-    "mansonery": [],
+    "mansonery": [
+      {
+        "images": [
+          {
+            "ID": "5cf03927-a478-45a2-b077-2acb92a93290",
+            "image": "public/1701864557138_GAGABRIT PHOTO GALLERY.jpg",
+            "ordre": 1,
+            "createdAt": 1701864560481
+          },
+          {
+            "ID": "db344b09-57c7-43d7-bb94-aca12be12339",
+            "image": "public/1701864577678_GAGABRIT PHOTO GALLERY3.jpg",
+            "ordre": 2,
+            "createdAt": 1701864579666
+          },
+          {
+            "ID": "5f32b79b-9fab-4691-99ee-239670639707",
+            "image": "public/1701864589508_GAGABRIT PHOTO GALLERY2.jpg",
+            "ordre": 3,
+            "createdAt": 1701864593087
+          }
+        ],
+        "createdAt": 1701864522670,
+        "ID": "5138fe09-b922-49b0-bea8-cb3a9fa2b127"
+      },
+      {
+        "images": [
+          {
+            "ID": "d1dfab2f-bdb4-4e3c-bd6d-747ccd2de63a",
+            "image": "public/1701864608437_GAGABRIT PHOTO GALLERY4.jpg",
+            "ordre": 1,
+            "createdAt": 1701864612654
+          },
+          {
+            "ID": "b00b27c4-ad6b-43ae-a124-bfda5c73140e",
+            "image": "public/1701864631907_GAGABRIT PHOTO GALLERY5.jpg",
+            "ordre": 2,
+            "createdAt": 1701864635857
+          },
+          {
+            "ID": "9b1dca58-5ce4-4447-8fb9-a7dd01196f8e",
+            "image": "public/1701864648440_GAGABRIT PHOTO GALLERY6.jpg",
+            "ordre": 3,
+            "createdAt": 1701864652278
+          }
+        ],
+        "createdAt": 1701864599631,
+        "ID": "825b7680-3f8b-40e8-890b-d48246d34fe6"
+      },
+      {
+        "images": [
+          {
+            "ID": "50ff852d-0e63-4c93-9a00-f42c603306bf",
+            "image": "public/1701864673246_GAGABRIT PHOTO GALLERY7.jpg",
+            "ordre": 1,
+            "createdAt": 1701864677139
+          },
+          {
+            "ID": "468903b0-fa23-4fe0-85ba-ba48671a4d54",
+            "image": "public/1701864687759_GAGABRIT PHOTO GALLERY9.jpg",
+            "ordre": 2,
+            "createdAt": 1701864691778
+          },
+          {
+            "ID": "d13c5e11-0eb1-4077-8726-aa84068c41bc",
+            "image": "public/1701864701534_GAGABRIT PHOTO GALLERY8.jpg",
+            "ordre": 3,
+            "createdAt": 1701864705423
+          }
+        ],
+        "createdAt": 1701864659422,
+        "ID": "4f8bc5dd-b1d9-4237-8e1f-f5396f4307d8"
+      }
+    ],
     "createdAt": 1701333323334,
     "updatedAt": 1701334280282
   }

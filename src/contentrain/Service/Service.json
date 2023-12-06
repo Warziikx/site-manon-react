@@ -520,6 +520,13 @@
           "ordre": 2,
           "image": "public/1701861650483_Rond Rose.svg",
           "createdAt": 1701861667915
+        },
+        {
+          "ID": "45ffa6aa-fb00-4106-9f86-29ac0c64f159",
+          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Une fois l'événement terminé, je sélectionne, retouche et prépare les meilleures photos pour vous. Selon vos préférences convenues, je livre les images finales dans le délai convenu, que ce soit à travers une galerie en ligne sécurisée, ou tout autre support choisi.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Je m'assure que vous recevez des photos qui reflètent l'essence de votre événement, capturant ses moments les plus mémorables. Votre satisfaction est ma priorité, et je m'efforce de vous offrir un souvenir photographique de qualité exceptionnelle de votre événement.</span></p><p><br></p>",
+          "ordre": 3,
+          "image": "public/1701861707791_Rond Rouge.svg",
+          "createdAt": 1701861708537
         }
       ],
       "createdAt": 1701861608183

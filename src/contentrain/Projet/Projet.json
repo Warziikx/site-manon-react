@@ -3,22 +3,11 @@
     "ID": "ba8a08e3-0d62-4bcb-8fd7-eddada8b8952",
     "libelle": "Cleeen",
     "type": "Identitée visuelle",
-    "slug" : "cleeen",
+    "slug": "cleeen",
     "brief": "<p>Mettre à jour le logo et la base line de la marque \"Cleeen\". Une marque de produit d'entretien solides et 100% naturels ainsi que de créer le packaging de leur nouveau produit.</p>",
     "createdAt": 1701292188173,
     "detail": "<p>undefined</p>",
     "img": "public/1701352466803_michael-worden-ev_Hk-10Km0-unsplash.webp",
     "updatedAt": 1701352468093
-  },
-  {
-    "ID": "9872719a-4f51-4b73-8fc6-970b44d1bcf6",
-    "libelle": "Test",
-    "slug" : "test",
-    "type": "Bla bla bla",
-    "brief": "",
-    "img": "public/1701352504954_nick-design-sxiADptOJzQ-unsplash.webp",
-    "detail": "",
-    "createdAt": 1701352355818,
-    "updatedAt": 1701352505593
   }
 ]

@@ -476,10 +476,11 @@
         },
         {
           "ID": "e08f5c83-7921-468e-90c1-235a568321d6",
-          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Une fois les images finalisées, je vous propose diverses options de livraison. Vous pouvez choisir la formule qui vous convient le mieux, que ce soit une livraison en ligne sécurisée, sur support physique ou une intégration directe dans votre système.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Je m'engage à respecter les délais convenus et à vous fournir des images qui dépassent vos attentes. Votre satisfaction est ma priorité à chaque étape du processus de création photographique de packshot.</span></p><p><br></p>",
+          "description": "<p>Une fois les images finalisées, je vous propose diverses options de livraison. Vous pouvez choisir la formule qui vous convient le mieux, que ce soit une livraison en ligne sécurisée, sur support physique ou une intégration directe dans votre système. Je m'engage à respecter les délais convenus et à vous fournir des images qui dépassent vos attentes. Votre satisfaction est ma priorité à chaque étape du processus de création photographique de packshot.</p><p><br></p>",
           "ordre": 3,
           "image": "public/1701861404974_Rond Rouge.svg",
-          "createdAt": 1701861419827
+          "createdAt": 1701861419827,
+          "updatedAt": 1701861800626
         }
       ],
       "createdAt": 1701861310011

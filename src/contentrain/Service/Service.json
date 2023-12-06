@@ -464,6 +464,13 @@
           "ordre": 1,
           "image": "public/1701861357058_Rond Bleu.svg",
           "createdAt": 1701861361734
+        },
+        {
+          "ID": "67bb5d6f-b78b-4d5d-b163-edccefcdec02",
+          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Une fois les produits reçus, je les prépare minutieusement pour la séance photo. J'utilise des équipements haut de gamme pour capturer chaque détail, mettant en valeur leurs caractéristiques. Je travaille en collaboration avec vous pour obtenir des images de qualité.</span></p>",
+          "ordre": 2,
+          "image": "public/1701861377220_Rond Rose.svg",
+          "createdAt": 1701861388140
         }
       ],
       "createdAt": 1701861310011

@@ -460,10 +460,11 @@
       "list": [
         {
           "ID": "0c155723-57df-4006-a7f7-2aff1a126c19",
-          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Lorsque vous me contactez pour des photos de packshot, nous discutons en détail de vos besoins. Après avoir défini le brief, vous envoyez vos produits à mon studio. Je veille à leur sécurité tout au long du processus.</span></p>",
+          "description": "<p><span class=\"ql-cursor\">﻿</span>Lorsque vous me contactez pour des photos de packshot, nous discutons en détail de vos besoins. Après avoir défini le brief, vous envoyez vos produits à mon studio. Je veille à leur sécurité tout au long du processus.</p>",
           "ordre": 1,
           "image": "public/1701861357058_Rond Bleu.svg",
-          "createdAt": 1701861361734
+          "createdAt": 1701861361734,
+          "updatedAt": 1701861760630
         },
         {
           "ID": "67bb5d6f-b78b-4d5d-b163-edccefcdec02",

@@ -506,7 +506,15 @@
     "step": {
       "ID": "6ca054f0-8299-4b2e-ba3e-da43ec29f929",
       "title": "Les étapes clés",
-      "list": [],
+      "list": [
+        {
+          "ID": "aeaa4589-359a-4e35-a388-5fd3fdd51813",
+          "description": "<p><span style=\"color: rgb(55, 65, 81);\">Lors de notre premier contact pour la couverture photographique de votre événement, nous discutons en détail de vos attentes et de la portée de la couverture photographique souhaitée. Nous établissons un brief précis pour saisir l'essence de l'événement, ses moments-clés et vos priorités en matière de photographie.</span></p><p><span style=\"color: rgb(55, 65, 81);\">Une rencontre préliminaire peut être organisée pour mieux comprendre l'emplacement, les conditions d'éclairage et les détails logistiques qui garantiront une couverture photographique optimale lors du jour J.</span></p><p><br></p>",
+          "ordre": 1,
+          "image": "public/1701861620332_Rond Bleu.svg",
+          "createdAt": 1701861636286
+        }
+      ],
       "createdAt": 1701861608183
     }
   },

@@ -134,5 +134,15 @@
     "children": "",
     "createdAt": 1701277852903,
     "updatedAt": 1701277894889
+  },
+  {
+    "ID": "afc16000-25d1-4523-adb1-4f9affb9ae4e",
+    "libelle": "papeterie",
+    "internal_url": "",
+    "external_url": "",
+    "ordre": 2,
+    "level": 2,
+    "children": "",
+    "createdAt": 1701893659504
   }
 ]

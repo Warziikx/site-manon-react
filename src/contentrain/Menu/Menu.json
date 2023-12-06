@@ -146,5 +146,15 @@
     "children": "",
     "createdAt": 1701893659504,
     "updatedAt": 1701893761452
+  },
+  {
+    "ID": "31380123-4608-481a-afeb-3a1dc82908b3",
+    "libelle": "Illustration",
+    "internal_url": "/service/graphisme/illustration",
+    "external_url": "",
+    "ordre": 3,
+    "level": 2,
+    "children": "",
+    "createdAt": 1701893778931
   }
 ]

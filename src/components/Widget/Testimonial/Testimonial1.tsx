@@ -6,7 +6,7 @@ interface Testimonial1Props {
 
 export const Testimonial1: React.FC<Testimonial1Props> = ({ data }) => {
   return (
-    <div className="bg-link-water py-8 space-y-8">
+    <div className="py-8 space-y-8">
       <h4 className="font-title text-3xl text-center font-semibold">Vos mots doux</h4>
       <div className="grid grid-cols-1  gap-8  px-16 sm:px-32 md:grid-cols-12">
         {data

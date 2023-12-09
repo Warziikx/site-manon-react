@@ -77,7 +77,7 @@ const ScrollingTestimonial: React.FC<ScrollingTestimonialProps> = ({ data }) => 
           <motion.section
             ref={scrollRef}
             style={{ x: spring, height: "calc(100vh - 4rem)" }}
-            className="relative w-max flex items-center px-64 bg-link-water"
+            className="relative w-max flex items-center px-64"
           >
             <div className="flex items-center space-x-12" ref={contentRef}>
               {data

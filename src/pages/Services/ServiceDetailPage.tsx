@@ -63,7 +63,7 @@ export const ServiceDetailPage: React.FC = () => {
           )}
         </div>
       )}
-      {prestation.mansonery && <Mansonery data={prestation.mansonery} />}
+      {prestation.mansonery && prestation.mansonery.length > 0 && <Mansonery data={prestation.mansonery} />}
       <CallToAction />
     </div>
   );

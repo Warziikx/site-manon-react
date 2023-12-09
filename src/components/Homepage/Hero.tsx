@@ -33,11 +33,11 @@ export const Hero: React.FC = () => {
           src={fleur3}
           animate={controls2}
           transition={{ duration: 1.2 }}
-          className="absolute -left-12 bottom-4 w-64 rotate-6 md:left-0 md:w-96 xl:left-32"
+          className="absolute -left-12 bottom-0 md:bottom-4 w-64 rotate-6 md:left-0 md:w-96 xl:left-32"
         />
         <div className="relative m-auto text-center">
           <img src={logo} className="mx-auto max-w-3xl" />
-          <p className="relative mx-auto -mt-16 text-2xl text-primary">
+          <p className="relative mx-auto -mt-16 text-lg md:text-2xl text-primary">
             De la capture de vos instants précieux,
             <br /> à la création minutieuse de vos projets graphique
           </p>
@@ -46,7 +46,7 @@ export const Hero: React.FC = () => {
           src={fleur1}
           animate={controls}
           transition={{ duration: 1.2 }}
-          className="absolute -right-12 top-32 w-4/12 rotate-180 sm:-right-24 md:block"
+          className="absolute -right-12 top-24 md:top-32 w-4/12 rotate-180 sm:-right-24 md:block"
         />
       </div>
       <motion.img

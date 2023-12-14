@@ -20,7 +20,8 @@
           "description": "<p>Capturer l'instant, figer l'émotion. Que ce soit pour des événements spéciaux, des portraits ou des moments du quotidien, chaque photo raconte une histoire unique. Mon objectif est de saisir la quintessence de chaque instant, immortalisant des moments précieux que vous chérirez pour toujours.</p>",
           "image": "public/1701189152201_dot-bleu.svg",
           "ordre": 1,
-          "createdAt": 1701189154613
+          "createdAt": 1701189154613,
+          "updatedAt": 1702585321429
         },
         {
           "ID": "514276c6-00bc-43c0-8beb-4c9d0e4c2561",

@@ -3,7 +3,7 @@ import mockupNavire from "@/assets/images/shop/mockup_navire.webp";
 export const StoreCTA: React.FC = () => {
   return (
     <section className="bg-primary-100 flex flex-col  md:flex-row justify-between">
-      <div className="space-y-4 flex flex-col justify-center my-10 lg:my-12 px-16 lg:px-32">
+      <div className="space-y-4 flex flex-col justify-center my-10 lg:my-12 px-12 lg:px-32">
         <h4 className="font-title text-4xl font-extrabold leading-tight tracking-tight text-gray-900 ">Boutique</h4>
         <p>
           De l'embellissement de votre espace intérieur à la recherche d'une charmante papeterie pour vos loisirs, je
@@ -20,7 +20,7 @@ export const StoreCTA: React.FC = () => {
           </a>
         </div>
       </div>
-      <img src={mockupNavire} className="h-auto sm:h-64 lg:h-96" />
+      <img src={mockupNavire} className="w-auto md:w-2/5 object-cover" />
     </section>
   );
 };

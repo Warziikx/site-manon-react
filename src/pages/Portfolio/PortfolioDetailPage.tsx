@@ -16,11 +16,11 @@ export const PortfolioDetailPage: React.FC = () => {
           <h1 className="font-title text-6xl font-semibold">{portfolio.libelle}</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8 md:px-16">
-          <img className="rounded-lg" src={`/${portfolio.img}`} />
+          <img className="rounded-lg" src={`/${portfolio.imageList}`} />
         </div>
         <div className="px-8 md:px-16 lg:px-32 xl:px-64 text-center space-y-4">
-          <h4 className="text-3xl font-title">Le brief ?</h4>
-          <p className="text-xl" dangerouslySetInnerHTML={{ __html: portfolio.brief }}></p>
+          <h4 className="text-3xl font-title">{portfolio.brief.title}</h4>
+          <p className="text-xl" dangerouslySetInnerHTML={{ __html: portfolio.brief.content }}></p>
         </div>
       </div>
       <CallToAction />

@@ -7,8 +7,14 @@ export interface IProjet {
     libelle: string;
     slug: string;
     type: string;
-    brief: string;
-    img: string;
+    brief: {
+        ID: string;
+        createdAt: number;
+        updatedAt?: number;
+        title :string;
+        content : string;
+    };
+    imageList: string;
     detail: string;
 }
 

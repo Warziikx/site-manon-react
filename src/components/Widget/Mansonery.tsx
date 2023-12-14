@@ -21,7 +21,7 @@ export const Mansonery: React.FC<MansoneryProps> = ({ data }) => {
   const yArray = [y1, y2, y3, y4];
   return (
     <div
-      className={`grid h-screen grid-cols-1 sm:grid-cols-2 lg:grid-cols-${data.length} gap-4 overflow-hidden bg-link-water p-8 lg:px-32`}
+      className={`grid h-screen grid-cols-1 sm:grid-cols-2 lg:grid-cols-${data.length} gap-4 overflow-hidden p-8 lg:px-32`}
       ref={mansoneryRef}
     >
       {data.map((mans: IMansonery, index: number) => (

@@ -21,12 +21,16 @@ export const Footer: React.FC = () => {
             </Link>
             <ul className="flex text-white space-x-4">
               <li>
-                <a href="https://www.instagram.com/manonbertho.studio/" target="_blank">
+                <a href="https://www.instagram.com/manonbertho.studio/" className="hover:text-pink-600" target="_blank">
                   <Instagram />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/manon-bertho-nicolas-342648151/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/manon-bertho-nicolas-342648151/"
+                  className="hover:text-blue-600"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
               </li>

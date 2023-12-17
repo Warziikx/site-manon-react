@@ -25,6 +25,17 @@ export interface IPrestationObj {
     link : string
     list: string[];
 }
+
+export interface IStore {
+    ID: string;
+    createdAt: number;
+    updatedAt? : number;
+    title: string;
+    description : string;
+    image : string;
+    button_label : string;
+}
+
 export interface ITestimonial {
     ID: string;
     createdAt: number;
@@ -41,6 +52,7 @@ export interface HomepageData {
     prestation: IPrestation;
     why_me: INumberFeatures;
     testimonial: ITestimonial[];
+    store : IStore;
 }
 
 export const homepage = _homepage[0] as HomepageData;

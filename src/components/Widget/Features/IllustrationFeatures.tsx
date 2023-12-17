@@ -25,7 +25,7 @@ export const IllustrationFeatures: React.FC<NumberFeaturesPropos> = ({ data }) =
       <h3 className="text-center font-title text-4xl font-semibold text-ternary">{data.title}</h3>
       <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
         {data.list.map((feature: IPrestationObj, index: number) => (
-          <div key={index} className="flex flex-col justify-center">
+          <div key={index} className="flex flex-col items-center">
             <img className="max-w-md" src={feature.image} />
             <Link
               resetScroll={true}

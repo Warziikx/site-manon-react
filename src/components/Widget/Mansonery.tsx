@@ -11,7 +11,7 @@ export const Mansonery: React.FC<MansoneryProps> = ({ data }) => {
   const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start end", "end -20vh"] });
 
   const y1 = useTransform(scrollYProgress, [0, 1], [400, -1200]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [300, -1300]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [450, -1300]);
   const y3 = useTransform(scrollYProgress, [0, 1], [500, -1600]);
   const y4 = useTransform(scrollYProgress, [0, 1], [-300, -1400]);
   //   const y1 = useTransform(scrollYProgress, [0, 1], [-400, -1200]);

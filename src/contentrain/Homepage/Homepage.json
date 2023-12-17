@@ -104,6 +104,15 @@
         "ordre": 3,
         "createdAt": 1701193807581,
         "updatedAt": 1701344700901
+      },
+      {
+        "ID": "b5eb8b62-5759-4c81-ac1a-22ad1a08c86c",
+        "image": "public/1701344699544_DSC_0212.jpg",
+        "description": "<p>La séance photo avec mon cheval, capturée par Manon, a été magique. Elle a su saisir la complicité entre mon cheval et moi de manière remarquable. Chaque cliché exprimait la beauté de notre lien unique. Des moments précieux immortalisés avec professionnalisme. Une expérience inoubliable !</p>",
+        "author": "Maelle",
+        "ordre": 4,
+        "createdAt": 1701193807581,
+        "updatedAt": 1701344700901
       }
     ],
     "store": {

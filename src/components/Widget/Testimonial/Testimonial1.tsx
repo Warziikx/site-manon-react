@@ -17,7 +17,7 @@ export const Testimonial1: React.FC<Testimonial1Props> = ({ data }) => {
               key={`testimonial_${testimonial.ID}`}
             >
               <img className="rounded-xl" src={"/" + testimonial.image} />
-              <div className="space-y-4">
+              <div className="h-full space-y-4 flex flex-col justify-between">
                 <p className="text-center" dangerouslySetInnerHTML={{ __html: testimonial.description }}></p>
                 <p className="text-end text-gray-400 " style={{ fontVariant: "small-caps" }}>
                   {testimonial.author}

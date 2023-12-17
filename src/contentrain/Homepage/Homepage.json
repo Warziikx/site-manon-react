@@ -105,6 +105,14 @@
         "createdAt": 1701193807581,
         "updatedAt": 1701344700901
       }
-    ]
+    ],
+    "store": {
+      "ID": "7eae6cd9-8405-4790-a158-1533ee5ab8af",
+      "title": "La boutique",
+      "description": "<p>Vous cherchez des affiches pour embellir votre intérieur ou de la papeterie originale pour vos événements ? Retrouvez mon univers sur ma boutique en ligne !</p>",
+      "image": "public/1702808856176_mockup_navire-IbAUIwmL.webp",
+      "button_label": "Découvrir",
+      "createdAt": 1702808867805
+    }
   }
 ]

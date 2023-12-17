@@ -20,7 +20,7 @@ export const PortfolioPage: React.FC = () => {
               <Link resetScroll={true} to={`/portfolio/${projet.slug}`} key={projet.ID}>
                 <p className="text-sm text-ternary">{projet.type}</p>
                 <h1 className="font-title text-3xl font-semibold">{projet.libelle}</h1>
-                <img className="rounded-lg" src={`/${projet.imageList}`} />
+                <img className="rounded-lg" src={`/${projet.imageList[0].img}`} />
               </Link>
             );
           })}

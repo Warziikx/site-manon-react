@@ -1,6 +1,6 @@
 import { portfolioDetailRoute } from "@/Router";
 import { CallToAction } from "@/components/Widget/CTA/CallToAction";
-import { IProjet, getBySlug } from "@/contentrain/Projet";
+import { IProjet, IProjetImg, getBySlug } from "@/contentrain/Projet";
 import { Navigate, useParams } from "@tanstack/react-router";
 
 export const PortfolioDetailPage: React.FC = () => {
@@ -15,8 +15,14 @@ export const PortfolioDetailPage: React.FC = () => {
           <p className="text-sm text-ternary">{portfolio.type}</p>
           <h1 className="font-title text-6xl font-semibold">{portfolio.libelle}</h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8 md:px-16">
-          <img className="rounded-lg" src={`/${portfolio.imageList}`} />
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-8 md:px-16 lg:px-72">
+          {portfolio.imageList
+            .sort((a: IProjetImg, b: IProjetImg) => a.order - b.order)
+            .map((imgObj: IProjetImg) => (
+              <div className="flex justify-center">
+                <img className="rounded-lg max-h-auto md:max-h-96" src={`/${imgObj.img}`} />
+              </div>
+            ))}
         </div>
         <div className="px-8 md:px-16 lg:px-32 xl:px-64 text-center space-y-4">
           <h4 className="text-3xl font-title">{portfolio.brief.title}</h4>

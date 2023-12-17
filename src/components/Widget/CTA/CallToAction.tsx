@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export const CallToAction: React.FC = () => {
   return (
-    <section className="bg-secondary">
+    <section className="bg-link-water">
       <div className="px-4 py-8 sm:py-16 lg:px-6">
         <div className="text-center">
           <h2 className="mb-4 font-title text-4xl font-extrabold leading-tight tracking-tight text-gray-900 ">

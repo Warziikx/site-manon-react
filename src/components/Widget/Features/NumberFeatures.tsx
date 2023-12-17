@@ -6,7 +6,7 @@ interface NumberFeaturesPropos {
 
 export const NumberFeatures: React.FC<NumberFeaturesPropos> = ({ data }) => {
   return (
-    <div className="space-y-16 bg-primary px-4 py-16 sm:px-8 md:px-16 xl:px-32">
+    <div className="space-y-16 bg-primary-300 px-4 py-16 sm:px-8 md:px-16 xl:px-32">
       <h3 className="text-center font-title text-4xl font-semibold text-white">{data.title}</h3>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
         {data.list

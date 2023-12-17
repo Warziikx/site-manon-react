@@ -85,13 +85,15 @@ const ScrollingTestimonial: React.FC<ScrollingTestimonialProps> = ({ data }) => 
                 .map((testimonial: ITestimonial) => (
                   <div className="w-72  space-y-4">
                     <img src={testimonial.image} className="h-fit rounded-xl" />
-                    <p
-                      className="text-center text-sm"
-                      dangerouslySetInnerHTML={{ __html: testimonial.description }}
-                    ></p>
-                    <p className="text-end text-gray-400 " style={{ fontVariant: "small-caps" }}>
-                      {testimonial.author}
-                    </p>
+                    <div className="h-full space-y-4 flex flex-col justify-between">
+                      <p
+                        className="text-center text-sm"
+                        dangerouslySetInnerHTML={{ __html: testimonial.description }}
+                      ></p>
+                      <p className="text-end text-gray-400 " style={{ fontVariant: "small-caps" }}>
+                        {testimonial.author}
+                      </p>
+                    </div>
                   </div>
                 ))}
             </div>

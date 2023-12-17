@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
           <img src={logo} className="mx-auto w-full md:w-8/12" />
           <p className="relative mx-auto text-lg md:text-2xl text-primary">
             De la capture de vos instants précieux,
-            <br /> à la création minutieuse de vos projets graphique
+            <br /> à la création minutieuse de vos projets graphiques
           </p>
         </div>
         <motion.img

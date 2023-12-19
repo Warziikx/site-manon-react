@@ -6,7 +6,7 @@ interface MansoneryProps {
   data: IMansonery[];
 }
 
-export const Mansonery: React.FC<MansoneryProps> = ({ data }) => {
+export const MotionMansonery: React.FC<MansoneryProps> = ({ data }) => {
   const mansoneryRef = useRef(null);
   const { scrollYProgress } = useScroll({ target: mansoneryRef, offset: ["start end", "end -20vh"] });
 

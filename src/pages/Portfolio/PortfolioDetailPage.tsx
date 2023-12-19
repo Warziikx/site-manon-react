@@ -1,5 +1,6 @@
 import { portfolioDetailRoute } from "@/Router";
 import { CallToAction } from "@/components/Widget/CTA/CallToAction";
+import { Mansonery } from "@/components/Widget/Mansonery/Mansonery";
 import { IProjet, IProjetImg, getBySlug } from "@/contentrain/Projet";
 import { Navigate, useParams } from "@tanstack/react-router";
 
@@ -26,7 +27,7 @@ export const PortfolioDetailPage: React.FC = () => {
 				</div>
 				<div className="space-y-4 px-8 text-center md:px-16 lg:px-32 xl:px-64">
 					<h4 className="font-title text-3xl">{portfolio.brief.title}</h4>
-					<p className="text-xl" dangerouslySetInnerHTML={{ __html: portfolio.brief.content }}></p>
+					<p className="text-lg" dangerouslySetInnerHTML={{ __html: portfolio.brief.content }}></p>
 				</div>
 			</div>
 			<div>
@@ -41,8 +42,11 @@ export const PortfolioDetailPage: React.FC = () => {
 								</div>
 							))}
 					</div>
-					<p className="text-xl" dangerouslySetInnerHTML={{ __html: portfolio.other.description }}></p>
+					<p className="text-lg" dangerouslySetInnerHTML={{ __html: portfolio.other.description }}></p>
 				</div>
+			</div>
+			<div className="px-8 md:px-16 lg:px-32">
+				<Mansonery />
 			</div>
 			<CallToAction />
 		</div>

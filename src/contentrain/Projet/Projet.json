@@ -39,7 +39,7 @@
     "other": {
       "ID": "18aff6dc-a51a-44f5-a8bf-da252c6d6d83",
       "title": "Le Logotype",
-      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin sem quam, nec dictum diam lobortis non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean semper lorem nisi, vitae ullamcorper ligula euismod non. Morbi dignissim aliquam augue. Cras at tellus quis nisi laoreet bibendum sit amet id purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent quis tincidunt lacus, rutrum pellentesque ante. Aenean a dolor sit amet eros interdum dignissim. Duis ut justo eu purus sodales tempus. Ut mattis ante id diam aliquam, hendrerit aliquam orci sagittis. Cras gravida leo at diam mattis pharetra. In pulvinar purus commodo, tristique metus gravida, iaculis nisl. Sed sit amet nulla tortor. Vivamus sagittis sollicitudin dolor pellentesque viverra. Mauris pharetra dui mauris, in eleifend felis semper id.</p>",
+      "description": "<p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Pour la refonte du logo de Cleeen, j'ai revisité les éléments en m'inspirant de la maison pour sa forme et de la nature pour une branche. La ligne directrice a évolué vers \"Solidement naturelle, Naturellement propre\", reflétant ainsi des valeurs plus généralistes et représentatives de la marque.</span></p><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">En ce qui concerne les nouveaux packagings des produits, tels que le stick dégraissant et le savon détachant, j'ai opté pour un motif terrazzo. Cette décision vise à souligner la solidité et la naturalité, en intégrant également des motifs végétaux pour renforcer l'aspect naturel.</span></p><p><br></p>",
       "imageList": [
         {
           "ID": "7e1586c3-dc55-4e9c-8d7f-d6fcda1ab9c4",
@@ -55,7 +55,7 @@
         }
       ],
       "createdAt": 1702924796124,
-      "updatedAt": 1702925013011
+      "updatedAt": 1702975238273
     }
   }
 ]

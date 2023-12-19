@@ -39,8 +39,8 @@
       ],
       "createdAt": 1701177680679,
       "ID": "da9d1044-2705-4a0f-b2f6-2c0fec3048fd",
-      "title": "Le dérouler d'une seance",
-      "updatedAt": 1701177797125
+      "title": "Déroulé d'une séance",
+      "updatedAt": 1702975735106
     },
     "pricing": {
       "ID": "06acfbec-3131-44cc-b8f5-fbdda2c85a0b",
@@ -172,7 +172,7 @@
     "updatedAt": 1701334123213,
     "step": {
       "ID": "afd5127b-af46-4817-a50d-b3f82bb202aa",
-      "title": "Le dérouler d'une séance",
+      "title": "Déroulé d'une séance",
       "list": [
         {
           "ID": "384ab756-2e70-4c3c-a6fe-088207862b67",
@@ -200,7 +200,7 @@
         }
       ],
       "createdAt": 1701339727404,
-      "updatedAt": 1701340258539
+      "updatedAt": 1702975748699
     },
     "pricing": {
       "ID": "8a4adc26-06fc-4064-875b-b305126db3af",
@@ -321,7 +321,7 @@
     "updatedAt": 1701334185658,
     "step": {
       "ID": "dc5e5b14-d5be-493b-82ce-1f3931305912",
-      "title": "Le dérouler d'une séance",
+      "title": "Déroulé d'une séance",
       "list": [
         {
           "ID": "af9f52f2-d2be-49bb-a4a4-f4a78527651a",
@@ -345,7 +345,8 @@
           "createdAt": 1701353883193
         }
       ],
-      "createdAt": 1701353722054
+      "createdAt": 1701353722054,
+      "updatedAt": 1702975762908
     },
     "pricing": {
       "ID": "5895774e-536a-49aa-a7ac-d0d0d273fca8",
@@ -456,7 +457,7 @@
     },
     "step": {
       "ID": "0f232485-37a8-49fa-9b9d-afeba5c3ca88",
-      "title": "Les étapes clés",
+      "title": "Déroulé d'une séance",
       "list": [
         {
           "ID": "0c155723-57df-4006-a7f7-2aff1a126c19",
@@ -483,7 +484,8 @@
           "updatedAt": 1701861800626
         }
       ],
-      "createdAt": 1701861310011
+      "createdAt": 1701861310011,
+      "updatedAt": 1702975779345
     }
   },
   {
@@ -508,7 +510,7 @@
     },
     "step": {
       "ID": "6ca054f0-8299-4b2e-ba3e-da43ec29f929",
-      "title": "Les étapes clés",
+      "title": "Déroulé d'une séance",
       "list": [
         {
           "ID": "aeaa4589-359a-4e35-a388-5fd3fdd51813",
@@ -535,7 +537,8 @@
           "updatedAt": 1701861877317
         }
       ],
-      "createdAt": 1701861608183
+      "createdAt": 1701861608183,
+      "updatedAt": 1702975797488
     }
   },
   {
@@ -550,7 +553,7 @@
     "ordre": 1,
     "step": {
       "ID": "c1ca4e38-2a0a-4627-8467-90586bae036e",
-      "title": "Dérouler d'un projet",
+      "title": "Déroulé d'un projet",
       "list": [
         {
           "ID": "76ab6943-67fd-4494-afe3-a1b5f6cae6a9",
@@ -577,7 +580,8 @@
           "updatedAt": 1701292468681
         }
       ],
-      "createdAt": 1701278378335
+      "createdAt": 1701278378335,
+      "updatedAt": 1702975833811
     },
     "pricing": {},
     "full_description": "<p>Dans le monde en constante évolution du numérique, l'identité visuelle devient le cœur battant d'une marque. En tant que créatrice passionnée, je forge l'âme de votre entreprise pour la distinguer dans un paysage concurrentiel. Je plonge au cœur de votre entreprise pour saisir chaque élément - valeurs, aspirations, histoire - et tisser une identité visuelle distinctive. Des logos saisissants aux palettes de couleurs minutieusement sélectionnées, chaque détail est conçu pour émouvoir et séduire. </p><p><br></p><p>Mon travail va au-delà de l'esthétique : il est fonctionnel. Déployée sur tous les supports, cette identité offre une expérience homogène, renforçant la perception positive de votre marque. En plus, j'offre le service de photographie pour créer une identité complète et percutante, idéale pour les réseaux sociaux ou votre site web. Je mets en lumière l'authenticité de votre histoire à travers une création visuelle captivante, engageant votre public de manière profonde. </p><p><br></p><p>Mon objectif est de créer une identité visuelle qui vous ressemble vraiment. Ensemble, concrétisons votre vision pour accroître la reconnaissance et l'impact auprès d'un large public.</p><p><br></p>",
@@ -597,7 +601,7 @@
     "ordre": 2,
     "step": {
       "ID": "9201e348-7457-4465-8287-b1acfd936e4d",
-      "title": "Les étapes clés",
+      "title": "Déroulé d'un projet",
       "list": [
         {
           "ID": "9c41c658-5813-4350-9132-ff1ae7075be8",
@@ -623,7 +627,7 @@
         }
       ],
       "createdAt": 1701863436925,
-      "updatedAt": 1701863448467
+      "updatedAt": 1702975867747
     },
     "pricing": [],
     "full_description": "<p>Ma passion réside dans la création de souvenirs exceptionnels grâce à la papeterie. De la naissance aux mariages, des cartes de vœux illustrées aux plans de table sur mesure, je métamorphose vos instants précieux en œuvres uniques et inoubliables. Ma démarche repose sur la personnalisation totale. Vos idées prennent vie au travers de mes illustrations uniques. </p><p><br></p><p>Vous avez une préférence pour la photographie à l'illustration ? Je peux vous proposer une séance photo mémorable et transformer celle-ci en une jolie papeterie sur mesure. Apportez une touche distinctive à vos moments spéciaux avec ma gamme de papeterie. Contactez-moi pour découvrir comment mes créations sur mesure peuvent enrichir vos instants de vie avec une note personnelle et durable.</p>",
@@ -643,7 +647,7 @@
     "ordre": 3,
     "step": {
       "ID": "16fb2fae-7c78-4864-a1ee-18d56d15050e",
-      "title": "Les étapes clés ",
+      "title": "Déroulé d'un projet",
       "list": [
         {
           "ID": "9f2d00b3-edf2-4c73-b6be-8b0d0baf94a5",
@@ -667,7 +671,8 @@
           "createdAt": 1701864147415
         }
       ],
-      "createdAt": 1701863966790
+      "createdAt": 1701863966790,
+      "updatedAt": 1702975882619
     },
     "pricing": [],
     "full_description": "<p><span style=\"color: rgb(55, 65, 81);\">Dans l'univers vaste et inspirant de la création artistique, chaque idée, chaque récit est une opportunité de donner forme à l'imagination. En tant qu'illustratrice passionnée, je vous accompagne pour donner vie à vos projets, pour transformer vos concepts en des illustrations riches en émotion et en créativité. </span></p><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Mon approche artistique commence par plonger dans l'essence de votre vision. Chaque détail, chaque chapitre est une toile vierge où je crée des illustrations évocatrices. Je vous aide à matérialiser vos idées à travers des illustrations uniques qui captent l'essence de vos récits. Ensemble, nous créerons des œuvres d'art visuellement stimulantes qui captiveront l'imagination et transmettront des messages puissants, une alliance harmonieuse entre l'édition et la création artistique.</span></p>",

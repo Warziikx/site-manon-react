@@ -510,7 +510,7 @@
     },
     "step": {
       "ID": "6ca054f0-8299-4b2e-ba3e-da43ec29f929",
-      "title": "Les étapes clés",
+      "title": "Déroulé d'une séance",
       "list": [
         {
           "ID": "aeaa4589-359a-4e35-a388-5fd3fdd51813",
@@ -537,7 +537,8 @@
           "updatedAt": 1701861877317
         }
       ],
-      "createdAt": 1701861608183
+      "createdAt": 1701861608183,
+      "updatedAt": 1702975797488
     }
   },
   {

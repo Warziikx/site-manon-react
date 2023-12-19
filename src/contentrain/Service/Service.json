@@ -647,7 +647,7 @@
     "ordre": 3,
     "step": {
       "ID": "16fb2fae-7c78-4864-a1ee-18d56d15050e",
-      "title": "Les étapes clés ",
+      "title": "Déroulé d'un projet",
       "list": [
         {
           "ID": "9f2d00b3-edf2-4c73-b6be-8b0d0baf94a5",
@@ -671,7 +671,8 @@
           "createdAt": 1701864147415
         }
       ],
-      "createdAt": 1701863966790
+      "createdAt": 1701863966790,
+      "updatedAt": 1702975882619
     },
     "pricing": [],
     "full_description": "<p><span style=\"color: rgb(55, 65, 81);\">Dans l'univers vaste et inspirant de la création artistique, chaque idée, chaque récit est une opportunité de donner forme à l'imagination. En tant qu'illustratrice passionnée, je vous accompagne pour donner vie à vos projets, pour transformer vos concepts en des illustrations riches en émotion et en créativité. </span></p><p><br></p><p><span style=\"color: rgb(55, 65, 81);\">Mon approche artistique commence par plonger dans l'essence de votre vision. Chaque détail, chaque chapitre est une toile vierge où je crée des illustrations évocatrices. Je vous aide à matérialiser vos idées à travers des illustrations uniques qui captent l'essence de vos récits. Ensemble, nous créerons des œuvres d'art visuellement stimulantes qui captiveront l'imagination et transmettront des messages puissants, une alliance harmonieuse entre l'édition et la création artistique.</span></p>",

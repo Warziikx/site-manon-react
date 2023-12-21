@@ -30,9 +30,9 @@ export const PortfolioDetailPage: React.FC = () => {
           <p className="text-lg" dangerouslySetInnerHTML={{ __html: portfolio.brief.content }}></p>
         </div>
       </div>
-	  
+
       <div>
-        <div className="space-y-4 px-8 text-center md:px-16 lg:px-32 xl:px-64">
+        <div className="space-y-4 px-8 text-center">
           <h4 className="font-title text-3xl">{portfolio.other.title}</h4>
           <div className="grid grid-cols-1 gap-4 px-8 sm:grid-cols-3 md:px-16 lg:px-32 xl:px-72">
             {portfolio.other.imageList
@@ -43,14 +43,12 @@ export const PortfolioDetailPage: React.FC = () => {
                 </div>
               ))}
           </div>
-          <p className="text-lg" dangerouslySetInnerHTML={{ __html: portfolio.other.description }}></p>
+          <div className="space-y-4 px-8 text-center md:px-16 lg:px-32 xl:px-64">
+            <p className="text-lg" dangerouslySetInnerHTML={{ __html: portfolio.other.description }}></p>
+          </div>
         </div>
       </div>
-      {portfolio.mansonery && (
-        <div className="px-8 md:px-16 lg:px-32">
-          <Mansonery data={portfolio.mansonery} />
-        </div>
-      )}
+      {portfolio.mansonery && <Mansonery data={portfolio.mansonery} />}
       <CallToAction />
     </div>
   );

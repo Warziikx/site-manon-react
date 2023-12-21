@@ -113,19 +113,13 @@
             "image": "public/1703195195426_DSC_0107.jpg",
             "ordre": 1,
             "createdAt": 1703181781962,
-            "updatedAt": 1703195197663
+            "updatedAt": 1703195221715
           },
           {
             "ID": "f02cb956-9299-49da-acc2-cb62801b15ac",
             "image": "public/1703181816358_tobias-pfeifer-Dsi8GmJTBcU-unsplash.webp",
             "ordre": 2,
             "createdAt": 1703181818921
-          },
-          {
-            "ID": "05b410dc-1853-4336-99b7-4d723684b092",
-            "image": "public/1703181879903_neom-EBFMLYND2fU-unsplash.webp",
-            "ordre": 3,
-            "createdAt": 1703181882219
           }
         ],
         "createdAt": 1703181770520,

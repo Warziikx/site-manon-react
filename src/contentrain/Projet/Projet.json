@@ -67,7 +67,14 @@
     },
     "mansonery": [
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "f90b6241-f769-41f5-bc9e-cb2091c8bf09",
+            "image": "public/1703181240349_ellen-borglund--K1x9OxPyr8-unsplash.webp",
+            "ordre": 1,
+            "createdAt": 1703181242897
+          }
+        ],
         "createdAt": 1703181232137,
         "ID": "2b19b9fa-8837-4082-ad8e-47b3d9897672"
       }

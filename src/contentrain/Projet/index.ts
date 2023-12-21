@@ -1,4 +1,5 @@
 import _projet from "@/contentrain/Projet/Projet.json";
+import { IMansonery } from "../Widget";
 
 export interface IProjetImg {
 	ID: string;
@@ -32,6 +33,7 @@ export interface IProjet {
 		description: string;
 		imageList: IProjetImg[];
 	};
+	mansonery?: IMansonery[];
 }
 
 /* ---- On cast les contenu ---- */

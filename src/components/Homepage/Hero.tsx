@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           transition={{ duration: 1.2 }}
         />
         <div className="relative m-auto text-center">
-          <img src={logo} className="mx-auto w-full md:w-8/12" />
+          <img src={logo} className="mx-auto w-full md:w-8/12" alt="lgoo de Manon bertho studio" />
           <p className="relative mx-auto text-lg md:text-2xl text-primary">
             De la capture de vos instants précieux,
             <br /> à la création minutieuse de vos projets graphiques

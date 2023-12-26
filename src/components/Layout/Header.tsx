@@ -25,7 +25,7 @@ export const Header: React.FC = () => {
       <div className="bg-primary text-white">
         <div className=" mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 md:px-8 xl:px-0">
           <Link to="/" className="ml-4 flex items-center" aria-current="page">
-            <img src={darkLogo} className="mr-3 h-16 py-2" alt="Logo Manon" />
+            <img src={darkLogo} className="mr-3 h-16 py-2" alt="Logo de Manon Bertho Studio" />
             <span className="self-center whitespace-nowrap font-title text-2xl font-semibold">Manon Bertho</span>
           </Link>
           <ul className="hidden flex-row space-x-8 md:flex ">

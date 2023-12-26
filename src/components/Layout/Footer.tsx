@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex flex-col items-center justify-center space-y-2">
             <Link to="/" className="mb-4 flex items-center sm:mb-0">
-              <img src={darkLogo} className="mr-3 h-12" alt="Flowbite Logo" />
+              <img src={darkLogo} className="mr-3 h-12" alt="Logo de Manon Bertho Studio" />
               <span className=" self-center  whitespace-nowrap font-title text-2xl font-semibold text-white ">
                 Manon Bertho
               </span>

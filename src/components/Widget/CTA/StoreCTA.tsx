@@ -8,7 +8,7 @@ export const StoreCTA: React.FC<StoreCTAProps> = ({ data }) => {
   return (
     <section className="bg-primary-300 flex flex-col  md:flex-row justify-between">
       <div className="space-y-6 flex flex-col justify-center my-10 lg:my-12 px-12 lg:px-32">
-        <h4 className="font-title text-4xl font-extrabold leading-tight tracking-tight text-white">{data.title}</h4>
+        <h3 className="font-title text-4xl font-extrabold leading-tight tracking-tight text-white">{data.title}</h3>
         <div className="text-white" dangerouslySetInnerHTML={{ __html: data.description }}></div>
         <div>
           <a
@@ -21,7 +21,7 @@ export const StoreCTA: React.FC<StoreCTAProps> = ({ data }) => {
           </a>
         </div>
       </div>
-      <img src={`/${data.image}`} className="w-auto md:w-2/5 object-cover" />
+      <img src={`/${data.image}`} className="w-auto md:w-2/5 object-cover" alt="Mise en situation d'une affiche présente dans la boutique" />
     </section>
   );
 };

@@ -127,5 +127,16 @@
         "ID": "6a08561d-00ec-4515-b9d1-a084c5592d5b"
       }
     ]
+  },
+  {
+    "ID": "972722fd-7d0c-43b8-9a08-59e4f4226f51",
+    "libelle": "EQUUUAL",
+    "type": "Identitée visuelle",
+    "slug": "Equuual",
+    "imageList": [],
+    "brief": [],
+    "other": [],
+    "mansonery": [],
+    "createdAt": 1703863183407
   }
 ]

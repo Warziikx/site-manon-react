@@ -133,7 +133,14 @@
     "libelle": "EQUUUAL",
     "type": "Identitée visuelle",
     "slug": "Equuual",
-    "imageList": [],
+    "imageList": [
+      {
+        "ID": "4b060ac6-90be-417f-bca6-db9316dc9d45",
+        "img": "public/1703863209475_GAGABRIT PHOTO SITE2.jpg",
+        "order": 1,
+        "createdAt": 1703863214595
+      }
+    ],
     "brief": [],
     "other": [],
     "mansonery": [],

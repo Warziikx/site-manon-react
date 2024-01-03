@@ -33,11 +33,11 @@
         },
         {
           "ID": "e5f0dde0-4ea2-4084-a327-6b108e39a6d7",
-          "description": "<p>Je fusionne l'art photographique et le design graphique pour créer une identité visuelle distinctive, captivante et mémorable, révélant l'histoire et la personnalité uniques de votre entreprise, afin de marquer une impression durable sur le marché.</p>",
+          "description": "<p><strong>Je fusionne l'art photographique et le design graphique</strong> pour <strong>créer une identité visuelle distinctive, captivante et mémorable</strong>, révélant l'histoire et la personnalité uniques de votre entreprise, afin de marquer une impression durable sur le marché.</p>",
           "image": "public/1701189191118_dot-rouge.svg",
           "ordre": 3,
           "createdAt": 1701189199489,
-          "updatedAt": 1702585480514
+          "updatedAt": 1704309511254
         }
       ],
       "createdAt": 1701189118876

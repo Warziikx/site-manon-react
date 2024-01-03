@@ -17,11 +17,11 @@
       "list": [
         {
           "ID": "da6accba-d7b6-406a-8f52-8f7703280fcb",
-          "description": "<p>Je capture l'instant, fige l'émotion. Que ce soit pour des événements spéciaux, des portraits ou des moments du quotidien. Je vous offre, à travers mon objectif, des souvenirs intemporels à chérir pour l'éternité.</p>",
+          "description": "<p><strong>Je capture l'instant, fige l'émotion</strong>. Que ce soit pour des <strong>événements spéciaux, des portraits ou des moments du quotidien</strong>. Je vous offre, à travers mon objectif, des souvenirs intemporels à chérir pour l'éternité.</p>",
           "image": "public/1701189152201_dot-bleu.svg",
           "ordre": 1,
           "createdAt": 1701189154613,
-          "updatedAt": 1702585702627
+          "updatedAt": 1704309426450
         },
         {
           "ID": "514276c6-00bc-43c0-8beb-4c9d0e4c2561",

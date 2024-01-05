@@ -130,7 +130,7 @@
   },
   {
     "ID": "972722fd-7d0c-43b8-9a08-59e4f4226f51",
-    "libelle": "EQUUUAL",
+    "libelle": "Equuual",
     "type": "Identitée visuelle",
     "slug": "Equuual",
     "imageList": [
@@ -186,6 +186,7 @@
       "createdAt": 1703863753397
     },
     "mansonery": [],
-    "createdAt": 1703863183407
+    "createdAt": 1703863183407,
+    "updatedAt": 1704460895991
   }
 ]

@@ -163,7 +163,7 @@
     "other": {
       "ID": "f1474911-5ae8-4d8a-96a1-26e2978264c2",
       "title": "Le logotype et les illustrations",
-      "description": "<p>Lorem ipsum</p>",
+      "description": "<p><span style=\"color: var(--tw-prose-body);\">le design graphique pour l'application repose sur des illustrations enfantines de petits monstres adorables, créant une ambiance ludique et accueillante. Les couleurs vives et pétillantes ont été sélectionnées pour susciter la joie et l'énergie tout en invitant à une exploration agréable de l'application. Le logo, représentant également un petit monstre, symbolise l'inclusivité et la diversité au sein de notre communauté axée sur le partage équitable. L'objectif est de créer une expérience utilisateur chaleureuse et engageante, favorisant une atmosphère de confiance et d'équité pour encourager l'utilisation de la plateforme comme un outil amusant et utile pour le partage équitable des dépenses.</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
       "imageList": [
         {
           "ID": "dbafe3f4-6fad-43eb-b711-947f7c05ef7f",
@@ -184,7 +184,8 @@
           "createdAt": 1703863798930
         }
       ],
-      "createdAt": 1703863753397
+      "createdAt": 1703863753397,
+      "updatedAt": 1704461348631
     },
     "mansonery": [],
     "createdAt": 1703863183407,

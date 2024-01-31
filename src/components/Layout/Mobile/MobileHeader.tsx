@@ -75,7 +75,7 @@ export const MobileHeader: React.FC<MobileHeaderProps> = ({ closeMenu, mobileMen
       </span>
       <ul className="flex text-white space-x-4">
         <li>
-          <a href="https://www.instagram.com/manonbertho.studio/" className="hover:text-pink-600" target="_blank">
+          <a href="https://www.instagram.com/manonberthostudio/" className="hover:text-pink-600" target="_blank">
             <Instagram />
           </a>
         </li>

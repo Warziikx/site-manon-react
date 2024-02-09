@@ -195,7 +195,14 @@
     },
     "mansonery": [
       {
-        "images": [],
+        "images": [
+          {
+            "ID": "72b51785-c0b1-4732-83b3-787d9cde4cee",
+            "image": "public/1707495373789_DSC_0060.jpg",
+            "ordre": 1,
+            "createdAt": 1707495378511
+          }
+        ],
         "createdAt": 1707495329774,
         "ID": "fd7b73cf-e0c9-4cdb-a193-cee872cee73d"
       }

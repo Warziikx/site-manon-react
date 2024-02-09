@@ -193,7 +193,13 @@
       "createdAt": 1703863753397,
       "updatedAt": 1707495252566
     },
-    "mansonery": [],
+    "mansonery": [
+      {
+        "images": [],
+        "createdAt": 1707495329774,
+        "ID": "fd7b73cf-e0c9-4cdb-a193-cee872cee73d"
+      }
+    ],
     "createdAt": 1703863183407,
     "updatedAt": 1707494189281
   }

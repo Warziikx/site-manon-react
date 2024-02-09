@@ -130,9 +130,9 @@
   },
   {
     "ID": "972722fd-7d0c-43b8-9a08-59e4f4226f51",
-    "libelle": "Equuual",
+    "libelle": "Maison Suzon",
     "type": "Identitée visuelle",
-    "slug": "Equuual",
+    "slug": "Maison Suzon",
     "imageList": [
       {
         "ID": "4b060ac6-90be-417f-bca6-db9316dc9d45",
@@ -189,6 +189,6 @@
     },
     "mansonery": [],
     "createdAt": 1703863183407,
-    "updatedAt": 1704460895991
+    "updatedAt": 1707494189281
   }
 ]

@@ -143,9 +143,10 @@
       },
       {
         "ID": "46528ca2-05c3-4087-bcc4-27c2d7f4b5a8",
-        "img": "public/1703863225956_GAGABRIT PHOTO SITE.jpg",
+        "img": "public/1707494603843_GAGABRIT PHOTO SITE.jpg",
         "order": 2,
-        "createdAt": 1703863229765
+        "createdAt": 1703863229765,
+        "updatedAt": 1707494605655
       },
       {
         "ID": "86306fcd-1cf0-49da-b847-8f3a7bd77679",

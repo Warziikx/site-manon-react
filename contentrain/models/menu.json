@@ -68,5 +68,15 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "internal_url",
+    "description": "Lien interne",
+    "fieldId": "internal_url",
+    "modelId": "menu",
+    "componentId": "slug",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]

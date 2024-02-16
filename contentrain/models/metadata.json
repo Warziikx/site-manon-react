@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Menu",
+    "description": "Gestion du menu de l'application",
+    "modelId": "menu",
+    "localization": false,
+    "type": "JSON",
+    "createdBy": "user",
+    "isServerless": false
+  }
+]

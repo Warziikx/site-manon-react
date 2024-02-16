@@ -58,5 +58,15 @@
     "system": true,
     "defaultField": false,
     "modelId": "menu"
+  },
+  {
+    "name": "libelle",
+    "description": "Libellé",
+    "fieldId": "libelle",
+    "modelId": "menu",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]

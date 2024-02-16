@@ -1,0 +1,11 @@
+[
+  {
+    "ID": "be165ec76027",
+    "createdAt": "Fri Feb 16 2024 14:53:46 GMT+0100 (heure normale d’Europe centrale)",
+    "updatedAt": "Fri Feb 16 2024 14:53:46 GMT+0100 (heure normale d’Europe centrale)",
+    "libelle": "Services",
+    "internal_url": "/service",
+    "status": "draft",
+    "scheduled": false
+  }
+]

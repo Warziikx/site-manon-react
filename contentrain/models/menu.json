@@ -108,5 +108,24 @@
     "options": {},
     "validations": {},
     "fieldType": "number"
+  },
+  {
+    "name": "children",
+    "description": "Sous Menu",
+    "fieldId": "children",
+    "modelId": "menu",
+    "componentId": "one-to-many",
+    "options": {
+      "reference": {
+        "value": true,
+        "form": {
+          "reference": {
+            "value": "menu"
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "relation"
   }
 ]

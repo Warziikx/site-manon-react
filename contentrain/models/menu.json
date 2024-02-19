@@ -78,5 +78,15 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "external_url",
+    "description": "Lien Externe",
+    "fieldId": "external_url",
+    "modelId": "menu",
+    "componentId": "url",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]

@@ -98,5 +98,15 @@
     "options": {},
     "validations": {},
     "fieldType": "number"
+  },
+  {
+    "name": "level",
+    "description": "Niveau",
+    "fieldId": "level",
+    "modelId": "menu",
+    "componentId": "integer",
+    "options": {},
+    "validations": {},
+    "fieldType": "number"
   }
 ]

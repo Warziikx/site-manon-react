@@ -88,5 +88,15 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "ordre",
+    "description": "Ordre",
+    "fieldId": "ordre",
+    "modelId": "menu",
+    "componentId": "integer",
+    "options": {},
+    "validations": {},
+    "fieldType": "number"
   }
 ]

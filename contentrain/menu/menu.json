@@ -35,12 +35,16 @@
   {
     "ID": "be165ec76027",
     "createdAt": "2024-02-16T13:53:46.000Z",
-    "updatedAt": "2024-03-17T16:18:09.196Z",
+    "updatedAt": "2024-03-17T16:33:00.229Z",
     "status": "publish",
     "libelle": "Services",
     "internal_url": "/service",
     "ordre": 1,
     "level": 0,
+    "children": [
+      "ae46b44305af",
+      "d663baf49404"
+    ],
     "scheduled": false
   },
   {

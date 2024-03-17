@@ -92,6 +92,17 @@
     "scheduled": false
   },
   {
+    "ID": "dbd66333a0e9",
+    "createdAt": "Sun Mar 17 2024 17:35:47 GMT+0100 (heure normale d’Europe centrale)",
+    "updatedAt": "Sun Mar 17 2024 17:35:47 GMT+0100 (heure normale d’Europe centrale)",
+    "libelle": "Packshot",
+    "internal_url": "/service/photographie/packshot",
+    "ordre": 4,
+    "level": 2,
+    "status": "publish",
+    "scheduled": false
+  },
+  {
     "ID": "e248131c5916",
     "createdAt": "Sun Mar 17 2024 17:34:08 GMT+0100 (heure normale d’Europe centrale)",
     "updatedAt": "Sun Mar 17 2024 17:34:08 GMT+0100 (heure normale d’Europe centrale)",

@@ -82,13 +82,20 @@
   },
   {
     "ID": "d663baf49404",
-    "createdAt": "Sun Mar 17 2024 17:25:15 GMT+0100 (heure normale d’Europe centrale)",
-    "updatedAt": "Sun Mar 17 2024 17:25:15 GMT+0100 (heure normale d’Europe centrale)",
+    "createdAt": "2024-03-17T16:25:15.000Z",
+    "updatedAt": "2024-03-17T16:51:32.415Z",
+    "status": "changed",
     "libelle": "Photographie",
     "internal_url": "/service/photographie",
     "ordre": 1,
     "level": 1,
-    "status": "publish",
+    "children": [
+      "d155371f177e",
+      "d37bd15ab0af",
+      "d8dfcabde897",
+      "dbd66333a0e9",
+      "e248131c5916"
+    ],
     "scheduled": false
   },
   {

@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "Presentation Surtitle",
+    "fieldId": "presentation-surtitle",
+    "modelId": "homepage",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
+  }
+]

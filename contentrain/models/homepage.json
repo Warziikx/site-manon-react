@@ -13,7 +13,11 @@
     "fieldId": "presentation-title",
     "modelId": "homepage",
     "componentId": "single-line-text",
-    "options": {},
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
     "validations": {},
     "fieldType": "string"
   }

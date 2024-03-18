@@ -29,5 +29,14 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "Presentation Image",
+    "fieldId": "presentation-image",
+    "modelId": "homepage",
+    "componentId": "media",
+    "options": {},
+    "validations": {},
+    "fieldType": "media"
   }
 ]

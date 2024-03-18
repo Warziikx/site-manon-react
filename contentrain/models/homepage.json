@@ -20,5 +20,14 @@
     },
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "Presentation Description",
+    "fieldId": "presentation-description",
+    "modelId": "homepage",
+    "componentId": "rich-text-editor",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]

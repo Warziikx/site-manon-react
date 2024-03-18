@@ -11,5 +11,14 @@
     },
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "why_me",
+    "fieldId": "why_me",
+    "modelId": "homepage",
+    "componentId": "json",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
